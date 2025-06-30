@@ -28,7 +28,7 @@ const LoginFooter = (
       </Link>
     </div>
     <p className= "mt-4 text-center text-sm text-[#AD8989]">
-      New to DevShare?{' '}
+      New to L2N?{' '}
       <Link href= "/signup">
         <span className= "font-medium text-blue-500 hover:text-blue-600 hover:underline cursor-pointer">
           Sign Up
