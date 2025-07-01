@@ -3,7 +3,7 @@ from sqlalchemy import Column, Integer, String
 
 # Base = declarative_base()
 
-from database import Base
+from backend.app.database import Base
 
 class User(Base):
     __tablename__ = "users"
