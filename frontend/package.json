@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.6",
     "frontend": "file:",
     "next": "15.3.4",
     "react": "^19.0.0",
