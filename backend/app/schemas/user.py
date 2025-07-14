@@ -7,7 +7,11 @@ class UserBase(BaseModel):
        
 
 class UserCreate(UserBase):
-    pass
+    pass   #* moi field tu UserBase deu bat buoc
+    password: str  
+
+class UserUpdate(UserBase):
+    password: str | None = None  #* Khong bat buoc phai cap nhat mat khau khi cap nhat thong tin user
     
 class UserOut(UserBase): #* dinh nghia format cho response khi lay thong tin user
     id: int
