@@ -52,15 +52,15 @@ def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session =
 """
 
 
-@router.post('/register', status_code=status.HTTP_201_CREATED, response_model=user.UserOut)
-def create_user(user: user.UserCreate, db: Session = Depends(get_db)):
-    # Hash password
-    hashed_password = utils.hash(user.password)
-    user.password = hashed_password
+# @router.post('/register', status_code=status.HTTP_201_CREATED, response_model=user.UserOut)
+# def create_user(user: user.UserCreate, db: Session = Depends(get_db)):
+#     # Hash password
+#     hashed_password = utils.hash(user.password)
+#     user.password = hashed_password
 
-    new_user = user.User(**user.model_dump())
-    db.add(new_user)
-    db.commit()
-    db.refresh(new_user)
+#     new_user = user.User(**user.model_dump())
+#     db.add(new_user)
+#     db.commit()
+#     db.refresh(new_user)
 
-    return new_user
+#     return new_user
