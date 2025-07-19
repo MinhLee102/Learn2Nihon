@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "@fontsource/inter";
+
+:root {
+  --background: #efefef;
+  --foreground: #efefef;
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+} 
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #efefef;
+    --foreground: #efefef;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif; 
+
+  /*Arial, Helvetica, sans-serif;*/
+}
