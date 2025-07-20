@@ -30,10 +30,10 @@ interface AuthFormProps {
 
 const AuthForm = ({ title, fields, buttonText, onSubmit, footerContent }: AuthFormProps) => {
 
-  const initialState = fields.reduce((acc, field) => {
-    acc[field.name] = '';
-    return acc;
-  }, {} as Record<string, string>);
+  const initialState: Record<string, string> = {};
+  for (const field of fields) {
+    initialState[field.name] = '';
+  }
 
   const [formData, setFormData] = useState(initialState);
 
