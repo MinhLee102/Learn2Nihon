@@ -44,7 +44,6 @@ export default function LoginPage() {
   const handleLogin = async (data: Record<string, string>) => {
     "use server"; 
     console.log('Login info: ', data);
-    //calling API here
   };
 
   return (
