@@ -17,17 +17,10 @@ const registerField: FormField[] = [
         required: true,
     },
     {
-        id: 'password1',
-        name: 'password1',
+        id: 'password',
+        name: 'password',
         type: 'password',
         placeholder: 'Password',
-        required: true,
-    },
-    {
-        id: 'password2',
-        name: 'password2',
-        type: 'password',
-        placeholder: 'Confirm your password',
         required: true,
     },
 ];
@@ -47,12 +40,6 @@ const RegisterFooter = (
 
 export default function RegisterPage() {
 
-    const handleRegister = async (data: Record<string, string>) => {
-        "use server";
-        console.log('Register info', data)
-        //Call API here
-    };
-
     return (
         <main className= "flex-grow flex flex-col items-center justify-center p-4">
             <div className= "text-center mb-6">
@@ -65,10 +52,10 @@ export default function RegisterPage() {
             </div>
 
             <AuthForm
+                type = "register"
                 title = "Sign Up"
                 fields = {registerField}
                 buttonText= "Sign Up"
-                onSubmit= {handleRegister}
                 footerContent= {RegisterFooter} />
         </main>
     );
