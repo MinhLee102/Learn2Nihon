@@ -27,18 +27,17 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider = ({children}: {children: ReactNode}) => {
+
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [user, setUser] = useState<User | null>(null);
     const [loading, setLoading] = useState(true);
 
 
     const checkLogInState = useCallback(() => {
         try {
-            const storedUser = localStorage.getItem('user');
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
             const accessToken = localStorage.getItem('access_token');
 
-             if (storedUser && accessToken) {
-                setUser(JSON.parse(storedUser));
-            }
         } catch (error) {
             console.error("Error: ", error);
             //const refreshToken = localStorage.getItem('refresh_token');
@@ -56,9 +55,9 @@ export const AuthProvider = ({children}: {children: ReactNode}) => {
     const login = (data: unknown) => {
         const responseData = data as loginResponce
         localStorage.setItem('access_token', responseData.access);
-        localStorage.setItem('user', JSON.stringify(responseData.user));
+        //localStorage.setItem('user', JSON.stringify(responseData.user));
         
-        setUser(responseData.user);
+        //setUser(responseData.user);
 
         window.location.href = '/';
     };

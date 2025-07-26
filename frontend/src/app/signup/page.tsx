@@ -17,17 +17,10 @@ const registerField: FormField[] = [
         required: true,
     },
     {
-        id: 'password1',
-        name: 'password1',
+        id: 'password',
+        name: 'password',
         type: 'password',
         placeholder: 'Password',
-        required: true,
-    },
-    {
-        id: 'password2',
-        name: 'password2',
-        type: 'password',
-        placeholder: 'Confirm your password',
         required: true,
     },
 ];
