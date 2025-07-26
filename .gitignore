@@ -1,3 +1,5 @@
 backend/venv/
+backend/.env
 __pycache__/
 node_modules/
+

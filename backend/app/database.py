@@ -9,8 +9,6 @@ SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
 if SQLALCHEMY_DATABASE_URL is None:
     raise ValueError("Biến môi trường DATABASE_URL chưa được thiết lập!")
 
-# format = password@host:port/database_name
-
 # Tạo engine
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
