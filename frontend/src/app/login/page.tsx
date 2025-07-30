@@ -41,12 +41,6 @@ const LoginFooter = (
 
 export default function LoginPage() {
 
-  const handleLogin = async (data: Record<string, string>) => {
-    "use server"; 
-    console.log('Login info: ', data);
-    //calling API here
-  };
-
   return (
     <main className= "flex-grow flex flex-col items-center justify-center p-4">
       <div className= "text-center mb-6">
@@ -59,10 +53,10 @@ export default function LoginPage() {
       </div>
 
       <AuthForm
+        type = "login"
         title= "Log In"
         fields= {loginFields}
         buttonText= "Log In"
-        onSubmit= {handleLogin}
         footerContent= {LoginFooter}
       />
     </main>
