@@ -1,9 +1,13 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+from .config import settings
 import os
 
 # 2. Đọc chuỗi kết nối từ biến môi trường do Docker Compose cung cấp
 SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
+
+# URL kết nối PostgreSQL
+SQLALCHEMY_DATABASE_URL = f'postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}:{settings.database_port}/{settings.database_name}'
 
 # (Tùy chọn nhưng nên có) Kiểm tra xem biến môi trường có tồn tại không
 if SQLALCHEMY_DATABASE_URL is None:
