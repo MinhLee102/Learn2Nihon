@@ -3,9 +3,12 @@ from app.api import vocabulary
 from app.api import user
 from app.routers import auth
 from app.database import Base, engine
+from app.data_vocab import add_vocab_to_db
 from fastapi.middleware.cors import CORSMiddleware
 
 Base.metadata.create_all(bind=engine)
+
+add_vocab_to_db()
 
 app = FastAPI()
 

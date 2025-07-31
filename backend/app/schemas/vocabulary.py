@@ -10,6 +10,7 @@ class VocabularyBase(BaseModel):
     example: str | None = None
     
 class VocabularyCreate(VocabularyBase):
+    id: int
     pass
 
 class VocabularyUpdate(VocabularyBase):
