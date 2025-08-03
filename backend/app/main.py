@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from app.api import vocabulary
 from app.api import user
+from app.api import reading_item
 from app.routers import auth
 from app.database import Base, engine
 from fastapi.middleware.cors import CORSMiddleware
@@ -24,3 +25,4 @@ app.add_middleware(
 app.include_router(auth.router)
 app.include_router(vocabulary.router)
 app.include_router(user.router)
+app.include_router(reading_item.router)

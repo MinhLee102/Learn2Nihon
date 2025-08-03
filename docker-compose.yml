@@ -6,6 +6,8 @@ services:
       - "8000:8000"
     environment:
       - DATABASE_URL=postgresql://postgres:182705@db:5432/learn2nihon # Replace with your actual database URL
+    env_file:
+      - .env 
     volumes: # Giữ lại volume để code được đồng bộ
       - ./backend:/app
     depends_on:
@@ -26,6 +28,8 @@ services:
       - POSTGRES_DB=learn2nihon 
     volumes:
       - db_data:/var/lib/postgresql/data
+    env_file:
+      - .env
     ports:
       - "5432:5432"  # Thêm port mapping cho database  
     # THÊM KHỐI LỆNH healthcheck
