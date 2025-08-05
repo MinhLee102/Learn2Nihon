@@ -1,11 +1,15 @@
 from fastapi import FastAPI
 from app.api import vocabulary
 from app.api import user
+from app.api import reading_item
 from app.routers import auth
 from app.database import Base, engine
+from app.data_vocab import add_vocab_to_db
 from fastapi.middleware.cors import CORSMiddleware
 
 Base.metadata.create_all(bind=engine)
+
+add_vocab_to_db()
 
 app = FastAPI()
 
@@ -24,3 +28,4 @@ app.add_middleware(
 app.include_router(auth.router)
 app.include_router(vocabulary.router)
 app.include_router(user.router)
+app.include_router(reading_item.router)
