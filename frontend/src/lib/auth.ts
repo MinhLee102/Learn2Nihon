@@ -18,4 +18,3 @@ export const loginUser = (data: Record<string, string>) => {
 export const registerUser = (data: Record<string, string>) => {
     return apiClient.post('/users', data)
 };
-
