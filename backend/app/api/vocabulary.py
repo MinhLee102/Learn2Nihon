@@ -27,6 +27,19 @@ def get_all_vocab(
 ):
     return crud_vocabulary.get_vocabularies(db=db, skip=skip, limit=limit)
 
+@router.get("/page/{page_number}", response_model=list[VocabularyOut])
+def get_vocabs_by_page(
+    page: int = 0,
+    skip: int = 0,
+    limit: int = 20,
+    db: Session = Depends(get_db)
+):
+    if not page:
+        offset = (page - 1) * limit
+    else:
+        offset = skip
+    return crud_vocabulary.get_vocabularies(db=db, skip=offset, limit=limit)
+
 @router.put("/{vocab_id}", response_model=VocabularyOut)
 def update_vocab(
     vocab_id: int, vocab: VocabularyUpdate, db: Session = Depends(get_db)
