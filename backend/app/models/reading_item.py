@@ -1,8 +1,7 @@
 from sqlalchemy import Column, Integer, String, ARRAY
 from sqlalchemy.ext.declarative import declarative_base
 
-Base = declarative_base()
-
+from app.database import Base
 
 class ReadingItem(Base):
     __tablename__ = "reading_items"
