@@ -8,6 +8,7 @@ interface ImageInfo {
     width: number;
     height: number;
     alt?: string;
+    className?: string;
 }
 
 /**
@@ -15,8 +16,8 @@ interface ImageInfo {
  * @param ImageInfo
  * @returns <Image ...designated info />
  */
-const Picture = ({url, width, height, alt = 'Logo'}: ImageInfo) => {
-    return <Image src={url} alt={alt} width={width} height={height} />;
+const Picture = ({url, width, height, alt = 'Logo', className}: ImageInfo) => {
+    return <Image src={url} alt={alt} width={width} height={height} className={className}/>;
 };
 
 export default Picture;

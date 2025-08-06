@@ -1,4 +1,5 @@
 from pydantic_settings import BaseSettings
+from pydantic import EmailStr
 
 class Settings(BaseSettings):
     database_hostname: str
@@ -6,9 +7,15 @@ class Settings(BaseSettings):
     database_password: str
     database_name: str
     database_username: str
-    secret_key: str
+
     algorithm: str
+    access_secret_key: str
     access_token_expire_minutes: int
+    refresh_secret_key: str
+    refresh_token_expire_hours: int
+
+    email: EmailStr
+    password: str
 
     class Config:
         env_file = ".env"

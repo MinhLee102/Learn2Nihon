@@ -1,8 +1,8 @@
-"""create vocabulary table
+"""Add reading_item table
 
-Revision ID: 6748e86fdb9b
-Revises: e2bb5ac18fd9
-Create Date: 2025-08-03 04:12:10.132643
+Revision ID: 9a9908110a07
+Revises: a1c2d92cdc8b
+Create Date: 2025-08-06 16:12:36.379297
 
 """
 from typing import Sequence, Union
@@ -12,8 +12,8 @@ import sqlalchemy as sa
 from sqlalchemy.dialects import postgresql
 
 # revision identifiers, used by Alembic.
-revision: str = '6748e86fdb9b'
-down_revision: Union[str, Sequence[str], None] = 'e2bb5ac18fd9'
+revision: str = '9a9908110a07'
+down_revision: Union[str, Sequence[str], None] = 'a1c2d92cdc8b'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
