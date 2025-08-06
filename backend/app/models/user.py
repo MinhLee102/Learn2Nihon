@@ -1,7 +1,5 @@
-from sqlalchemy import Column, Integer, String, text, TIMESTAMP
-# from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String, text, TIMESTAMP, Boolean
 
-# Base = declarative_base()
 
 from app.database import Base
 
@@ -14,5 +12,6 @@ class User(Base):
     full_name = Column(String)
     #* can nhac co nen de khac null cho full_name khong
     password = Column(String, nullable=False)
+    is_verified = Column(Boolean, nullable=False, server_default=text('false'))
     created_at = Column(TIMESTAMP(timezone=True), 
                         nullable=False, server_default=text('NOW()'))
