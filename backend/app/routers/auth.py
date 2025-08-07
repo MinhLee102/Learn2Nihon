@@ -30,6 +30,7 @@ def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session =
                             detail="Invalid Credentials")
     
     access_token = oauth2.create_access_token(data={"user_id": user.id})
+    refresh_token = oauth2.create_refresh_token(data={"user_id": user.id})
 
     return {
         "access_token": access_token,
