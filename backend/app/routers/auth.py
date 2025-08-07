@@ -41,4 +41,5 @@ def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session =
 @router.post('/logout')
 def logout(response: Response):
     response.delete_cookie("access_token")
+    response.delete_cookie("refresh_token")
     return {"message": "Logged out successfully"}
