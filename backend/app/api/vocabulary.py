@@ -29,15 +29,13 @@ def get_all_vocab(
 
 @router.get("/page/{page_number}", response_model=list[VocabularyOut])
 def get_vocabs_by_page(
-    page: int = 0,
-    skip: int = 0,
+    page_number: int,
     limit: int = 20,
     db: Session = Depends(get_db)
 ):
-    if not page:
-        offset = (page - 1) * limit
-    else:
-        offset = skip
+    if page_number < 1:
+        raise HTTPException(status_code=400, detail="Page number must be >= 1")
+    offset = (page_number - 1) * limit
     return crud_vocabulary.get_vocabularies(db=db, skip=offset, limit=limit)
 
 @router.put("/{vocab_id}", response_model=VocabularyOut)
