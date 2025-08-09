@@ -5,7 +5,7 @@ import { Question, Answer, ReadingPageProps } from '@/types/readingType';
 import ReadingInteraction from './ReadingInteraction';
 
 export default async function ReadingPage({ params }: ReadingPageProps) {
-    const readingId = params.id;
+    const { readingId } = await params;
 
     const readingData = await getReadingById(readingId);
 
