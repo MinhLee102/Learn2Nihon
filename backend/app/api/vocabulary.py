@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from app.schemas.vocabulary import *
 from app.crud import vocabulary as crud_vocabulary
@@ -37,6 +37,16 @@ def get_vocabs_by_page(
         raise HTTPException(status_code=400, detail="Page number must be >= 1")
     offset = (page_number - 1) * limit
     return crud_vocabulary.get_vocabularies(db=db, skip=offset, limit=limit)
+
+@router.get("/lesson/{lesson_id}", response_model=list[VocabularyOut])
+def get_vocab_by_lesson(
+    lesson_id: int,
+    db: Session = Depends(get_db)
+):
+    if lesson_id < 1 or lesson_id > 50:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, 
+                            detail="Lesson ID must be >= 1 and <= 50")
+    return crud_vocabulary.get_vocabularies_by_lesson(db=db, lesson_id=lesson_id)
 
 @router.put("/{vocab_id}", response_model=VocabularyOut)
 def update_vocab(
