@@ -1,0 +1,92 @@
+export interface ReadingContent {
+  id: string;
+  title: string;
+  content: string; 
+  questions: Question[];
+}
+
+export interface Question {
+  id: string;
+  question_text: string;
+  answers: Answer[];
+  explanation?: string; 
+}
+
+export interface Answer {
+  id: string;
+  text: string;
+  is_correct?: boolean; 
+}
+
+export interface UseReadingLogicProps {
+  readingId: string; 
+  initialData?: ReadingContent;
+}
+
+export interface ReadingPageProps {
+  params: {
+    id: string;
+  };
+}
+
+export const mockReadingData: ReadingContent = {
+  id: '1', 
+  title: '日本での生活 (Life in Japan)',
+  content: `日本の生活は、伝統と現代が融合したユニークなものです。都市は非常に発展しており、高層ビル、最新のテクノロジー、そして活気あるナイトライフが特徴です。一方で、田舎に行けば、美しい自然、静かな寺院、そして昔ながらの生活様式を見ることができます。
+
+交通機関は非常に効率的で、電車は時間通りに運行し、どこへでも簡単にアクセスできます。しかし、ラッシュアワーの混雑は避けられないこともあります。食事は多様で美味しく、寿司やラーメンなどの伝統的な日本食から、世界各国の料理まで楽しめます。
+
+日本人は礼儀正しく、親切なことで知られていますが、初めて日本に来る外国人にとっては、言葉の壁や文化の違いが挑戦となることもあります。しかし、多くの人々が助けてくれるので、すぐに慣れることができるでしょう。四季がはっきりしており、春の桜、夏の祭り、秋の紅葉、冬の雪景色と、一年を通して美しい景色を楽しむことができます。`,
+  questions: [
+    {
+      id: '1', // <--- Cập nhật ID thành số
+      question_text: '日本の都市の特徴として述べられていないものはどれですか？ (Which of the following is NOT mentioned as a characteristic of Japanese cities?)',
+      answers: [
+        { id: '11', text: '高層ビル (Skyscrapers)' },
+        { id: '12', text: '最新のテクノロジー (Latest technology)' },
+        { id: '13', text: '活気あるナイトライフ (Vibrant nightlife)' },
+        { id: '14', text: '美しい自然 (Beautiful nature)' }, // Correct
+      ],
+      explanation: '本文では、美しい自然は田舎の特徴として述べられています。都市は高層ビル、最新のテクノロジー、活気あるナイトライフが特徴だと記載されています。 (In the text, beautiful nature is described as a characteristic of the countryside. Cities are described as having skyscrapers, the latest technology, and vibrant nightlife.)',
+    },
+    {
+      id: '2', // <--- Cập nhật ID thành số
+      question_text: '日本での交通機関について正しい説明はどれですか？ (Which is the correct description of transportation in Japan?)',
+      answers: [
+        { id: '21', text: '電車はほとんど時間通りに運行しない (Trains are rarely on time)' },
+        { id: '22', text: 'ラッシュアワーでも混雑は一切ない (There is no congestion even during rush hour)' },
+        { id: '23', text: '交通機関は非常に効率的でアクセスしやすい (Transportation is very efficient and accessible)' }, // Correct
+        { id: '24', text: 'タクシーが唯一の交通手段である (Taxis are the only means of transportation)' },
+      ],
+      explanation: '本文には「交通機関は非常に効率的で、電車は時間通りに運行し、どこへでも簡単にアクセスできます」と記載されています。 (The text states: "Transportation is very efficient, trains run on time, and you can easily access anywhere.")',
+    },
+    {
+      id: '3', // <--- Cập nhật ID thành số
+      question_text: '外国人にとって、日本での生活で挑戦となる可能性があることは何ですか？ (What might be a challenge for foreigners living in Japan?)',
+      answers: [
+        { id: '31', text: '美味しい食事を見つけること (Finding delicious food)' },
+        { id: '32', text: '礼儀正しい日本人と交流すること (Interacting with polite Japanese people)' },
+        { id: '33', text: '言葉の壁と文化の違い (Language barrier and cultural differences)' }, // Correct
+        { id: '34', text: '四季を楽しむこと (Enjoying the four seasons)' },
+      ],
+      explanation: '本文には「言葉の壁や文化の違いが挑戦となることもあります」と記載されています。 (The text states: "the language barrier and cultural differences can sometimes be a challenge.")',
+    },
+  ],
+};
+
+// Giả lập kết quả sau khi nộp bài (backend sẽ trả về cái này)
+export const mockSubmittedData: ReadingContent = {
+  ...mockReadingData,
+  questions: mockReadingData.questions.map((q) => ({
+    ...q,
+    answers: q.answers.map((a) => {
+      let isCorrect = false;
+      if (q.id === '1' && a.id === '14') isCorrect = true; // Cập nhật ID thành số
+      if (q.id === '2' && a.id === '23') isCorrect = true;
+      if (q.id === '3' && a.id === '33') isCorrect = true;
+      return { ...a, is_correct: isCorrect };
+    }),
+  })),
+};
+
+
