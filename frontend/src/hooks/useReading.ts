@@ -7,32 +7,42 @@ import { ReadingContent } from '@/types/readingType';
 import { UseReadingLogicProps } from '@/types/readingType';
 
 
-const useReadingLogic = ({ readingId }: UseReadingLogicProps) => {
+const useReadingLogic = ({ readingId, initialData }: UseReadingLogicProps) => {
   const router = useRouter();
 
-  const [readingData, setReadingData] = useState<ReadingContent | undefined>(undefined);
+  const [readingData, setReadingData] = useState<ReadingContent | undefined>(initialData);
   const [userAnswers, setUserAnswers] = useState<{ [key: string]: string }>({}); 
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchReading = async () => {
-      try {
-        setIsLoading(true);
-        setError(null);
-        const data = await getReadingById(readingId);
-        setReadingData(data);
-      } catch (err: any) {
-        console.error("Failed to fetch reading data:", err);
-        setError(err.message || "Không thể tải bài đọc. Vui lòng thử lại sau.");
-      } finally {
-        setIsLoading(false);
-      }
-    };
+    if (!initialData || initialData.id !== readingId) {
+        const fetchReading = async () => {
+          try {
+            setIsLoading(true);
+            setError(null);
+            const data = await getReadingById(readingId);
+            setReadingData(data);
+        } catch (err: unknown) {
+          console.error("Failed to fetch reading data:", err);
 
-    fetchReading();
-  }, [readingId]); 
+          if (err instanceof Error) {
+              setError(err.message || "Không thể tải bài đọc. Vui lòng thử lại sau.");
+          } else {
+              setError("Đã xảy ra lỗi không xác định khi tải bài đọc.");
+          }
+
+        } finally {
+          setIsLoading(false);
+        }
+      };
+
+      fetchReading();
+    } else {
+        setIsLoading(false); 
+    }
+  }, [readingId, initialData]);
 
   const allQuestionsAnswered = useMemo(() => {
     if (!readingData) return false;
@@ -55,9 +65,14 @@ const useReadingLogic = ({ readingId }: UseReadingLogicProps) => {
       const submittedData = await submitReadingAnswers(readingData.id, userAnswers);
       setReadingData(submittedData);
       setIsSubmitted(true); 
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error("Failed to submit answers:", err);
-      setError(err.message || "Không thể nộp bài. Vui lòng thử lại.");
+
+      if (err instanceof Error) {
+        setError(err.message || "Không thể nộp bài. Vui lòng thử lại.");
+      } else {
+        setError("Đã xảy ra lỗi không xác định khi nộp bài.");
+      }
     } finally {
       setIsLoading(false);
     }
