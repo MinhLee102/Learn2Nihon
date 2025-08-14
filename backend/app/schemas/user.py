@@ -16,6 +16,7 @@ class UserUpdate(UserBase):
 class UserOut(UserBase): #* dinh nghia format cho response khi lay thong tin user
     id: int
 
-    class Config:
-        orm_mode = True
+    model_config = {
+        "from_attributes": True     # Pydantic v2
+    }
          #* cho phep chuyen doi tu model ORM sang Pydantic model, giup hien thi du lieu tu database trong response

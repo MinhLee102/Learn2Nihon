@@ -25,7 +25,6 @@ def add_reading_to_db():
             return
 
         for _, info in data.items():
-            print(info)
             # ------- reading --------
             reading = schema_reading.ReadingCreate(
                 title=info['title'],

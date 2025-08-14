@@ -17,8 +17,9 @@ class AnswerOut(AnswerBase):
     id: int
     question_id: int
 
-    class Config:
-        orm_mode = True
+    model_config = {
+        "from_attributes": True     # Pydantic v2
+    }
 
 # --------------Question -------------------
 class QuestionBase(BaseModel):
@@ -37,8 +38,9 @@ class QuestionOut(QuestionBase):
     reading_id: int
     answers: List[AnswerOut] = Field(default_factory=list)
 
-    class Config:
-        orm_mode = True
+    model_config = {
+        "from_attributes": True     # Pydantic v2
+    }
 
 # -------------- Reading -------------------
 class ReadingBase(BaseModel):
@@ -55,5 +57,6 @@ class ReadingOut(ReadingBase):
     id: int
     questions: List[QuestionOut] = Field(default_factory=list)
     
-    class Config:
-        orm_mode = True
+    model_config = {
+        "from_attributes": True     # Pydantic v2
+    }

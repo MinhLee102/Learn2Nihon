@@ -19,7 +19,8 @@ class VocabularyUpdate(VocabularyBase):
 class VocabularyOut(VocabularyBase):
     id: int
 
-    class Config:
-        orm_mode = True
+    model_config = {
+        "from_attributes": True     # Pydantic v2
+    }
         
 #* khong gop VocabularyBase vao VocabularyOut vi chi can hien thi id trong response vi khong can thiet phai truyen vao id khi tao moi tu dien. Them vao co can VocabularyBase de cho cac class khac ke thua de su dung.
