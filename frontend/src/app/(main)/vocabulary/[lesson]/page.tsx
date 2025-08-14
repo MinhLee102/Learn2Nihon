@@ -69,7 +69,7 @@ export default function LessonPage() {
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, );
 
   if (loading) {
     return (
