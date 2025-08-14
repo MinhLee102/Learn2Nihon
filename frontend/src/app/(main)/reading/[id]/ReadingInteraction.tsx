@@ -46,7 +46,6 @@ const ReadingInteraction: React.FC<ReadingInteractionProps> = ({ initialReadingD
                 <p className="text-gray-700 whitespace-pre-wrap">{readingData.content}</p>
             </div>
 
-            {/* Phần câu hỏi và đáp án */}
             {readingData.questions.map((question, qIndex) => (
                 <div key={question.id} className="bg-white rounded-lg shadow-md p-8">
                     <h3 className="text-lg font-semibold text-gray-800 mb-4">

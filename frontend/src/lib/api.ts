@@ -16,7 +16,7 @@ export const submitReadingAnswers = async (
     userAnswers: { [key: string]: string }
 ): Promise<ReadingContent | undefined> => {
     try {
-        const response = await apiClient.post<ReadingContent>(`/readings/${readingId}/submit`, {
+        const response = await apiClient.post<ReadingContent>(`/answers/${readingId}`, {
       user_answers: userAnswers,
     });
     return response.data;
