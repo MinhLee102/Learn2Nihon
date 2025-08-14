@@ -27,7 +27,7 @@ export default function LessonPage() {
     const fetchVocabularies = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`/api/page/${lesson}?limit=10`);
+        const res = await fetch(`http://127.0.0.1:8000/vocabularies/lesson/${lesson}`);
         const data = await res.json();
         setVocabularies(data);
       } catch (err) {
