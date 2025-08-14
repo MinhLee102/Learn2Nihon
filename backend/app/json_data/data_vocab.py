@@ -1,4 +1,4 @@
-from app.api import vocabulary as api_vocab
+from app.crud import vocabulary as crud_vocab
 from app.schemas import vocabulary as schema_vocab
 from app.database import get_db
 from app.models import vocabulary as model_vocab
@@ -37,7 +37,7 @@ def add_vocab_to_db():
         for i in range(1, 51):
             listVocab = get_vocab_by_lesson(data, i)
             for vocab in listVocab:
-                api_vocab.create_vocab(vocab, db)
+                crud_vocab.create_vocabulary(db=db, vocab=vocab)
             db.commit()
     finally:
         db_gen.close()

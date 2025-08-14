@@ -12,7 +12,7 @@ router = APIRouter(
     tags=['Authentication']
 )
 
-@router.post('/login', response_model=token_schema.Token)
+@router.post('/login/', response_model=token_schema.Token)
 def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
     user = db.query(user_model.User).filter(
         user_model.User.email == user_credentials.username).first()
@@ -38,7 +38,7 @@ def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session =
         "token_type": "bearer"
     }
 
-@router.post('/logout')
+@router.post('/logout/')
 def logout(response: Response):
     response.delete_cookie("access_token")
     response.delete_cookie("refresh_token")
