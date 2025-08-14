@@ -38,7 +38,7 @@ def upgrade() -> None:
     )
     op.create_table('vocabularies',
                 sa.Column('id', sa.Integer(), primary_key=True, index=True), 
-                sa.Column('word', sa.String(), nullable=False),
+                sa.Column('word', sa.String(), index=True, nullable=False),
                 sa.Column('description', sa.String(), nullable=True),
                 sa.Column('meaning', sa.String(), nullable=False),
                 sa.Column('pronunciation', sa.String(), nullable=True),
@@ -46,6 +46,27 @@ def upgrade() -> None:
                 sa.Column('level', sa.String(), nullable=True),
                 sa.Column('example', sa.String(), nullable=True)
     )
+    op.create_table('readings',
+                sa.Column('id', sa.Integer(), primary_key=True, index=True),
+                sa.Column('title', sa.String(), index=True, nullable=False),
+                sa.Column('content', sa.Text, nullable=False),
+    )
+    op.create_table('questions',
+                sa.Column('id', sa.Integer(), primary_key=True, index=True),
+                sa.Column('question_text', sa.String(), nullable=False),
+                sa.Column('explanation', sa.String()),
+                sa.Column('reading_id', sa.Integer(), 
+                          sa.ForeignKey('readings.id', ondelete='CASCADE'), nullable=False)
+    )
+    op.create_table('answers',
+                sa.Column('id', sa.Integer(), primary_key=True, index=True),
+                sa.Column('answer_text', sa.String(), nullable=False),
+                sa.Column('is_correct', sa.Boolean(), server_default=sa.text('false')),
+                sa.Column('question_id', sa.Integer(), 
+                          sa.ForeignKey('questions.id', ondelete='CASCADE'), nullable=False)
+    )
+    op.create_index('ix_vocabularies_word', 'vocabularies', ['word'])
+    op.create_index('ix_readings_title', 'readings', ['title'])
     pass
 
 
@@ -54,4 +75,7 @@ def downgrade() -> None:
     op.drop_table('users')
     op.drop_table('reading_items')
     op.drop_table('vocabularies')
+    op.drop_table('readings')
+    op.drop_table('questions')
+    op.drop_table('answers')
     pass
