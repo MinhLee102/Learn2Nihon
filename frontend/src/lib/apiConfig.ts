@@ -1,7 +1,15 @@
 import axios from 'axios';
 
+const getBaseURL = () => {
+  if (typeof window !== 'undefined') {
+    return '/api';
+  }
+
+  return 'http://nginx/api'; 
+};
+
 const apiClient = axios.create({
-  baseURL: '/api', 
+  baseURL: getBaseURL(), 
   headers: {
     'Content-Type': 'application/json',
   },

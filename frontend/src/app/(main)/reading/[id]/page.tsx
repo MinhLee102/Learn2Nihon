@@ -1,13 +1,20 @@
 import { getReadingById } from '@/lib/api';
 import MyWordList from '@/components/MyWordList';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { Question, Answer, ReadingPageProps } from '@/types/readingType';
+import { Question, Answer } from '@/types/readingType';
 import ReadingInteraction from './ReadingInteraction';
+import { notFound } from 'next/navigation';
+import { ReadingPageProps } from '@/types/readingType';
 
 export default async function ReadingPage({ params }: ReadingPageProps) {
-    const { readingId } = await params;
+    
+    const { id } = await params;
 
-    const readingData = await getReadingById(readingId);
+    if (!id || isNaN(parseInt(id, 10))) {
+        notFound();
+    }
+    
+    const readingData = await getReadingById(id);
 
     if (!readingData) {
         return (
@@ -28,4 +35,4 @@ export default async function ReadingPage({ params }: ReadingPageProps) {
         </div>
     </div>
   );
-}
+} 

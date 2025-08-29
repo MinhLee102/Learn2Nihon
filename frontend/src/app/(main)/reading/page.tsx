@@ -21,7 +21,7 @@ export default function Reading() {
     >
       <LessonList 
         title="Bài" 
-        path="readings" 
+        path="reading" 
         numberOfLessons={50} 
       />
     </main>

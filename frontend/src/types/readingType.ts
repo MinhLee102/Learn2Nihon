@@ -24,6 +24,7 @@ export interface UseReadingLogicProps {
 }
 
 export interface ReadingPageProps {
-  params: Promise<{ readingId: string }>;
+  params: Promise<{ id: string }>
 }
+
 
