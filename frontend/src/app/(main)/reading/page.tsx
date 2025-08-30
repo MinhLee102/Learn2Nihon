@@ -2,8 +2,15 @@
 
 import React from 'react';
 import LessonList from '@/components/LessonList';
+import { useEffect } from 'react';
+import { useLayout } from '@/context/LayoutContext';
 
 export default function Reading() {
+    const { setHeaderTitle } = useLayout();
+
+    useEffect(() => {
+        setHeaderTitle('Reading');
+    });
 
   return (
     <main
@@ -14,7 +21,7 @@ export default function Reading() {
     >
       <LessonList 
         title="Bài" 
-        path="readings" 
+        path="reading" 
         numberOfLessons={50} 
       />
     </main>
