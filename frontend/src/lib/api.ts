@@ -8,7 +8,7 @@ export const getReadingById = async (readingId: string): Promise<ReadingContent 
   }
     
     try {
-        const response = await apiClient.get<ReadingContent>("/readings/1");
+        const response = await apiClient.get<ReadingContent>(`/readings/${readingId}`);
 
         console.log(response.data);
 
