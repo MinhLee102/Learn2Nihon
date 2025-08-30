@@ -13,6 +13,10 @@ def create_reading(
 ):
     return crud_reading.create_reading(db=db, reading=reading)
 
+@router.get("/count", response_model=int)
+def get_reading_count(db: Session = Depends(get_db)):
+    return crud_reading.get_reading_item_count(db=db)
+
 @router.get("/{reading_id}", response_model=ReadingOut)
 def get_reading(
     reading_id: int, 
