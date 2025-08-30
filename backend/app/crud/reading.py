@@ -12,6 +12,9 @@ def create_reading(db: Session, reading: ReadingCreate):
     db.refresh(db_reading)
     return db_reading
 
+def get_reading_item_count(db: Session):
+    return db.query(Reading).count()
+
 def get_reading(db: Session, reading_id: int):
     return db.query(Reading).filter(Reading.id == reading_id).first()
 
