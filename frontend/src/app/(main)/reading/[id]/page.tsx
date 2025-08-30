@@ -10,11 +10,15 @@ export default async function ReadingPage({ params }: ReadingPageProps) {
     
     const { id } = await params;
 
+    console.log("Reading page id: " + id);
+
     if (!id || isNaN(parseInt(id, 10))) {
         notFound();
     }
     
     const readingData = await getReadingById(id);
+
+    console.log("Reading data: " + readingData?.questions[0].answers);
 
     if (!readingData) {
         return (

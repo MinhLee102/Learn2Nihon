@@ -83,7 +83,7 @@ const ReadingInteraction: React.FC<ReadingInteractionProps> = ({ initialReadingD
                                     `}
                                     onClick={() => handleAnswerSelect(question.id, answer.id)}
                                 >
-                                    <span className="font-semibold mr-2">{aIndex + 1}.</span> {answer.text}
+                                    <span className="font-semibold mr-2">{aIndex + 1}.</span> {answer.answer_text}
                                 </div>
                             );
                         })}

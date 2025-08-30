@@ -14,7 +14,7 @@ export interface Question {
 
 export interface Answer {
   id: string;
-  text: string;
+  answer_text: string;
   is_correct?: boolean; 
 }
 
