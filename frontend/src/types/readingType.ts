@@ -14,7 +14,7 @@ export interface Question {
 
 export interface Answer {
   id: string;
-  text: string;
+  answer_text: string;
   is_correct?: boolean; 
 }
 
@@ -24,6 +24,7 @@ export interface UseReadingLogicProps {
 }
 
 export interface ReadingPageProps {
-  params: Promise<{ readingId: string }>;
+  params: Promise<{ id: string }>
 }
+
 
