@@ -5,7 +5,7 @@ class Vocabulary(Base):
     __tablename__ = "vocabularies"
 
     id = Column(Integer, primary_key=True, index=True)
-    word = Column(String, nullable=False)      
+    word = Column(String, index=True, nullable=False)  # Speed up queries with index
     description = Column(String, nullable=True)# Từ vựng (hiragana / kanji)
     meaning = Column(String, nullable=False)           # Nghĩa tiếng Việt 
     pronunciation = Column(String, nullable=True)      # Cách đọc (kana)

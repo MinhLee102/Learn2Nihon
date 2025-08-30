@@ -23,7 +23,7 @@ export default function Vocabulary() {
           <Link
             href={`/vocabulary/${lesson}`} //Bài số mấy
             key={lesson}
-            className="block bg-white shadow rounded-xl p-4 hover:bg-blue-100 transition"
+            className="block bg-white shadow rounded-xl p-4 hover:bg-blue-100 transition text-black"
           >
             <h2 className="text-lg font-semibold">Bài {lesson}</h2>
           </Link>

@@ -24,6 +24,9 @@ def get_vocabularies(db: Session, skip: int = 0, limit: int = 100):
     #* số bản ghi tối đa trả về trong một truy vấn là 100, và 0 bỏ qua bản ghi nào.
     return db.query(Vocabulary).offset(skip).limit(limit).all()
 
+def get_vocabularies_by_lesson(db: Session, lesson_id: int):
+    return db.query(Vocabulary).filter(Vocabulary.lesson == lesson_id).all()
+
 def update_vocabulary(db: Session, vocab_id: int, vocab: VocabularyUpdate):
     db_vocab = db.query(Vocabulary).filter(Vocabulary.id == vocab_id).first()
     if not db_vocab:
