@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { getReadingById, submitReadingAnswers } from '@/lib/api';
+import { getReadingById } from '@/lib/api';
 import { ReadingContent } from '@/types/readingType';
 import { UseReadingLogicProps } from '@/types/readingType';
 
@@ -62,8 +62,7 @@ const useReadingLogic = ({ readingId, initialData }: UseReadingLogicProps) => {
       setIsLoading(true);
       setError(null);
 
-      const submittedData = await submitReadingAnswers(readingData.id, userAnswers);
-      setReadingData(submittedData);
+      setReadingData(readingData);
       setIsSubmitted(true); 
     } catch (err: unknown) {
       console.error("Failed to submit answers:", err);
