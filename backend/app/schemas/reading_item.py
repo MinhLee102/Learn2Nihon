@@ -16,5 +16,6 @@ class ReadingItemUpdate(ReadingItemBase):
 class ReadingItemOut(ReadingItemBase):
     id: int
 
-    class Config:
-        orm_mode = True
+    model_config = {
+        "from_attributes": True     # Pydantic v2
+    }
