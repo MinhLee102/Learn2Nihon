@@ -2,5 +2,5 @@ backend/venv/
 __pycache__/
 node_modules/
 .env
-logs/access.log
-logs/error.log
+nginx/logs/access.log
+nginx/logs/error.log
