@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLayout } from '@/context/LayoutContext';
 import { useRouter } from 'next/navigation';
+import { useAuth } from '@/context/AuthContext';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface HeaderProps {
@@ -14,11 +15,14 @@ const Header: React.FC<HeaderProps> = () => {
     
     const {
         isSidebarExtended,
-        isLoggedIn,
-        username,
-        logout,
         headerTitle,
     } = useLayout();
+
+    const {
+      isLoggedIn,
+        user,
+        logout,
+    } = useAuth();
 
     const [scrolled, setScrolled] = useState(false);
 
@@ -60,10 +64,10 @@ const Header: React.FC<HeaderProps> = () => {
       <div className="flex items-center space-x-4">
         {isLoggedIn ? (
           <>
-            <span className="text-gray-700 font-medium">Hello, {username}!</span>
+            <span className="text-gray-700 font-medium">Hello, {user?.username || 'User'}!</span>
             <button
               onClick={logout}
-              className="px-4 py-2 bg-red-500 text-[#7289DA] rounded-md hover:bg-red-600 transition-colors"
+              className="px-4 py-2 bg-red-400 text-gray-700 rounded-md hover:bg-red-600 transition-colors"
             >
               Đăng xuất
             </button>

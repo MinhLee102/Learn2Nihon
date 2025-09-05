@@ -3,23 +3,34 @@
 import React, {createContext, useContext, 
     useState, useEffect, ReactNode,
     useCallback} from 'react';
-//import { logoutUser } from '@/utils/api/auth';
+import { logoutUser } from '@/lib/auth';
 
 interface User {
-    id: number;
     username: string;
-    email: string;
 }
 
-interface loginResponce {
-    access: string;
-    refresh: string;
-    user: User;
+interface loginResponse {
+    access_token: string;
+    refresh_token: string;
+    token_type: string;
+}
+
+export interface LoginFormFields { 
+    username: string;
+    password: string;
+}
+
+export interface RegisterFormFields { 
+    username: string;
+    email: string;
+    password: string;
 }
 
 interface AuthContextType {
     user: User | null;
-    login: (data: unknown) => void;
+    isLoggedIn: boolean;
+    login: (data: loginResponse) => void;
+    logout: () => Promise<void>;
     loading: boolean;
 }
 
@@ -28,21 +39,32 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider = ({children}: {children: ReactNode}) => {
 
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [user, setUser] = useState<User | null>(null);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [loading, setLoading] = useState(true);
 
 
     const checkLogInState = useCallback(() => {
         try {
-            // eslint-disable-next-line @typescript-eslint/no-unused-vars
             const accessToken = localStorage.getItem('access_token');
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
+            const refreshToken = localStorage.getItem('refresh_token');
+
+            if (accessToken) {
+                setUser({username: 'User'})
+                setIsLoggedIn(true);
+            } else {
+                setUser(null);
+                setIsLoggedIn(false);
+            }
 
         } catch (error) {
             console.error("Error: ", error);
-            //const refreshToken = localStorage.getItem('refresh_token');
-            //if (refreshToken !== null)
-                //logoutUser(refreshToken);
+            console.error("Error checking login state:", error);
+            localStorage.removeItem('access_token');
+            localStorage.removeItem('refresh_token');
+            setUser(null);
+            setIsLoggedIn(false);
         } finally {
             setLoading(false);
             }
@@ -53,16 +75,37 @@ export const AuthProvider = ({children}: {children: ReactNode}) => {
         }, [checkLogInState]);
 
     const login = (data: unknown) => {
-        const responseData = data as loginResponce
-        localStorage.setItem('access_token', responseData.access);
-        //localStorage.setItem('user', JSON.stringify(responseData.user));
-        
-        //setUser(responseData.user);
-
+        const responseData = data as loginResponse
+        localStorage.setItem('access_token', responseData.access_token);
+        localStorage.setItem('refresh_token', responseData.refresh_token);
         window.location.href = '/';
     };
 
-  const value = {user, login, loading};
+    const logout = useCallback(async () => { 
+        setLoading(true);
+        try {
+            await logoutUser(); 
+            localStorage.removeItem('access_token');
+            localStorage.removeItem('refresh_token');
+            setUser(null);
+            setIsLoggedIn(false);
+            window.location.href = '/login';
+            
+        } catch (error) {
+            console.error("Failed to logout:", error);
+            throw error;
+        } finally {
+            setLoading(false);
+        }
+    }, []);
+
+  const value = {
+        user,
+        isLoggedIn,
+        login,
+        logout,
+        loading,
+    };
 
   return (<AuthContext.Provider value={value}>{!loading ? children : null}</AuthContext.Provider>);
 };
