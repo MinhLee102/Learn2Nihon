@@ -19,17 +19,13 @@ export const getReadingById = async (readingId: string): Promise<ReadingContent 
     }
 }
 
-export const submitReadingAnswers = async (
-    readingId: string,
-    userAnswers: { [key: string]: string }
-): Promise<ReadingContent | undefined> => {
+export const countReadingExercises = async (): Promise<number> => {
     try {
-        const response = await apiClient.post<ReadingContent>(`/answers/${readingId}`, {
-      user_answers: userAnswers,
-    });
-    return response.data;
-    
-    } catch(error) {
-        console.log("Error Submitting Answers ", error);
+        const response = await apiClient.get<number>('/readings/count');
+        console.log(`Number of reading exer: ${response.data}`);
+        return response.data;
+    } catch {
+        console.error("Error detected: Can not get total numbers of reading exercises");
+        return 0;
     }
 }
