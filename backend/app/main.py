@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from app.api import vocabulary, user, reading_item, reading, question, answer
 from app.routers import auth, email_verification
 from app.database import Base, engine
-from app.json_data.data_vocab import add_vocab_to_db
+from app.json_data.data_minna_vocab import add_vocab_to_db
 from app.json_data.data_reading import add_reading_to_db
 from fastapi.middleware.cors import CORSMiddleware
 
