@@ -10,7 +10,6 @@ export default async function ReadingPage({ params }: ReadingPageProps) {
     
     const { id } = await params;
 
-
     if (!id || isNaN(parseInt(id, 10))) {
         notFound();
     }
