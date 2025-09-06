@@ -25,7 +25,7 @@ class Meaning_detail(Base):
     __tablename__ = "meaning_detail"
 
     id = Column(Integer, primary_key=True, index=True)
-    meaning = Column(String)
+    meaning = Column(String, nullable=False)
 
     vocabulary_id = Column(
         Integer,
@@ -47,8 +47,8 @@ class Example(Base):
     __tablename__ = "examples"
 
     id = Column(Integer, primary_key=True, index=True)
-    jp = Column(String, nullable=False)
-    vi = Column(String, nullable=False)
+    jp = Column(String)
+    vi = Column(String)
 
     meaning_detail_id = Column(
         Integer,
