@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from backend.app.models.Mazii.mazii_vocab import Mazii_vocabulary
+from app.models.Mazii.mazii_vocab import Mazii_vocabulary
 from app.schemas.Mazii.vocabulary import VocabularyCreate, VocabularyUpdate
 
 def create_vocab(db: Session, vocab: VocabularyCreate):

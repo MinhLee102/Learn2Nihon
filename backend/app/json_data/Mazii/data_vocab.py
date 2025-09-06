@@ -1,7 +1,7 @@
 from app.crud import vocabulary as crud_vocab
 from app.schemas.Mazii import vocabulary as schema_vocab
 from app.database import get_db
-from backend.app.models.Mazii import mazii_vocab as model_vocab
+from app.models.Mazii import mazii_vocab as model_vocab
 import json, os
 
 
