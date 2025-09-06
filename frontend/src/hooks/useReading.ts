@@ -78,7 +78,7 @@ const useReadingLogic = ({ readingId, initialData }: UseReadingLogicProps) => {
   };
 
   const handleComplete = () => {
-    router.push('/'); 
+    router.push('/reading'); 
   };
 
   return {
