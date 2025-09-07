@@ -72,7 +72,7 @@ def upgrade() -> None:
     op.create_index('ix_readings_title', 'readings', ['title'])
 
 
-    op.create_table('mazii_vocabularies',
+    op.create_table('mazii_vocabs',
                 sa.Column('id', sa.Integer(), primary_key=True),
                 sa.Column('word', sa.String(), index=True, nullable=False),
                 sa.Column('phonetic', sa.String()),
@@ -83,8 +83,8 @@ def upgrade() -> None:
     op.create_table('meaning_detail',
                 sa.Column('id', sa.Integer(), primary_key=True, index=True),
                 sa.Column('meaning', sa.String()),
-                sa.Column('vocabulary_id', sa.Integer(),
-                          sa.ForeignKey('mazii_vocabularies.id', ondelete='CASCADE'), nullable=False)
+                sa.Column('vocab_id', sa.Integer(),
+                          sa.ForeignKey('mazii_vocabs.id', ondelete='CASCADE'), nullable=False)
     )
     op.create_table('examples',
                 sa.Column('id', sa.Integer(), primary_key=True, index=True),
@@ -93,7 +93,7 @@ def upgrade() -> None:
                 sa.Column('meaning_detail_id', sa.Integer(),
                           sa.ForeignKey('meaning_detail.id', ondelete='CASCADE'), nullable=False)
     )
-    op.create_index('ix_mazii_vocabularies_word', 'mazii_vocabularies', ['word'])
+    op.create_index('ix_mazii_vocabs_word', 'mazii_vocabs', ['word'])
 
     op.create_table('kanji',
                 sa.Column('id', sa.Integer(), primary_key=True),
@@ -121,8 +121,8 @@ def downgrade() -> None:
     op.drop_table('questions')
     op.drop_table('answers')
 
-    op.drop_index('ix_mazii_vocabularies_word', table_name='mazii_vocabularies')
-    op.drop_table('mazii_vocabularies')
+    op.drop_index('ix_mazii_vocabs_word', table_name='mazii_vocabs')
+    op.drop_table('mazii_vocabs')
     op.drop_table('meaning_detail')
     op.drop_table('examples')
 

@@ -26,7 +26,7 @@ class MeaningBase(BaseModel):
     meaning: str
 
 class MeaningCreate(MeaningBase):
-    vocabulary_id: int
+    vocab_id: int
     pass
 
 class MeaningUpdate(MeaningBase):
@@ -34,7 +34,7 @@ class MeaningUpdate(MeaningBase):
 
 class MeaningOut(MeaningBase):
     id: int
-    vocabulary_id: int
+    vocab_id: int
     examples: List[ExampleOut] = Field(default_factory=list)
 
     model_config = {

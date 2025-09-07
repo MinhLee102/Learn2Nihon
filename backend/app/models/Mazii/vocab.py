@@ -3,8 +3,8 @@ from sqlalchemy.orm import relationship
 from app.database import Base
 
 
-class Mazii_vocabulary(Base):
-    __tablename__ = "mazii_vocabularies"
+class Mazii_vocab(Base):
+    __tablename__ = "mazii_vocabs"
 
     id = Column(Integer, primary_key=True)
     word = Column(String, index=True, nullable=False)
@@ -16,7 +16,7 @@ class Mazii_vocabulary(Base):
     # vocab 1-n meaning
     meanings = relationship(
         "Meaning_detail",
-        back_populates="vocabulary",
+        back_populates="vocab",
         cascade="all, delete-orphan"
     )
 
@@ -27,13 +27,13 @@ class Meaning_detail(Base):
     id = Column(Integer, primary_key=True, index=True)
     meaning = Column(String, nullable=False)
 
-    vocabulary_id = Column(
+    vocab_id = Column(
         Integer,
-        ForeignKey("mazii_vocabularies.id", ondelete="CASCADE"),
+        ForeignKey("mazii_vocabs.id", ondelete="CASCADE"),
         nullable=False
     )
 
-    vocabulary = relationship("Mazii_vocabulary", back_populates="meanings")
+    vocab = relationship("Mazii_vocab", back_populates="meanings")
 
     # Quan hệ 1-n với Example
     examples = relationship(
