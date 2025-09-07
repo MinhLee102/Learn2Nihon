@@ -5,6 +5,7 @@ from app.routers import auth, email_verification
 from app.database import Base, engine
 from app.json_data.data_minna_vocab import add_vocabulary_to_db
 from app.json_data.data_reading import add_reading_to_db
+from app.json_data.Mazii.data_vocab import add_vocab_to_db
 from fastapi.middleware.cors import CORSMiddleware
 
 
@@ -12,6 +13,7 @@ Base.metadata.create_all(bind=engine)
 
 add_vocabulary_to_db()
 add_reading_to_db()
+add_vocab_to_db()
 
 app = FastAPI()
 
