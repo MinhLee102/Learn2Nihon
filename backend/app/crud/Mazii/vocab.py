@@ -18,7 +18,7 @@ def create_vocab(db: Session, vocab: VocabCreate):
 def get_vocab(db: Session, vocab_id: int):
     return db.query(Mazii_vocab).filter(Mazii_vocab.id == vocab_id).first()
 
-def get_vocabs(db: Session, skip: int  = 0, limit: int = 100):
+def get_vocabs(db: Session, skip: int = 0, limit: int = 100):
     return db.query(Mazii_vocab).offset(skip).limit(limit).all()
 
 def update_vocab(db: Session, vocab_id: int, vocab: VocabUpdate):

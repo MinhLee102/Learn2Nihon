@@ -19,7 +19,28 @@ def add_vocab_to_db():
 
     try:
         existing_vocab_data = db.query(model_vocab.Mazii_vocab).first()
+        if existing_vocab_data:
+            return
+        
+        for _, info in data.items():
+            # --------------- Vocab ---------------
+            vocab = schema_vocab.VocabCreate(
+                word=info['data']['word'],
+                phonetic=info['data']['phonetic'],
+                han_viet=info['data']['han-viet'],
+                pronunciation=info['data']['pronunciation'],
+                type_word=info['data']['type']
+            )
+            create_vocab = crud_vocab.create_vocab(db=db, vocab=vocab)
 
+            # --------------
+            meaning_detail = info['data']['meaning_detail']
+            for meaning_data in meaning_detail:
+                meaning = schema_vocab.MeaningCreate(
+                    meaning=meaning_data['meaning'],
+                    vocab_id=create_vocab.id # type: ignore
+                )
+                create_meaning = crud_vocab
 
 
     finally:
