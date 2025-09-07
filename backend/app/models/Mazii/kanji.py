@@ -5,7 +5,7 @@ from app.database import Base
 class Kanji(Base):
     __tablename__ = "kanji"
 
-    id = Column(Integer, primary_key=True, index=True)
+    id = Column(Integer, primary_key=True)
     word = Column(String, index=True, nullable=False)
     kunyomi = Column(ARRAY(String))
     onyomi = Column(ARRAY(String))

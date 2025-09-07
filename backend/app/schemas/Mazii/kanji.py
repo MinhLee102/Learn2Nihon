@@ -1,30 +1,24 @@
-# from pydantic import BaseModel
-# from typing import List, Optional, Field
+from pydantic import BaseModel, Field
+from typing import List, Optional
 
-# class MeaningSchema(BaseModel):
-#     vi: str = Field(..., description="Nghĩa tiếng Việt")
-#     en: str = Field(..., description="Nghĩa tiếng Anh")
-#     fr: str = Field(..., description="Nghĩa tiếng Pháp")
+class KanjiBase(BaseModel):
+    word: str
+    kunyomi: Optional[List[str]] = None
+    onyomi: Optional[List[str]] = None
+    strokes: int
+    jlpt_level: Optional[str] = None
+    meaning: str
+    explain: List[str]
 
-# class KanjiBase(BaseModel):
-#     edition: List[int] = Field(..., description="Danh sách edition")
-#     kanji: str = Field(..., description="Ký tự Kanji")
-#     kana: str = Field(..., description="Cách đọc Kana")
-#     romaji: str = Field(..., description="Cách đọc Romaji")
-#     meaning: MeaningSchema = Field(..., description="Nghĩa đa ngôn ngữ")
+class KanjiCreate(KanjiBase):
+    pass
 
-# class KanjiCreate(KanjiBase):
-#     pass
+class KanjiUpdate(KanjiBase):
+    pass
 
-# class KanjiUpdate(BaseModel):
-#     edition: Optional[List[int]] = None
-#     kanji: Optional[str] = None
-#     kana: Optional[str] = None
-#     romaji: Optional[str] = None
-#     meaning: Optional[MeaningSchema] = None
+class KanjiOut(KanjiBase):
+    id: int
 
-# class KanjiResponse(KanjiBase):
-#     id: int
-    
-#     class Config:
-#         from_attributes = True
+    model_config = {
+        "from_attributes": True     # Pydantic v2
+    }

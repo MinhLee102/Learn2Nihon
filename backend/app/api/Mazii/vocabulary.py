@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.schemas.Mazii_vocab.vocabulary import VocabularyCreate, VocabularyUpdate, VocabularyOut
-from app.crud.Mazii_vocab import vocabulary as crud_vocab
+from app.schemas.Mazii.vocabulary import VocabularyCreate, VocabularyUpdate, VocabularyOut
+from app.crud.Mazii import vocabulary as crud_vocab
 from app.database import get_db
 
 router = APIRouter(prefix="/vocabs", tags=["vocabs"])
