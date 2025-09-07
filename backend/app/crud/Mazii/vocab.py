@@ -1,8 +1,8 @@
 from sqlalchemy.orm import Session
-from app.models.Mazii.mazii_vocab import Mazii_vocabulary
-from app.schemas.Mazii.vocabulary import VocabularyCreate, VocabularyUpdate
+from app.models.Mazii.vocab import Mazii_vocabulary
+from app.schemas.Mazii.vocab import VocabCreate, VocabUpdate
 
-def create_vocab(db: Session, vocab: VocabularyCreate):
+def create_vocab(db: Session, vocab: VocabCreate):
     db_vocab = Mazii_vocabulary(
         word = vocab.word,
         phonetic = vocab.phonetic,
@@ -21,7 +21,7 @@ def get_vocab(db: Session, vocab_id: int):
 def get_vocabs(db: Session, skip: int  = 0, limit: int = 100):
     return db.query(Mazii_vocabulary).offset(skip).limit(limit).all()
 
-def update_vocab(db: Session, vocab_id: int, vocab: VocabularyUpdate):
+def update_vocab(db: Session, vocab_id: int, vocab: VocabUpdate):
     db_vocab = db.query(Mazii_vocabulary).filter(Mazii_vocabulary.id == vocab_id).first()
     if not db_vocab:
         return None

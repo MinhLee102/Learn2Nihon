@@ -42,20 +42,20 @@ class MeaningOut(MeaningBase):
     }
 
 # ---------------- Vocabulary -----------------
-class VocabularyBase(BaseModel):
+class VocabBase(BaseModel):
     word: str
     phonetic: Optional[str] = None
     han_viet: Optional[str] = None
     pronunciation: Optional[str] = None
     type_word: Optional[str] = None
 
-class VocabularyCreate(VocabularyBase):
+class VocabCreate(VocabBase):
     pass
 
-class VocabularyUpdate(VocabularyBase):
+class VocabUpdate(VocabBase):
     pass
 
-class VocabularyOut(VocabularyBase):
+class VocabOut(VocabBase):
     id: int
     meanings: List[MeaningOut] = Field(default_factory=list)
 
