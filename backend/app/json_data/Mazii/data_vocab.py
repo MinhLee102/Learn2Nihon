@@ -15,7 +15,6 @@ def load_json(file_name: str):
     return data
 
 def add_vocab_to_db():
-    data = load_json('vocab1.json')
     db_gen = get_db()
     db = next(db_gen)
 
@@ -24,36 +23,38 @@ def add_vocab_to_db():
         if existing_vocab_data:
             return
         
-        for info in data:
-            # --------------- Vocab ---------------
-            vocab = schema_vocab.VocabCreate(
-                word=info['data']['word'],
-                phonetic=info['data']['phonetic'],
-                han_viet=info['data']['han-viet'],
-                pronunciation=info['data']['pronunciation'],
-                type_word=info['data']['type']
-            )
-            create_vocab = crud_vocab.create_vocab(db=db, vocab=vocab)
+        for i in range(1, 7):
+            data = load_json(f'vocab{i}.json')
 
-            # ---------------- Meaning ------------------
-            meaning_detail = info['data']['meaning_detail']
-            for meaning_data in meaning_detail:
-                meaning = schema_vocab.MeaningCreate(
-                    meaning=meaning_data['meaning'],
-                    vocab_id=create_vocab.id # type: ignore
+            for info in data:
+                # --------------- Vocab ---------------
+                vocab = schema_vocab.VocabCreate(
+                    word=info['data']['word'],
+                    phonetic=info['data']['phonetic'],
+                    han_viet=info['data']['han-viet'],
+                    pronunciation=info['data']['pronunciation'],
+                    type_word=info['data']['type']
                 )
-                create_meaning = crud_meaning.create_meaning(db=db, meaning=meaning)
+                create_vocab = crud_vocab.create_vocab(db=db, vocab=vocab)
 
-                # ------------ Example ----------------
-                examples = meaning_data['examples']
-                for example_data in examples:
-                    example = schema_vocab.ExampleCreate(
-                        jp=example_data['jp'],
-                        vi=example_data['vi'],
-                        meaning_detail_id=create_meaning.id # type: ignore
+                # ---------------- Meaning ------------------
+                meaning_detail = info['data']['meaning_detail']
+                for meaning_data in meaning_detail:
+                    meaning = schema_vocab.MeaningCreate(
+                        meaning=meaning_data['meaning'],
+                        vocab_id=create_vocab.id # type: ignore
                     )
-                    crud_example.create_example(db=db, example=example)
-        # db.commit()
+                    create_meaning = crud_meaning.create_meaning(db=db, meaning=meaning)
+
+                    # ------------ Example ----------------
+                    examples = meaning_data['examples']
+                    for example_data in examples:
+                        example = schema_vocab.ExampleCreate(
+                            jp=example_data['jp'],
+                            vi=example_data['vi'],
+                            meaning_detail_id=create_meaning.id # type: ignore
+                        )
+                        crud_example.create_example(db=db, example=example)
 
     finally:
         db_gen.close()
