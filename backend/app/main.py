@@ -1,16 +1,21 @@
 from fastapi import FastAPI
 from app.api import vocabulary, user, reading, question, answer
-from app.api.Mazii import vocabulary, kanji
+from app.api.Mazii import vocab, kanji
 from app.routers import auth, email_verification
 from app.database import Base, engine
-from app.json_data.data_minna_vocab import add_vocab_to_db
+from app.json_data.data_minna_vocab import add_vocabulary_to_db
 from app.json_data.data_reading import add_reading_to_db
+from app.json_data.Mazii.data_vocab import add_vocab_to_db
+from app.json_data.Mazii.data_kanji import add_kanji_to_db
 from fastapi.middleware.cors import CORSMiddleware
+
 
 Base.metadata.create_all(bind=engine)
 
-add_vocab_to_db()
+add_vocabulary_to_db()
 add_reading_to_db()
+# add_vocab_to_db()
+# add_kanji_to_db()
 
 app = FastAPI()
 
@@ -33,5 +38,5 @@ app.include_router(email_verification.router)
 app.include_router(reading.router)
 app.include_router(question.router)
 app.include_router(answer.router)
-app.include_router(vocabulary.router)
+app.include_router(vocab.router)
 app.include_router(kanji.router)
