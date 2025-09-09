@@ -25,7 +25,7 @@ def get_vocab_by_lesson(data: dict, lesson: int):
         listVocab.append(vocab)
     return listVocab
 
-def add_vocab_to_db():
+def add_vocabulary_to_db():
     data = load_json("minna_vietnamese.json")
     db_gen = get_db()
     db = next(db_gen)
