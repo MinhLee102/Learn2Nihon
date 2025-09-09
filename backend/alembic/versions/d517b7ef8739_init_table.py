@@ -9,6 +9,7 @@ from typing import Sequence, Union
 
 from alembic import op
 import sqlalchemy as sa
+from sqlalchemy.dialects import postgresql
 
 
 # revision identifiers, used by Alembic.
@@ -46,10 +47,13 @@ def upgrade() -> None:
                 sa.Column('level', sa.String(), nullable=True),
                 sa.Column('example', sa.String(), nullable=True)
     )
+    op.create_index('ix_vocabularies_word', 'vocabularies', ['word'])
+
+
     op.create_table('readings',
                 sa.Column('id', sa.Integer(), primary_key=True, index=True),
                 sa.Column('title', sa.String(), index=True, nullable=False),
-                sa.Column('content', sa.Text, nullable=False),
+                sa.Column('content', sa.Text(), nullable=False),
     )
     op.create_table('questions',
                 sa.Column('id', sa.Integer(), primary_key=True, index=True),
@@ -65,8 +69,43 @@ def upgrade() -> None:
                 sa.Column('question_id', sa.Integer(), 
                           sa.ForeignKey('questions.id', ondelete='CASCADE'), nullable=False)
     )
-    op.create_index('ix_vocabularies_word', 'vocabularies', ['word'])
     op.create_index('ix_readings_title', 'readings', ['title'])
+
+
+    op.create_table('mazii_vocabularies',
+                sa.Column('id', sa.Integer(), primary_key=True),
+                sa.Column('word', sa.String(), index=True, nullable=False),
+                sa.Column('phonetic', sa.String()),
+                sa.Column('han_viet', sa.String()),
+                sa.Column('pronunciation', sa.String()),
+                sa.Column('type_word', sa.String())
+    )
+    op.create_table('meaning_detail',
+                sa.Column('id', sa.Integer(), primary_key=True, index=True),
+                sa.Column('meaning', sa.String()),
+                sa.Column('vocabulary_id', sa.Integer(),
+                          sa.ForeignKey('mazii_vocabularies.id', ondelete='CASCADE'), nullable=False)
+    )
+    op.create_table('examples',
+                sa.Column('id', sa.Integer(), primary_key=True, index=True),
+                sa.Column('jp', sa.String(), nullable=False),
+                sa.Column('vi', sa.String(), nullable=False),
+                sa.Column('meaning_detail_id', sa.Integer(),
+                          sa.ForeignKey('meaning_detail.id', ondelete='CASCADE'), nullable=False)
+    )
+    op.create_index('ix_mazii_vocabularies_word', 'mazii_vocabularies', ['word'])
+
+    op.create_table('kanji',
+                sa.Column('id', sa.Integer(), primary_key=True),
+                sa.Column('word', sa.String(), nullable=False, index=True), # only create column not index so index is useless here
+                sa.Column('kunyomi', postgresql.ARRAY(sa.String())),
+                sa.Column('onyomi', postgresql.ARRAY(sa.String())),
+                sa.Column('strokes', sa.Integer(), nullable=False),
+                sa.Column('jlpt_level', sa.String()),
+                sa.Column('meaning', sa.String(), nullable=False),
+                sa.Column('explain', postgresql.ARRAY(sa.String()), nullable=False),
+    )
+    op.create_index('ix_kanji_word', 'kanji', ['word'])
     pass
 
 
@@ -74,8 +113,19 @@ def downgrade() -> None:
     """Downgrade schema."""
     op.drop_table('users')
     op.drop_table('reading_items')
+    op.drop_index('ix_vocabularies_word', table_name='vocabularies')
     op.drop_table('vocabularies')
+
+    op.drop_index('ix_readings_title', table_name='readings')
     op.drop_table('readings')
     op.drop_table('questions')
     op.drop_table('answers')
+
+    op.drop_index('ix_mazii_vocabularies_word', table_name='mazii_vocabularies')
+    op.drop_table('mazii_vocabularies')
+    op.drop_table('meaning_detail')
+    op.drop_table('examples')
+
+    op.drop_index('ix_kanji_word', table_name='kanji')
+    op.drop_table('kanji')
     pass
