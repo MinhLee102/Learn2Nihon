@@ -14,8 +14,8 @@ Base.metadata.create_all(bind=engine)
 
 add_vocabulary_to_db()
 add_reading_to_db()
-add_vocab_to_db()
-add_kanji_to_db()
+# add_vocab_to_db()
+# add_kanji_to_db()
 
 app = FastAPI()
 
