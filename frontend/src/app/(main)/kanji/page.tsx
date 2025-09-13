@@ -1,30 +1,35 @@
-'use client';
+'use client'; 
 
-import React from 'react';
-import LessonList from '@/components/LessonList';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
+import JLPTLevelCard from '@/components/JLPTLevel';
 import { useLayout } from '@/context/LayoutContext';
+import type { JLPTLevel } from '@/components/JLPTLevel';
 
-export default function Kanji() {
+export default function KanjiPage() {
   const { setHeaderTitle } = useLayout();
 
   useEffect(() => {
     setHeaderTitle('Kanji');
-  });
-  
+  }, [setHeaderTitle]);
+
+  const levels: JLPTLevel[] = ['5', '4', '3'];
+
   return (
-    <main
-      className="flex-1 p-4 pt-20 
-        transition-all duration-300 ease-in-out
-        md:ml-20 overflow-y-auto"
-      style={{ minHeight: 'calc(100vh - 4rem)' }} >
-        
-        <LessonList 
-            title="Bài" 
-            path="kanji" 
-            numberOfLessons={50} 
-        />
-    
-    </main>
+    <div className="flex flex-col items-center justify-center h-full min-h-[calc(100vh-80px)] p-4">
+      <div className="bg-white rounded-lg shadow-md p-8 flex flex-col items-center justify-center max-w-2xl w-full h-full text-center">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 mb-8">
+          Bạn muốn luyện tập Kanji của cấp độ nào?
+        </h2>
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
+          {levels.map((level) => (
+            <JLPTLevelCard
+              key={level}
+              level={level}
+              href={`/kanji/${level}`} 
+            />
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }
