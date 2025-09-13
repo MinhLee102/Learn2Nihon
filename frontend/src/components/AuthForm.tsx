@@ -68,8 +68,6 @@ const AuthForm = ({type, title, fields, buttonText, footerContent }: AuthFormPro
 
     let submissionData: Record<string, string>;
 
-    // This logic allows users to log in with either their username or email
-    // by checking for the '@' symbol and constructing the correct payload.
     if (type === 'login') {
         submissionData = {
           username: formData.username,
@@ -86,8 +84,6 @@ const AuthForm = ({type, title, fields, buttonText, footerContent }: AuthFormPro
 
     try{
       if (type === 'login') {
-        // --- LOGIC ĐĂNG NHẬP ---
-        // Không cần ép kiểu cho submissionData nữa
         const loginApiResponseBody: loginResponse | undefined = await loginUser(submissionData); 
         
         if (loginApiResponseBody) { 
