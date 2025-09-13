@@ -15,10 +15,11 @@ export default function MainAppLayout({ children }: { children: ReactNode }) {
         <Header />
         <main
           className={`
-            flex-1 p-4 pt-20 
+            flex-1 pt-20 
             transition-all duration-300 ease-in-out
             ${isSidebarExtended ? 'md:ml-64' : 'md:ml-20'} 
             overflow-y-auto 
+            h-full flex flex-col
           `}
           style={{ minHeight: 'calc(100vh - 4rem)' }} 
         >

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { getReadingById } from '@/lib/api';
+import { getReadingById } from '@/lib/readingApi';
 import { ReadingContent } from '@/types/readingType';
 import { UseReadingLogicProps } from '@/types/readingType';
 
