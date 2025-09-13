@@ -1,4 +1,4 @@
-'use client'; // Đây phải là Client Component vì nó dùng useLayout, Header và Sidebar cũng là client component
+'use client'; 
 
 import { ReactNode } from 'react';
 import Sidebar from '@/components/Sidebar';
