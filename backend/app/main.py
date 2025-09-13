@@ -16,6 +16,7 @@ add_vocabulary_to_db()
 add_reading_to_db()
 # add_vocab_to_db()
 # add_kanji_to_db()
+#* nếu muốn chạy test db sẽ phải bỏ comment
 
 app = FastAPI()
 
