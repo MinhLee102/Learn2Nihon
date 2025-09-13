@@ -3,6 +3,7 @@
 import { useParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 import { Kanji } from '@/types/kanjiType';
+import { get20RandomKanji } from '@/lib/kanjiApi';
 
 export default function LessonPage() {
   const { id } = useParams();
@@ -19,12 +20,13 @@ export default function LessonPage() {
     const fetchKanji = async () => {
       try {
         setLoading(true);
-        console.log(jlpt_level + ":  JLPT LEVEL HEREE")
-        const res = await fetch(`http://127.0.0.1:8000/kanji/20random/${jlpt_level}`);
-        const data = await res.json();
-        setKanji(data);
+        const data = await get20RandomKanji(jlpt_level);
+        if(data)
+          setKanji(data);
+        else
+          console.error("Error: Fetch incompleted!");
       } catch (err) {
-        console.error('Lỗi khi fetch vocabularies:', err);
+        console.error('Lỗi khi fetch Kanji', err);
       } finally {
         setLoading(false);
       }

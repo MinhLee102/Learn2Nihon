@@ -2,6 +2,7 @@
 
 import { useParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
+import { getVocabByLesson } from '@/lib/vocabApi';
 
 interface Vocabulary {
   id: number;
@@ -27,8 +28,7 @@ export default function LessonPage() {
     const fetchVocabularies = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`http://127.0.0.1:8000/vocabularies/lesson/${lesson}`);
-        const data = await res.json();
+        const data = await getVocabByLesson(lesson.toString());
         setVocabularies(data);
       } catch (err) {
         console.error('Lỗi khi fetch vocabularies:', err);
