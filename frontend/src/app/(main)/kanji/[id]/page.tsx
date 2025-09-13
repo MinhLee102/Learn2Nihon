@@ -2,44 +2,36 @@
 
 import { useParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-
-interface Kanji {
-  id: number;
-  word: string;
-  kunyomi: string[] | null;
-  onyomi: string[] | null;
-  strokes: number;
-  meaning: string;
-  lesson: number;
-  jlpt_level: string | null;
-  explain: string[] | null;
-}
+import { Kanji } from '@/types/kanjiType';
 
 export default function LessonPage() {
-  const { lesson } = useParams();
+  const { id } = useParams();
+  const jlpt_level = "N" + id;
+   
   const [kanji, setKanji] = useState<Kanji[]>([]);
   const [loading, setLoading] = useState(true);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
 
   useEffect(() => {
-    if (!lesson) return;
+    if (!jlpt_level) return;
 
     const fetchKanji = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`http://127.0.0.1:8000/kanji/lesson/${lesson}`);
+        console.log(jlpt_level + ":  JLPT LEVEL HEREE")
+        const res = await fetch(`http://127.0.0.1:8000/kanji/20random/${jlpt_level}`);
         const data = await res.json();
         setKanji(data);
       } catch (err) {
-        console.error('Lỗi khi fetch kanji:', err);
+        console.error('Lỗi khi fetch vocabularies:', err);
       } finally {
         setLoading(false);
       }
     };
 
     fetchKanji();
-  }, [lesson]);
+  }, [jlpt_level]);
 
   const [isHiding, setIsHiding] = useState(false);
 
@@ -93,7 +85,7 @@ export default function LessonPage() {
   return (
     <div className="p-4 pt-20 flex flex-col items-center text-black">
       <h1 className="text-xl font-bold mb-6">
-        Bài học số {lesson} — Từ {currentIndex + 1}/{kanji.length}
+        Bài luyện tập Kanji mức độ {jlpt_level} — Từ {currentIndex + 1}/{kanji.length}
       </h1>
 
       {/* Container flashcard + nút */}
@@ -156,36 +148,6 @@ export default function LessonPage() {
         >
           ▶
         </button>
-      </div>
-
-      {/* Danh sách từ vựng cuộn dọc */}
-      <div className="mt-6 w-full max-w-[90vw] max-h-[200px] overflow-y-auto border rounded-lg p-2">
-        <div className="flex flex-col gap-2">
-          {kanji.map((item, index) => (
-            <button
-              key={item.id}
-              onClick={() => {
-                setCurrentIndex(index);
-                setFlipped(false);
-              }}
-              className={`px-4 py-2 text-left rounded-lg ${
-                index === currentIndex
-                  ? 'bg-blue-500 text-white'
-                  : 'bg-gray-200 hover:bg-gray-300'
-              }`}
-            >
-              <span className="font-semibold">{item.word}</span>
-              {item.kunyomi && (
-                <span className="ml-2 italic text-gray-600">{item.kunyomi}</span>
-              )}
-
-              {item.onyomi && (
-                <span className="ml-2 italic text-gray-600">{item.onyomi}</span>
-              )}
-
-            </button>
-          ))}
-        </div>
       </div>
 
       {/* CSS bổ sung */}
