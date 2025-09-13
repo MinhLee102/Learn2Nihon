@@ -12,7 +12,7 @@ export default function ChatbotPage() {
   }, [setHeaderTitle]);
 
   return (
-    <div className="flex flex-col flex-1 bg-gray-50 rounded-lg">
+    <div className="flex flex-col flex-1 p-0 bg-gray-50 rounded-lg overflow-hidden">
       <Chatbox />
     </div>
   );
