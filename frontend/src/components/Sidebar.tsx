@@ -52,6 +52,11 @@ const Sidebar: React.FC = () => {
       href: '/vocabulary',
     },
     {
+      iconInfo: { url: '/kanji.png', width: 24, height: 24, alt: 'Kanji' },
+      text: 'Kanji',
+      href: '/kanji',
+    },
+    {
       iconInfo: { url: '/reading.png', width: 24, height: 24, alt: 'Bài đọc' },
       text: 'Bài đọc',
       href: '/reading',
@@ -60,6 +65,11 @@ const Sidebar: React.FC = () => {
       iconInfo: { url: '/listening.png', width: 24, height: 24, alt: 'Bài nghe' },
       text: 'Bài nghe',
       href: '/listening',
+    },
+    {
+      iconInfo: { url: '/robot.png', width: 24, height: 24, alt: 'Kaiwa' },
+      text: 'Kaiwa',
+      href: '/kaiwa',
     },
     {
       iconInfo: { url: '/test.png', width: 24, height: 24, alt: 'Thi thử' },
