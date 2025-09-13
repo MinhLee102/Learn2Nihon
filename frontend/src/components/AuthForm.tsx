@@ -7,6 +7,7 @@ import InputField from "./InputField";
 import { useAuth } from "@/context/AuthContext";
 import axios from "axios";
 import { loginUser, registerUser } from "@/lib/auth";
+import { loginResponse, User } from "@/types/authType";
 
 /**
  * Define input box in a form with:
@@ -76,34 +77,66 @@ const AuthForm = ({type, title, fields, buttonText, footerContent }: AuthFormPro
         }
 
     } else {
-      submissionData = formData;
+      submissionData = {
+        username: formData.username,
+        email: formData.email,
+        password: formData.password,
+      };
     }
 
     try{
-      const apiField = {
-        login: loginUser,
-        register: registerUser,
-      };
+      if (type === 'login') {
+        // --- LOGIC ĐĂNG NHẬP ---
+        // Không cần ép kiểu cho submissionData nữa
+        const loginApiResponseBody: loginResponse | undefined = await loginUser(submissionData); 
+        
+        if (loginApiResponseBody) { 
+          await login(loginApiResponseBody); 
+          window.location.href = "/"; 
+        } else {
+          throw new Error("Đăng nhập thất bại: Không nhận được phản hồi từ server.");
+        }
+      } else { 
+        const registerApiResponseBody: User | undefined = await registerUser(submissionData); 
+        
+        if (registerApiResponseBody?.id !== undefined && registerApiResponseBody?.email) { 
+          console.log('Registration successful:', registerApiResponseBody);
+          window.location.href = "/check-mail"; 
+        } else {
+          throw new Error("Đăng ký thất bại: Không nhận được thông tin người dùng hoặc email từ server.");
+        }
+      }
 
-      const apiRequest = apiField[type];
-      const responce = await apiRequest(submissionData);
-
-      console.log('resquest successful', responce.data)
-
-      login(responce.data);
     } catch (err: unknown) {
       if (axios.isAxiosError(err)) {
-        console.error('Error:', err.response?.data);
+        console.error('API Error Response:', err.response); 
 
         const errorData = err.response?.data;
-        if (errorData) {
-          const errorMessage = Object.entries(errorData)
-          .map(([key, value]) => `${key}: ${(value as string[]).join(', ')}`)
-          .join('; ');
-          setError(errorMessage);
+        if (typeof errorData === 'object' && errorData !== null && 'detail' in errorData) {
+            const detail = (errorData as { detail: unknown }).detail; 
+            if (typeof detail === 'string') {
+                setError(detail);
+            } else if (Array.isArray(detail)) {
+                const errorMessage = detail.map((item: unknown) => {
+                    if (typeof item === 'object' && item !== null && 'msg' in item) {
+                        return (item as { msg: string }).msg;
+                    }
+                    if (typeof item === 'object' && item !== null && 'message' in item) {
+                        return (item as { message: string }).message;
+                    }
+                    return JSON.stringify(item); 
+                }).join('; ');
+                setError(errorMessage);
+            } else {
+                setError('Chi tiết lỗi API không xác định.');
+            }
+        } else if (typeof errorData === 'string') {
+            setError(errorData);
         } else {
-          setError('An unexpected error occurred. Please try again.');
+          setError('An unexpected network error occurred. Please try again.');
         }
+      } else if (err instanceof Error) {
+        setError(err.message);
       } else {
         setError('Something went wrong.');
         console.error('Unknown error:', err);
