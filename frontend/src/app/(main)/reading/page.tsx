@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import LessonList from '@/components/LessonList';
 import { useEffect } from 'react';
 import { useLayout } from '@/context/LayoutContext';
-import { countReadingExercises } from '@/lib/api';
+import { countReadingExercises } from '@/lib/readingApi';
 
 export default function Reading() {
   const [totalLessons, setTotalLessons] = useState<number | null>(null);

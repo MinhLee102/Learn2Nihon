@@ -1,4 +1,4 @@
-import { getReadingById } from '@/lib/api';
+import { getReadingById } from '@/lib/readingApi';
 import MyWordList from '@/components/MyWordList';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Question, Answer } from '@/types/readingType';

@@ -4,35 +4,8 @@ import React, {createContext, useContext,
     useState, useEffect, ReactNode,
     useCallback} from 'react';
 import { logoutUser } from '@/lib/auth';
+import { User, loginResponse, AuthContextType } from '@/types/authType';
 
-interface User {
-    username: string;
-}
-
-interface loginResponse {
-    access_token: string;
-    refresh_token: string;
-    token_type: string;
-}
-
-export interface LoginFormFields { 
-    username: string;
-    password: string;
-}
-
-export interface RegisterFormFields { 
-    username: string;
-    email: string;
-    password: string;
-}
-
-interface AuthContextType {
-    user: User | null;
-    isLoggedIn: boolean;
-    login: (data: loginResponse) => void;
-    logout: () => Promise<void>;
-    loading: boolean;
-}
 
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -51,7 +24,7 @@ export const AuthProvider = ({children}: {children: ReactNode}) => {
             const refreshToken = localStorage.getItem('refresh_token');
 
             if (accessToken) {
-                setUser({username: 'User'})
+                setUser({username: 'User', id: '0', email: 'user@gmail.com'});
                 setIsLoggedIn(true);
             } else {
                 setUser(null);
