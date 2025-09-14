@@ -12,7 +12,7 @@ export default function KanjiPage() {
     setHeaderTitle('Kanji');
   }, [setHeaderTitle]);
 
-  const levels: JLPTLevel[] = ['5', '4', '3'];
+  const levels: JLPTLevel[] = ['5', '4', '3', '2', '1'];
 
   return (
     <div className="flex flex-col items-center justify-center h-full min-h-[calc(100vh-80px)] p-4">

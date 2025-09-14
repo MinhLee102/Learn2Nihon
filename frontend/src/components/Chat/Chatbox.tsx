@@ -115,7 +115,7 @@ const Chatbot: React.FC = () => {
         </div>
 
         {/* Vùng nhập liệu */}
-        <form onSubmit={handleInputSubmit} className="border-t border-gray-200 text-black flex pt-4 items-center bg-white rounded-2xl py-2">
+        <form onSubmit={handleInputSubmit} className="border-t border-gray-200 text-black flex p-2 pt-4 items-center bg-white rounded-2xl py-2">
             <button
             type="button"
             onClick={handleVoiceButtonClick}
