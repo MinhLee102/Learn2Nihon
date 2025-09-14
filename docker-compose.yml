@@ -4,15 +4,8 @@ services:
     build: 
       context: ./backend
     container_name: backend
-    ports:
-      - "8000:8000"
-    environment:
-      - DATABASE_URL=postgresql://postgres:182705@db:5432/learn2nihon # Replace with your actual database URL
     env_file:
       - ./backend/.env
-    # Faster than copy but can cause some problem about security, shouldn't do this
-    # volumes: # Giữ lại volume để code được đồng bộ
-      # - ./backend:/app
     depends_on:
       db:
         condition: service_healthy
@@ -22,8 +15,6 @@ services:
     build: 
       context: ./frontend
     container_name: frontend
-    ports:
-      - "3000:3000"
     depends_on:
       - backend
     networks:
@@ -31,16 +22,16 @@ services:
   db:
     container_name: database
     image: postgres:13
+    env_file:
+      - ./backend/.env
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=182705
       - POSTGRES_DB=learn2nihon
     volumes:
       - db_data:/var/lib/postgresql/data
-    env_file:
-      - ./backend/.env
-    ports:
-      - "5432:5432"  # Thêm port mapping cho database  
+    expose:
+      - "5432"
     # THÊM KHỐI LỆNH healthcheck
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d learn2nihon"]
@@ -64,7 +55,6 @@ services:
     depends_on:
       - frontend
       - backend
-    command: [ "nginx", "-g", "daemon off;" ]
     networks:
       - appnet
 

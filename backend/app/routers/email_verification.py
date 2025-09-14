@@ -44,7 +44,7 @@ async def _send_verification_email(
         <p>Hi <strong>{user.username}</strong>,</p>
         <p>Thanks for signing up! Please verify your email by clicking below:</p>
         <a
-          href="http://localhost:8000/account_verification/?token={token}"
+          href="http://localhost/api/account_verification/?token={token}"
           style="display: inline-block; margin: 1em; padding: 1em 2em;
                  background-color: #0275d8; color: white; text-decoration: none;
                  border-radius: 0.5em;">
@@ -108,4 +108,7 @@ async def verify_email(
     user.is_verified = True # type: ignore
     db.commit()
 
-    return HTMLResponse("<h3>🎉 Email successfully verified! You can now log in.</h3>")
+    return HTMLResponse("""
+        <h3>🎉 Email successfully verified! You can now log in.</h3>
+        Go to this link to login => <a href="https://learnnihon.me/login">Learnnihon</a>
+    """)

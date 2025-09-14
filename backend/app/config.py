@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     database_password: str
     database_name: str
     database_username: str
+    database_url: str
 
     algorithm: str
     access_secret_key: str
