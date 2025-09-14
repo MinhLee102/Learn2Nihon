@@ -2,43 +2,38 @@
 
 import { useParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-import { getVocabByLesson } from '@/lib/vocabApi';
-
-interface Vocabulary {
-  id: number;
-  word: string;
-  description: string | null;
-  meaning: string;
-  pronunciation: string | null;
-  lesson: number;
-  level: string | null;
-  example: string | null;
-}
+import { Kanji } from '@/types/kanjiType';
+import { get20RandomKanji } from '@/lib/kanjiApi';
 
 export default function LessonPage() {
-  const { lesson } = useParams();
-  const [vocabularies, setVocabularies] = useState<Vocabulary[]>([]);
+  const { id } = useParams();
+  const jlpt_level = "N" + id;
+   
+  const [kanji, setKanji] = useState<Kanji[]>([]);
   const [loading, setLoading] = useState(true);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
 
   useEffect(() => {
-    if (!lesson) return;
+    if (!jlpt_level) return;
 
-    const fetchVocabularies = async () => {
+    const fetchKanji = async () => {
       try {
         setLoading(true);
-        const data = await getVocabByLesson(lesson.toString());
-        setVocabularies(data);
+        const data = await get20RandomKanji(jlpt_level);
+        if(data)
+          setKanji(data);
+        else
+          console.error("Error: Fetch incompleted!");
       } catch (err) {
-        console.error('Lỗi khi fetch vocabularies:', err);
+        console.error('Lỗi khi fetch Kanji', err);
       } finally {
         setLoading(false);
       }
     };
 
-    fetchVocabularies();
-  }, [lesson]);
+    fetchKanji();
+  }, [jlpt_level]);
 
   const [isHiding, setIsHiding] = useState(false);
 
@@ -46,7 +41,7 @@ export default function LessonPage() {
     setIsHiding(true);
     setFlipped(false);
     setTimeout(() => {
-      setCurrentIndex((prev) => (prev + 1) % vocabularies.length);
+      setCurrentIndex((prev) => (prev + 1) % kanji.length);
       setIsHiding(false);
     }, 150);
   };
@@ -55,7 +50,7 @@ export default function LessonPage() {
     setIsHiding(true);
     setFlipped(false);
     setTimeout(() => {
-      setCurrentIndex((prev) => (prev - 1 + vocabularies.length) % vocabularies.length);
+      setCurrentIndex((prev) => (prev - 1 + kanji.length) % kanji.length);
       setIsHiding(false);
     }, 150);
   };
@@ -79,7 +74,7 @@ export default function LessonPage() {
     );
   }
 
-  if (vocabularies.length === 0) {
+  if (kanji.length === 0) {
     return (
       <div className="p-4 pt-20 text-black">
         <p>Không có từ vựng trong bài học này.</p>
@@ -87,12 +82,12 @@ export default function LessonPage() {
     );
   }
 
-  const vocab = vocabularies[currentIndex];
+  const kanji_word = kanji[currentIndex];
 
   return (
     <div className="p-4 pt-20 flex flex-col items-center text-black">
       <h1 className="text-xl font-bold mb-6">
-        Bài học số {lesson} — Từ {currentIndex + 1}/{vocabularies.length}
+        Bài luyện tập Kanji mức độ {jlpt_level} — Từ {currentIndex + 1}/{kanji.length}
       </h1>
 
       {/* Container flashcard + nút */}
@@ -119,9 +114,13 @@ export default function LessonPage() {
             <div className="absolute w-full h-full bg-white text-black rounded-xl shadow flex flex-col items-center justify-center p-6 backface-hidden">
               {!isHiding && (
                 <>
-                  <h2 className="text-4xl font-bold">{vocab.word}</h2>
-                  {vocab.pronunciation && (
-                    <p className="italic text-gray-700 mt-2">{vocab.pronunciation}</p>
+                  <h2 className="text-4xl font-bold">{kanji_word.word}</h2>
+                  {kanji_word.kunyomi && (
+                    <p className="italic text-gray-700 mt-2">Kun: {kanji_word.kunyomi.join(', ')}</p>
+                  )}
+
+                  {kanji_word.onyomi && (
+                    <p className="italic text-gray-700 mt-2">On: {kanji_word.onyomi.join(', ')}</p>
                   )}
                 </>
               )}
@@ -131,10 +130,13 @@ export default function LessonPage() {
             <div className="absolute w-full h-full bg-gray-100 text-black rounded-xl shadow flex flex-col items-center justify-center p-6 rotate-y-180 backface-hidden">
               {!isHiding && (
                 <>
-                  <p className="text-lg font-semibold">{vocab.meaning}</p>
-                  {vocab.description && (
-                    <p className="text-sm mt-2 text-gray-700">{vocab.description}</p>
+                  <h2 className="text-4xl font-bold">{kanji_word.word}</h2>
+
+                  <p className="text-lg font-semibold">{kanji_word.meaning}</p>
+                  {kanji_word.explain && (
+                    <p className="text-sm mt-2 text-gray-700">{kanji_word.explain.join('; ')}</p>
                   )}
+
                 </>
               )}
             </div>
@@ -148,31 +150,6 @@ export default function LessonPage() {
         >
           ▶
         </button>
-      </div>
-
-      {/* Danh sách từ vựng cuộn dọc */}
-      <div className="mt-6 w-full max-w-[90vw] max-h-[200px] overflow-y-auto border rounded-lg p-2">
-        <div className="flex flex-col gap-2">
-          {vocabularies.map((item, index) => (
-            <button
-              key={item.id}
-              onClick={() => {
-                setCurrentIndex(index);
-                setFlipped(false);
-              }}
-              className={`px-4 py-2 text-left rounded-lg ${
-                index === currentIndex
-                  ? 'bg-blue-500 text-white'
-                  : 'bg-gray-200 hover:bg-gray-300'
-              }`}
-            >
-              <span className="font-semibold">{item.word}</span>
-              {item.pronunciation && (
-                <span className="ml-2 italic text-gray-600">{item.pronunciation}</span>
-              )}
-            </button>
-          ))}
-        </div>
       </div>
 
       {/* CSS bổ sung */}

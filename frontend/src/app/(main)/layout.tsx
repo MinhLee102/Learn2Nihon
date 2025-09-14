@@ -1,4 +1,4 @@
-'use client'; // Đây phải là Client Component vì nó dùng useLayout, Header và Sidebar cũng là client component
+'use client'; 
 
 import { ReactNode } from 'react';
 import Sidebar from '@/components/Sidebar';
@@ -19,6 +19,7 @@ export default function MainAppLayout({ children }: { children: ReactNode }) {
             transition-all duration-300 ease-in-out
             ${isSidebarExtended ? 'md:ml-64' : 'md:ml-20'} 
             overflow-y-auto 
+            h-full flex flex-col
           `}
           style={{ minHeight: 'calc(100vh - 4rem)' }} 
         >

@@ -3,6 +3,7 @@ from sqlalchemy import or_, and_
 from app.models.Mazii.kanji import Kanji
 from app.schemas.Mazii.kanji import KanjiCreate, KanjiUpdate
 from typing import List, Optional
+import random
 
 def create_kanji(db: Session, kanji: KanjiCreate):
     """Tạo mới một kanji"""
@@ -71,3 +72,9 @@ def search_kanji_by_romanji(db: Session, search_term: str, limit: int = 100):
             Kanji.onyomi.contains([search_term])
         )
     ).limit(limit).all()
+    
+def get_20_random_kanjis_by_JLPT_level(db: Session, jlpt_level: str) -> List[Kanji]:
+    kanji_ids_query = db.query(Kanji.id).filter(Kanji.jlpt_level == jlpt_level)
+    kanji_ids = [id_tuple[0] for id_tuple in kanji_ids_query.all()]
+    random_ids = random.sample(kanji_ids, 20)
+    return db.query(Kanji).filter(Kanji.id.in_(random_ids)).all()

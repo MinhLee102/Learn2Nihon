@@ -3,6 +3,8 @@ from sqlalchemy.orm import Session
 from app.crud.Mazii import kanji as crud_kanji
 from app.schemas.Mazii.kanji import KanjiCreate, KanjiUpdate, KanjiOut
 from app.database import get_db
+from fastapi import Depends
+from typing import List
 
 router = APIRouter(prefix="/kanji", tags=["kanji"])
 
@@ -58,3 +60,10 @@ def search_by_meaning(
     db: Session = Depends(get_db)
 ):
     return crud_kanji.search_kanji_by_meaning(db=db, keyword=keyword)
+
+@router.get("/20random/{jlpt_level}", response_model=List[KanjiOut])
+def get_20_random_kanjis_by_JLPT_level(
+    jlpt_level: str,
+    db: Session = Depends(get_db)  
+):
+    return crud_kanji.get_20_random_kanjis_by_JLPT_level(db=db, jlpt_level=jlpt_level)
