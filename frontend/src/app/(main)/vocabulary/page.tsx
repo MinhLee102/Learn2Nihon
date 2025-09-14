@@ -1,21 +1,24 @@
 'use client';
 
-import React from 'react';
-import { useLayout } from '@/context/LayoutContext';
+import React, { useEffect } from 'react';
 import Link from 'next/link';
+import { useLayout } from '@/context/LayoutContext';
 
 export default function Vocabulary() {
-  const { isSidebarExtended } = useLayout();
 
   const lessons = Array.from({ length: 50 }, (_, i) => i + 1);
 
+  const { setHeaderTitle } = useLayout();
+  
+    useEffect(() => {
+      setHeaderTitle('Vocabulary');
+    });
+
   return (
     <main
-      className={`flex-1 p-4 pt-20 
+      className="flex-1 p-4 pt-20 
         transition-all duration-300 ease-in-out
-        ${isSidebarExtended ? 'md:ml-64' : 'md:ml-20'} 
-        overflow-y-auto
-      `}
+        md:ml-20 overflow-y-auto"
       style={{ minHeight: 'calc(100vh - 4rem)' }}
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
