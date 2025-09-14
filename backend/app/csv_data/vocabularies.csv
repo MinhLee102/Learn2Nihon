@@ -1,0 +1,2694 @@
+id,word,description,meaning,pronunciation,lesson,level,example
+1,わたし,NULL,tôi,NULL,1,NULL,NULL
+2,あなた,NULL,"anh/chị, ông/bà, bạn (ngôi thứ II số ít)",NULL,1,NULL,NULL
+3,あの ひと（あの かた）,NULL,"người kia, người đó, anh kia, chị kia",NULL,1,NULL,NULL
+4,～さん,NULL,"anh, chị, ông, bà (hậu tố thêm vào phía sau tên của người khác khi gọi thể hiện tính lịch sự)",NULL,1,NULL,NULL
+5,～ちゃん,NULL,(hậu tố thêm vào phía sau tên của trẻ em thay cho ～さん,NULL,1,NULL,NULL
+6,～じん,NULL,(hậu tố mang nghĩa 'người'; ví dụ アメリカじん: người Mỹ,NULL,1,NULL,NULL
+7,せんせい,NULL,thầy/cô (không dùng khi giới thiệu về nghề giáo viên của chính mình),NULL,1,NULL,NULL
+8,きょうし,NULL,giáo viên,NULL,1,NULL,NULL
+9,がくせい,NULL,"học sinh, sinh viên",NULL,1,NULL,NULL
+10,かいしゃいん,NULL,nhân viên công ty,NULL,1,NULL,NULL
+11,しゃいん,NULL,nhân viên công ty ～ (dùng kèm theo tên công ty; ví dụ IMC の しゃいん),NULL,1,NULL,NULL
+12,ぎんこういん,NULL,nhân viên ngân hàng,NULL,1,NULL,NULL
+13,いしゃ,NULL,bác sĩ,NULL,1,NULL,NULL
+14,けんきゅうしゃ,NULL,nhà nghiên cứu,NULL,1,NULL,NULL
+15,だいがく,NULL,"đại học, trường đại học",NULL,1,NULL,NULL
+16,びょういん,NULL,bệnh viện,NULL,1,NULL,NULL
+17,だれ（どなた）,NULL,"ai (どなた là cách nói lịch sự của だれ, vị nào)",NULL,1,NULL,NULL
+18,－さい,NULL,－ tuổi,NULL,1,NULL,NULL
+19,なんさい（おいくつ）,NULL,"mấy tuổi, bao nhiêu tuổi (おいくつ là cách nói lịch sự của なんさい)",NULL,1,NULL,NULL
+20,はい,NULL,"vâng, dạ",NULL,1,NULL,NULL
+21,いいえ,NULL,không,NULL,1,NULL,NULL
+22,はじめまして。,NULL,"Rất hân hạnh được gặp anh/chị. (Đây là lời chào với người lần đầu tiên gặp, là câu nói đầu tiên khi giới thiệu về mình.)",NULL,1,NULL,NULL
+23,～から きました。,NULL,Tôi đến từ ～.,NULL,1,NULL,NULL
+24,［どうぞ］よろしく［おねがいします］。,NULL,Rất vui được làm quen với anh/chị. (Rất mong được sự giúp đỡ của anh/chị. Luôn được dùng làm câu kết thúc sau khi giới thiệu về mình.),NULL,1,NULL,NULL
+25,しつれいですが,NULL,Xin lỗi.... (dùng khi hỏi ai đó về thông tin cá nhân như là tên hoặc địa chỉ của họ),NULL,1,NULL,NULL
+26,おなまえは？,NULL,Tên anh/chị là gì?,NULL,1,NULL,NULL
+27,こちらは ～さんです。,NULL,Đây là anh/chị/ông/bà ～.,NULL,1,NULL,NULL
+28,アメリカ,NULL,Mỹ,NULL,1,NULL,NULL
+29,イギリス,NULL,Anh,NULL,1,NULL,NULL
+30,インド,NULL,Ấn Độ,NULL,1,NULL,NULL
+31,インドネシア,NULL,In-đô-nê-xi-a,NULL,1,NULL,NULL
+32,かんこく,NULL,Hàn Quốc,NULL,1,NULL,NULL
+33,タイ,NULL,Thái Lan,NULL,1,NULL,NULL
+34,ちゅうごく,NULL,Trung Quốc,NULL,1,NULL,NULL
+35,ドイツ,NULL,Đức,NULL,1,NULL,NULL
+36,にほん,NULL,Nhật Bản,NULL,1,NULL,NULL
+37,ブラジル,NULL,Braxin,NULL,1,NULL,NULL
+38,IMC／パワーでんき／ブラジルエアー,NULL,tên công ty giả định,NULL,1,NULL,NULL
+39,AKC,NULL,tên tổ chức giả định,NULL,1,NULL,NULL
+40,こうべびょういん,NULL,tên bệnh viện giả định,NULL,1,NULL,NULL
+41,さくらだいがく／ふじだいがく,NULL,tên đại học giả định,NULL,1,NULL,NULL
+42,わたしたち,NULL,"chúng tôi, chúng ta",NULL,1,NULL,NULL
+43,みなさん,NULL,"các anh chị, các ông bà, các bạn, quý vị",NULL,1,NULL,NULL
+44,～くん,NULL,(hậu tố thêm vào sau tên của em trai),NULL,1,NULL,NULL
+45,エンジニア,NULL,kĩ sư,NULL,1,NULL,NULL
+46,でんき,NULL,"điện, đèn điện",NULL,1,NULL,NULL
+47,フランス,NULL,Pháp,NULL,1,NULL,NULL
+48,これ,NULL,"cái này, đây (vật ở gần người nói)",NULL,2,NULL,NULL
+49,それ,NULL,"cái đó, đó (vật ở gần người nghe)",NULL,2,NULL,NULL
+50,あれ,NULL,"cái kia, kia (vật ở xa cả người nói và người nghe)",NULL,2,NULL,NULL
+51,この ～,NULL,～ này (gần người nói),NULL,2,NULL,NULL
+52,その ～,NULL,～ đó (gần người nghe),NULL,2,NULL,NULL
+53,あの ～,NULL,～ kia (xa cả người nói và người nghe,NULL,2,NULL,NULL
+54,ほん,NULL,sách,NULL,2,NULL,NULL
+55,じしょ,NULL,từ điển,NULL,2,NULL,NULL
+56,ざっし,NULL,tạp chí,NULL,2,NULL,NULL
+57,しんぶん,NULL,báo,NULL,2,NULL,NULL
+58,ノート,NULL,vở,NULL,2,NULL,NULL
+59,てちょう,NULL,sổ tay,NULL,2,NULL,NULL
+60,めいし,NULL,danh thiếp,NULL,2,NULL,NULL
+61,カード,NULL,"thẻ (tín dụng), các, cạc",NULL,2,NULL,NULL
+62,えんぴつ,NULL,bút chì,NULL,2,NULL,NULL
+63,ボールペン,NULL,bút bi,NULL,2,NULL,NULL
+64,シャープペンシル,NULL,"bút chì kim, bút chì bấm",NULL,2,NULL,NULL
+65,かぎ,NULL,chìa khóa,NULL,2,NULL,NULL
+66,とけい,NULL,đồng hồ,NULL,2,NULL,NULL
+67,かさ,NULL,"ô, dù",NULL,2,NULL,NULL
+68,かばん,NULL,"cặp sách, túi sách",NULL,2,NULL,NULL
+69,CD,NULL,dĩa CD,NULL,2,NULL,NULL
+70,テレビ,NULL,tivi,NULL,2,NULL,NULL
+71,ラジオ,NULL,radio,NULL,2,NULL,NULL
+72,カメラ,NULL,máy ảnh,NULL,2,NULL,NULL
+73,コンピューター,NULL,máy vi tính,NULL,2,NULL,NULL
+74,くるま,NULL,"ô tô, xe hơi",NULL,2,NULL,NULL
+75,つくえ,NULL,bàn,NULL,2,NULL,NULL
+76,いす,NULL,ghế,NULL,2,NULL,NULL
+77,チョコレート,NULL,sôcôla,NULL,2,NULL,NULL
+78,コーヒー,NULL,cà phê,NULL,2,NULL,NULL
+79,［お］みやげ,NULL,quà (mua khi đi xa về hoặc mang đi khi đi thăm nhà của người nào đó),NULL,2,NULL,NULL
+80,えいご,NULL,tiếng Anh,NULL,2,NULL,NULL
+81,にほんご,NULL,tiếng Nhật,NULL,2,NULL,NULL
+82,～ご,NULL,tiếng ～,NULL,2,NULL,NULL
+83,なん,NULL,"gì, cái gì",NULL,2,NULL,NULL
+84,そう,NULL,vậy,NULL,2,NULL,NULL
+85,あのう,NULL,"à, ờ... (dùng để biểu thị sự ngại ngùng, do dự)",NULL,2,NULL,NULL
+86,えっ,NULL,Hả? (dùng khi nghe một điều gì không mong muốn),NULL,2,NULL,NULL
+87,どうぞ。,NULL,Xin mời. (dùng khi mời ai đó cái gì),NULL,2,NULL,NULL
+88,［どうも］ありがとう［ございます］。,NULL,"Xin chân thành cảm ơn, xin cảm ơn rất nhiều.",NULL,2,NULL,NULL
+89,そうですか。,NULL,Thế à.,NULL,2,NULL,NULL
+90,ちがいます。,NULL,"Không phải, không đúng, sai rồi.",NULL,2,NULL,NULL
+91,あ,NULL,Ôi! (dùng khi nhận ra điều gì),NULL,2,NULL,NULL
+92,これから おせわに なります。,NULL,Từ nay tôi rất mong được sự giúp đỡ của anh/chị.,NULL,2,NULL,NULL
+198,～まで,NULL,～ đến,NULL,4,NULL,NULL
+199,～と ～,NULL,～ và (dùng để nối danh từ),NULL,4,NULL,NULL
+93,こちらこそ［どうぞ］よろしく［おねがいします］。,NULL,Chính tôi mới là người mong được sự giúp đỡ của anh/chị. (đáp lại câu [どうぞ］よろしく［おねがいします］),NULL,2,NULL,NULL
+94,テレホンカード,NULL,thẻ điện thoại,NULL,2,NULL,NULL
+95,［カセット］テープ,NULL,băng [cát-xét],NULL,2,NULL,NULL
+96,テープレコーダー,NULL,máy ghi âm,NULL,2,NULL,NULL
+97,じどうしゃ,NULL,"ô tô, xe hơi",NULL,2,NULL,NULL
+98,ほんの きもちです。,NULL,Chỉ là chút lòng thành thôi.,NULL,2,NULL,NULL
+99,どうも。,NULL,Cảm ơn.,NULL,2,NULL,NULL
+100,ここ,NULL,"chỗ này, đằng này, đây (gần người nói)",NULL,3,NULL,NULL
+101,そこ,NULL,"chỗ đó, đó (gần người nghe)",NULL,3,NULL,NULL
+102,あそこ,NULL,"chỗ kia, đằng kia, kia (xa cả người nói và người nghe)",NULL,3,NULL,NULL
+103,どこ,NULL,"chỗ nào, đâu",NULL,3,NULL,NULL
+104,こちら,NULL,"phía này, đằng này, chỗ này, đây (cách nói lịch sự của ここ)",NULL,3,NULL,NULL
+105,そちら,NULL,"phía đó, đằng đó, chỗ đó, đó (cách nói lịch sự của そこ)",NULL,3,NULL,NULL
+106,あちら,NULL,"phía kia, đằng kia, chỗ kia, kia (cách nói lịch sự của あそこ)",NULL,3,NULL,NULL
+107,どちら,NULL,"phía nào, đằng nào, chỗ nào, đâu (cách nói lịch sự của どこ)",NULL,3,NULL,NULL
+108,きょうしつ,NULL,"lớp học, phòng học",NULL,3,NULL,NULL
+109,しょくどう,NULL,nhà ăn,NULL,3,NULL,NULL
+110,じむしょ,NULL,văn phòng,NULL,3,NULL,NULL
+111,かいぎしつ,NULL,phòng họp,NULL,3,NULL,NULL
+112,うけつけ,NULL,"quầy lễ tân, phòng thường trực",NULL,3,NULL,NULL
+113,ロビー,NULL,"hành lang, đại sảnh",NULL,3,NULL,NULL
+114,へや,NULL,căn phòng,NULL,3,NULL,NULL
+115,トイレ（おてあらい）,NULL,"toa-lét, nhà vệ sinh, phòng vệ sinh",NULL,3,NULL,NULL
+116,かいだん,NULL,cầu thang,NULL,3,NULL,NULL
+117,エレベーター,NULL,thang máy,NULL,3,NULL,NULL
+118,エスカレーター,NULL,thang cuốn,NULL,3,NULL,NULL
+119,じどうはんばいき,NULL,máy bán hàng tự động,NULL,3,NULL,NULL
+120,でんわ,NULL,điện thoại,NULL,3,NULL,NULL
+121,［お］くに,NULL,nước (của bạn/anh/chị),NULL,3,NULL,NULL
+122,かいしゃ,NULL,công ty,NULL,3,NULL,NULL
+123,うち,NULL,nhà,NULL,3,NULL,NULL
+124,くつ,NULL,giày,NULL,3,NULL,NULL
+125,ネクタイ,NULL,cà vạt,NULL,3,NULL,NULL
+126,ワイン,NULL,rượu vang,NULL,3,NULL,NULL
+127,うりば,NULL,"quầy bán (trong một bách hóa,...)",NULL,3,NULL,NULL
+128,ちか,NULL,"tầng hầm, dưới mặt đất",NULL,3,NULL,NULL
+129,－かい（－がい）,NULL,tầng thứ －,NULL,3,NULL,NULL
+130,なんがい,NULL,tầng mấy,NULL,3,NULL,NULL
+131,－えん,NULL,－ yên,NULL,3,NULL,NULL
+132,いくら,NULL,bao nhiêu tiền,NULL,3,NULL,NULL
+133,ひゃく,NULL,trăm,NULL,3,NULL,NULL
+134,せん,NULL,nghìn,NULL,3,NULL,NULL
+135,まん,NULL,"mười nghìn, vạn",NULL,3,NULL,NULL
+136,すみません。,NULL,Xin lỗi.,NULL,3,NULL,NULL
+137,どうも。,NULL,Cảm ơn.,NULL,3,NULL,NULL
+138,いらっしゃいませ。,NULL,"Xin chào quý khách, mời quý khách vào. (lời chào khách hàng khi họ vào quán, quầy,...)",NULL,3,NULL,NULL
+139,［～を］みせて ください。,NULL,Cho tôi xem [～].,NULL,3,NULL,NULL
+140,じゃ,NULL,Thế thi/Vậy thì,NULL,3,NULL,NULL
+141,［～を］ください。,NULL,Cho tôi [～].,NULL,3,NULL,NULL
+142,イタリア,NULL,Ý,NULL,3,NULL,NULL
+143,スイス,NULL,Thụy Sĩ,NULL,3,NULL,NULL
+144,フランス,NULL,Pháp,NULL,3,NULL,NULL
+145,ジャカルタ,NULL,Gia-các-ta,NULL,3,NULL,NULL
+146,バンコク,NULL,Băng-cốc,NULL,3,NULL,NULL
+147,ベルリン,NULL,Béc-lin,NULL,3,NULL,NULL
+148,しんおおさか,NULL,tên một ga ở Osaka,NULL,3,NULL,NULL
+149,たばこ,NULL,thuốc lá,NULL,3,NULL,NULL
+150,～で ございます。,NULL,(cách nói lịch sự của です),NULL,3,NULL,NULL
+151,MT／ヨーネン／アキックス,NULL,tên các công ty giả tưởng,NULL,3,NULL,NULL
+152,おきます,NULL,"dậy , thức dậy",NULL,4,NULL,NULL
+153,ねます,NULL,"ngủ, đi ngủ",NULL,4,NULL,NULL
+154,はたらきます,NULL,làm việc,NULL,4,NULL,NULL
+155,やすみます,NULL,"nghỉ, nghỉ ngơi",NULL,4,NULL,NULL
+156,べんきょうします,NULL,học,NULL,4,NULL,NULL
+157,おわります,NULL,"hết, kết thúc, xong",NULL,4,NULL,NULL
+158,デパート,NULL,bách hóa,NULL,4,NULL,NULL
+159,ぎんこう,NULL,ngân hàng,NULL,4,NULL,NULL
+160,ゆうびんきょく,NULL,bưu điện,NULL,4,NULL,NULL
+161,としょかん,NULL,thư viện,NULL,4,NULL,NULL
+162,びじゅつかん,NULL,bảo tàng mỹ thuật,NULL,4,NULL,NULL
+163,いま,NULL,bây giờ,NULL,4,NULL,NULL
+164,－じ,NULL,－ giờ,NULL,4,NULL,NULL
+165,－ふん（－ぷん）,NULL,－ phút,NULL,4,NULL,NULL
+166,はん,NULL,"rưỡi, nửa",NULL,4,NULL,NULL
+167,なんじ,NULL,mấy giờ,NULL,4,NULL,NULL
+168,なんぷん,NULL,mấy phút,NULL,4,NULL,NULL
+169,ごぜん,NULL,"sáng, trước mười hai giờ trưa",NULL,4,NULL,NULL
+170,ごご,NULL,"chiều, sau mười hai giờ trưa",NULL,4,NULL,NULL
+171,あさ,NULL,"buổi sáng, sáng",NULL,4,NULL,NULL
+172,ひる,NULL,"buổi trưa, trưa",NULL,4,NULL,NULL
+173,ばん（よる）,NULL,buổi tối,NULL,4,NULL,NULL
+174,おととい,NULL,hôm kia,NULL,4,NULL,NULL
+175,きのう,NULL,hôm qua,NULL,4,NULL,NULL
+176,きょう,NULL,hôm nay,NULL,4,NULL,NULL
+177,あした,NULL,ngày mai,NULL,4,NULL,NULL
+178,あさって,NULL,ngày kia,NULL,4,NULL,NULL
+179,けさ,NULL,sáng nay,NULL,4,NULL,NULL
+180,こんばん,NULL,tối nay,NULL,4,NULL,NULL
+181,やすみ,NULL,"nghỉ, nghỉ phép, ngày nghỉ",NULL,4,NULL,NULL
+182,ひるやすみ,NULL,nghỉ trưa,NULL,4,NULL,NULL
+183,しけん,NULL,"thi, kỳ thi, kiểm tra",NULL,4,NULL,NULL
+184,かいぎ,NULL,"cuộc họp, hội nghị (～を します : tổ chức cuộc họp, hội nghị)",NULL,4,NULL,NULL
+185,えいが,NULL,"phim, điện ảnh",NULL,4,NULL,NULL
+186,まいあさ,NULL,"hàng sáng, mỗi sáng",NULL,4,NULL,NULL
+187,まいばん,NULL,"hàng tối, mỗi tối",NULL,4,NULL,NULL
+188,まいにち,NULL,"hàng ngày, mỗi ngày",NULL,4,NULL,NULL
+189,げつようび,NULL,thứ hai,NULL,4,NULL,NULL
+190,かようび,NULL,thứ ba,NULL,4,NULL,NULL
+191,すいようび,NULL,thứ tư,NULL,4,NULL,NULL
+192,もくようび,NULL,thứ năm,NULL,4,NULL,NULL
+193,きんようび,NULL,thứ sáu,NULL,4,NULL,NULL
+194,どようび,NULL,thứ bảy,NULL,4,NULL,NULL
+195,にちようび,NULL,chủ nhật,NULL,4,NULL,NULL
+196,なんようび,NULL,thứ mấy,NULL,4,NULL,NULL
+197,～から,NULL,～ từ,NULL,4,NULL,NULL
+200,たいへんですね。,NULL,"Anh/chị vất vả quá. (dùng để bày tỏ, sự thông cảm)",NULL,4,NULL,NULL
+201,ばんごう,NULL,số,NULL,4,NULL,NULL
+202,なんばん,NULL,"số bao nhiêu, số mấy",NULL,4,NULL,NULL
+203,そちら,NULL,"ông/bà, phía ông/phía bà",NULL,4,NULL,NULL
+204,ニューヨーク,NULL,New York,NULL,4,NULL,NULL
+205,ペキン,NULL,Bắc Kinh (北京),NULL,4,NULL,NULL
+206,ロサンゼルス,NULL,Los Angeles,NULL,4,NULL,NULL
+207,ロンドン,NULL,Luân Đôn,NULL,4,NULL,NULL
+208,あすか,NULL,tên giả định của một nhà hàng Nhật,NULL,4,NULL,NULL
+209,アップルぎんこう,NULL,Ngân hàng Apple (tên giả định),NULL,4,NULL,NULL
+210,みどりとしょかん,NULL,Thư viện Midori (tên giả định),NULL,4,NULL,NULL
+211,やまとびじゅつかん,NULL,Bảo tàng mỹ thuật Yamato (tên giả định),NULL,4,NULL,NULL
+212,えーと,NULL,"ừ, à (từ đệm trong hội thoại khi đang nghĩ điều muốn nói)",NULL,4,NULL,NULL
+213,１０４,NULL,số điện thoại của dịch vụ hướng dẫn số điện thoại,NULL,4,NULL,NULL
+214,おねがいします。,NULL,Nhờ anh/chị. Phiền anh/chị. Xin vui lòng giúp đỡ,NULL,4,NULL,NULL
+215,かしこまりました。,NULL,"Tôi hiểu rồi ạ./ Vâng, được rồi ạ",NULL,4,NULL,NULL
+216,おといあわせのばんごう,NULL,số điện thoại mà ông/bà muốn hỏi,NULL,4,NULL,NULL
+217,［どうも］ありがとう ございました。,NULL,Xin cảm ơn ông/bà,NULL,4,NULL,NULL
+218,バンコク,NULL,Băng Cốc,NULL,4,NULL,NULL
+219,おおさかデパート,NULL,tên một bách hóa (giả tưởng),NULL,4,NULL,NULL
+220,いきます,NULL,đi,NULL,5,NULL,NULL
+221,きます,NULL,đến,NULL,5,NULL,NULL
+222,かえります,NULL,về,NULL,5,NULL,NULL
+223,がっこう,NULL,trường học,NULL,5,NULL,NULL
+224,スーパー,NULL,siêu thị,NULL,5,NULL,NULL
+225,えき,NULL,"ga, nhà ga",NULL,5,NULL,NULL
+226,ひこうき,NULL,máy bay,NULL,5,NULL,NULL
+227,ふね,NULL,"thuyền, tàu thủy",NULL,5,NULL,NULL
+228,でんしゃ,NULL,tàu điện,NULL,5,NULL,NULL
+229,ちかてつ,NULL,tàu điện ngầm,NULL,5,NULL,NULL
+230,しんかんせん,NULL,tàu Shinkansen (tàu điện cao tốc của Nhật),NULL,5,NULL,NULL
+231,バス,NULL,xe buýt,NULL,5,NULL,NULL
+232,タクシー,NULL, tắc-xi,NULL,5,NULL,NULL
+233,じてんしゃ,NULL,xe đạp,NULL,5,NULL,NULL
+234,あるいて,NULL,đi bộ,NULL,5,NULL,NULL
+235,ひと,NULL,người,NULL,5,NULL,NULL
+236,ともだち,NULL,"bạn, bạn bè",NULL,5,NULL,NULL
+237,かれ,NULL,"anh ấy, bạn trai",NULL,5,NULL,NULL
+238,かのじょ,NULL,"chị ấy, bạn gái",NULL,5,NULL,NULL
+239,かぞく,NULL,gia đình,NULL,5,NULL,NULL
+240,ひとりで,NULL,một mình,NULL,5,NULL,NULL
+241,せんしゅう,NULL,tuần trước,NULL,5,NULL,NULL
+242,こんしゅう,NULL,tuần này,NULL,5,NULL,NULL
+243,らいしゅう,NULL,tuần sau,NULL,5,NULL,NULL
+244,せんげつ,NULL,tháng trước,NULL,5,NULL,NULL
+245,こんげつ,NULL,tháng này,NULL,5,NULL,NULL
+246,らいげつ,NULL,tháng sau,NULL,5,NULL,NULL
+247,きょねん,NULL,năm ngoái,NULL,5,NULL,NULL
+248,ことし,NULL,năm nay,NULL,5,NULL,NULL
+249,らいねん,NULL,sang năm,NULL,5,NULL,NULL
+250,－ねん,NULL,năm －,NULL,5,NULL,NULL
+251,なんねん,NULL,mấy năm,NULL,5,NULL,NULL
+252,－がつ,NULL,tháng －,NULL,5,NULL,NULL
+253,なんがつ,NULL,tháng mấy,NULL,5,NULL,NULL
+254,ついたち,NULL,ngày mồng 1,NULL,5,NULL,NULL
+255,ふつか,NULL,"ngày mồng 2, 2 ngày",NULL,5,NULL,NULL
+256,みっか,NULL,"ngày mồng 3, 3 ngày",NULL,5,NULL,NULL
+257,よっか,NULL,"ngày mồng 4, 4 ngày",NULL,5,NULL,NULL
+258,いつか,NULL,"ngày mồng 5, 5 ngày",NULL,5,NULL,NULL
+259,むいか,NULL,"ngày mồng 6, 6 ngày",NULL,5,NULL,NULL
+260,なのか,NULL,"ngày mồng 7, 7 ngày",NULL,5,NULL,NULL
+261,ようか,NULL,"ngày mồng 8, 8 ngày",NULL,5,NULL,NULL
+262,ここのか,NULL,"ngày mồng 9, 9 ngày",NULL,5,NULL,NULL
+263,とおか,NULL,"ngày mồng 10, 10 ngày",NULL,5,NULL,NULL
+264,じゅうよっか,NULL,"ngày 14, 14 ngày",NULL,5,NULL,NULL
+265,はつか,NULL,"ngày 20, 20 ngày",NULL,5,NULL,NULL
+266,にじゅうよっか,NULL,"ngày 24, 24 ngày",NULL,5,NULL,NULL
+267,－にち,NULL,"ngày －, － ngày",NULL,5,NULL,NULL
+268,なんにち,NULL,"ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày",NULL,5,NULL,NULL
+269,いつ,NULL,"bao giờ, khi nào",NULL,5,NULL,NULL
+270,たんじょうび,NULL,sinh nhật,NULL,5,NULL,NULL
+271,そうですね。,NULL,"Ừ, nhỉ.",NULL,5,NULL,NULL
+272,［どうも］ありがとう ございました。,NULL,Xin cảm ơn anh/chị rất nhiều,NULL,5,NULL,NULL
+273,どう いたしまして。,NULL,Không có gì đâu (anh/chị đừng bận tâm),NULL,5,NULL,NULL
+274,－ばんせん,NULL,sân ga số －,NULL,5,NULL,NULL
+275,つぎの,NULL,tiếp theo,NULL,5,NULL,NULL
+276,ふつう,NULL,tàu thường (dừng cả ở các ga lẻ),NULL,5,NULL,NULL
+277,きゅうこう,NULL,tàu tốc hành,NULL,5,NULL,NULL
+278,とっきゅう,NULL,tàu tốc hành đặc biệt,NULL,5,NULL,NULL
+279,こうしえん,NULL,tên một khu phố ở gần Osaka,NULL,5,NULL,NULL
+280,おおさかじょう,NULL,"Lâu đài Osaka, một lâu đài nổi tiếng ở Osaka",NULL,5,NULL,NULL
+281,はかた,NULL,tên một khu phố ở Kyushu,NULL,5,NULL,NULL
+282,ふしみ,NULL,tên một khu phố ở Kyoto,NULL,5,NULL,NULL
+283,たべます,NULL,ăn,NULL,6,NULL,NULL
+284,のみます,NULL,uống,NULL,6,NULL,NULL
+285,すいます［たばこを～］,NULL,hút [thuốc lá],NULL,6,NULL,NULL
+286,みます,NULL,"nhìn, xem",NULL,6,NULL,NULL
+287,ききます,NULL,nghe,NULL,6,NULL,NULL
+288,よみます,NULL,đọc,NULL,6,NULL,NULL
+289,かきます,NULL,"viết (かきます còn có nghĩa là vẽ, và trong sách này với ý nghĩa đó được viết bằng chữ Hiragana)",NULL,6,NULL,NULL
+290,かいます,NULL,mua,NULL,6,NULL,NULL
+291,とります［しゃしんを～］,NULL,chụp [ảnh],NULL,6,NULL,NULL
+292,します,NULL,"làm, chơi",NULL,6,NULL,NULL
+293,あいます［ともだちに～］,NULL,gặp [bạn],NULL,6,NULL,NULL
+294,ごはん,NULL,"bữa ăn, cơm",NULL,6,NULL,NULL
+295,あさごはん,NULL,"cơm sáng, bữa sáng",NULL,6,NULL,NULL
+296,ひるごはん,NULL,"cơm trưa, bữa trưa",NULL,6,NULL,NULL
+297,ばんごはん,NULL,"cơm tối, bữa tối",NULL,6,NULL,NULL
+298,パン,NULL,bánh mì,NULL,6,NULL,NULL
+299,たまご,NULL,trứng,NULL,6,NULL,NULL
+300,にく,NULL,thịt,NULL,6,NULL,NULL
+301,さかな,NULL,cá,NULL,6,NULL,NULL
+302,やさい,NULL,rau,NULL,6,NULL,NULL
+303,くだもの,NULL,"hoa quả, trái cây",NULL,6,NULL,NULL
+304,みず,NULL,nước,NULL,6,NULL,NULL
+305,おちゃ,NULL,"trà, trà xanh",NULL,6,NULL,NULL
+306,こうちゃ,NULL,trà đen,NULL,6,NULL,NULL
+307,ぎゅうにゅう（ミルク）,NULL,sữa bò (sữa),NULL,6,NULL,NULL
+308,ジュース,NULL,nước hoa quả,NULL,6,NULL,NULL
+309,ビール,NULL,bia,NULL,6,NULL,NULL
+310,［お］さけ,NULL,"rượu, rượu gạo Nhật Bản",NULL,6,NULL,NULL
+311,たばこ,NULL,thuốc lá,NULL,6,NULL,NULL
+312,てがみ,NULL,thư,NULL,6,NULL,NULL
+313,レポート,NULL,báo cáo,NULL,6,NULL,NULL
+314,しゃしん,NULL,ảnh,NULL,6,NULL,NULL
+315,ビデオ,NULL,"băng video, đầu video",NULL,6,NULL,NULL
+316,みせ,NULL,"cửa hàng, tiệm",NULL,6,NULL,NULL
+317,にわ,NULL,vườn,NULL,6,NULL,NULL
+318,しゅくだい,NULL,bài tập về nhà (～を します : làm bài tập về nhà),NULL,6,NULL,NULL
+319,テニス,NULL,quần vợt (～を します : đánh quần vợt),NULL,6,NULL,NULL
+320,サッカー,NULL,bóng đá (～を します : chơi bóng đá),NULL,6,NULL,NULL
+321,［お］はなみ,NULL,(việc) ngắm hoa anh đào (～を します : ngắm hoa anh đào),NULL,6,NULL,NULL
+322,なに,NULL,"cái gì, gì",NULL,6,NULL,NULL
+323,いっしょに,NULL,"cùng, cùng nhau",NULL,6,NULL,NULL
+324,ちょっと,NULL,một chút,NULL,6,NULL,NULL
+325,いつも,NULL,"luôn luôn, lúc nào cũng",NULL,6,NULL,NULL
+326,ときどき,NULL,thỉnh thoảng,NULL,6,NULL,NULL
+327,それから,NULL,"sau đó, tiếp theo",NULL,6,NULL,NULL
+328,ええ,NULL,vâng/được,NULL,6,NULL,NULL
+329,いいですね。,NULL,Được đấy nhỉ./Hay quá.,NULL,6,NULL,NULL
+330,わかりました。,NULL,Tôi hiểu rồi./Vâng ạ,NULL,6,NULL,NULL
+331,なんですか。,NULL,Có gì đấy ạ?/Cái gì vậy?/Vâng có tôi.,NULL,6,NULL,NULL
+332,じゃ、また［あした］。,NULL,Hẹn gặp lại [ngày mai],NULL,6,NULL,NULL
+333,メキシコ,NULL,Mexico,NULL,6,NULL,NULL
+334,おおさかデパート,NULL,tên bách hóa giả định,NULL,6,NULL,NULL
+335,つるや,NULL,tên nhà hàng giả định,NULL,6,NULL,NULL
+336,フランスや,NULL,tên siêu thị giả định,NULL,6,NULL,NULL
+337,まいにちや,NULL,tên siêu thị giả định,NULL,6,NULL,NULL
+338,えいが,NULL,"phim, điện ảnh",NULL,6,NULL,NULL
+339,CD,NULL,đĩa CD,NULL,6,NULL,NULL
+340,レストラン,NULL,nhà hàng,NULL,6,NULL,NULL
+341,おおさかじょうこうえん,NULL,Công viên lâu đài Osaka,NULL,6,NULL,NULL
+342,きります,NULL,cắt,NULL,7,NULL,NULL
+343,おくります,NULL,gửi,NULL,7,NULL,NULL
+344,あげます,NULL,"cho, tặng",NULL,7,NULL,NULL
+345,もらいます,NULL, nhận,NULL,7,NULL,NULL
+346,かします,NULL,"cho mượn, cho vay",NULL,7,NULL,NULL
+347,かります,NULL,"mượn, vay",NULL,7,NULL,NULL
+348,おしえます,NULL,dạy,NULL,7,NULL,NULL
+349,ならいます,NULL,học tập,NULL,7,NULL,NULL
+350,かけます［でんわを～］,NULL,gọi [điện thoại],NULL,7,NULL,NULL
+351,て,NULL,tay,NULL,7,NULL,NULL
+352,はし,NULL,đũa,NULL,7,NULL,NULL
+353,スプーン,NULL,thìa,NULL,7,NULL,NULL
+354,ナイフ,NULL,dao,NULL,7,NULL,NULL
+355,フォーク,NULL,"dĩa, nĩa",NULL,7,NULL,NULL
+356,はさみ,NULL,kéo,NULL,7,NULL,NULL
+357,パソコン,NULL,máy vi tính cá nhân,NULL,7,NULL,NULL
+358,ケータイ,NULL,điện thoại di động,NULL,7,NULL,NULL
+359,メール,NULL,"thư điện tử, email",NULL,7,NULL,NULL
+360,ねんがじょう,NULL,thiệp mừng năm mới,NULL,7,NULL,NULL
+361,パンチ,NULL,cái đục lỗ,NULL,7,NULL,NULL
+362,ホッチキス,NULL,cái dập ghim,NULL,7,NULL,NULL
+363,セロテープ,NULL,băng dính,NULL,7,NULL,NULL
+364,けしゴム,NULL,"cái tẩy, cục tấy",NULL,7,NULL,NULL
+365,かみ,NULL,giấy,NULL,7,NULL,NULL
+366,はな,NULL,hoa,NULL,7,NULL,NULL
+367,シャツ,NULL,áo sơ mi,NULL,7,NULL,NULL
+368,プレゼント,NULL,"quà tặng, tặng phẩm",NULL,7,NULL,NULL
+369,にもつ,NULL,"đồ đạc, hành lý",NULL,7,NULL,NULL
+370,おかね,NULL,tiền,NULL,7,NULL,NULL
+371,きっぷ,NULL,vé,NULL,7,NULL,NULL
+372,クリスマス,NULL,Giáng sinh,NULL,7,NULL,NULL
+373,ちち,NULL,bố (dùng khi nói về bố mình),NULL,7,NULL,NULL
+374,はは,NULL,mẹ (dùng khi nói về mẹ mình),NULL,7,NULL,NULL
+375,おとうさん,NULL,bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình),NULL,7,NULL,NULL
+376,おかあさん,NULL,mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình),NULL,7,NULL,NULL
+377,もう,NULL,"đã, rồi",NULL,7,NULL,NULL
+378,まだ,NULL,chưa,NULL,7,NULL,NULL
+379,これから,NULL,"từ bây giờ, sau đây",NULL,7,NULL,NULL
+380,［～、］すてきですね。,NULL,[～] hay nhỉ./đẹp nhỉ.,NULL,7,NULL,NULL
+381,いらっしゃい。,NULL,Rất hoan nghênh anh/chị đã đến chơi./Chào mừng anh/chị đã đến chơi,NULL,7,NULL,NULL
+382,どうぞ おあがり ください。,NULL,Mời anh/chị vào,NULL,7,NULL,NULL
+383,しつれいします。,NULL,Xin phép tôi vào./Xin phép ～. (dùng khi bước vào nhà của người khác),NULL,7,NULL,NULL
+384,［～は］いかがですか。,NULL,Anh/chị dùng ～ nhé? (dùng khi mời ai đó cái gì),NULL,7,NULL,NULL
+385,いただきます。,NULL,Mời anh/chị dùng ～. (cách nói dùng trước khi ăn hoặc uống),NULL,7,NULL,NULL
+386,ごちそうさま［でした］。,NULL,Xin cảm ơn anh/chị đã đãi tôi bữa ăn ngon. (câu nói dùng sau khi ăn xong),NULL,7,NULL,NULL
+387,スパイン,NULL,Tây Ban Nha,NULL,7,NULL,NULL
+388,ファクス,NULL,fax,NULL,7,NULL,NULL
+389,ワープロ,NULL,máy đánh chữ,NULL,7,NULL,NULL
+390,ごめんください。,NULL,"Xin lỗi, có ai ở nhà không?/ Tôi có thể vào được chứ? (câu nói của khách hàng dùng khi đến thăm nhà ai đó)",NULL,7,NULL,NULL
+391,りょこう,NULL,"du lịch, chuyến du lịch (～を します : đi du lịch)",NULL,7,NULL,NULL
+392,おみやげ,NULL,quà (mua khi đi xa về hoặc mang đi khi thăm nhà người nào đó),NULL,7,NULL,NULL
+393,ヨーロッパ,NULL,châu Âu,NULL,7,NULL,NULL
+394,ハンサム［な］,NULL,đẹp trai,NULL,8,NULL,NULL
+395,きれい［な］,NULL,"đẹp, sạch",NULL,8,NULL,NULL
+396,しずか［な］,NULL,yên tĩnh,NULL,8,NULL,NULL
+397,にぎやか［な］,NULL,náo nhiệt,NULL,8,NULL,NULL
+398,ゆうめい［な］,NULL,nổi tiếng,NULL,8,NULL,NULL
+399,しんせつ［な］,NULL,"tốt bụng, thân thiện (không dùng khi nói về người trong gia đình mình)",NULL,8,NULL,NULL
+400,げんき［な］,NULL,"khỏe, khỏe khoắn",NULL,8,NULL,NULL
+401,ひま［な］,NULL,rảnh rỗi,NULL,8,NULL,NULL
+402,べんり［な］,NULL,tiện lợi,NULL,8,NULL,NULL
+403,すてき［な］,NULL,"đẹp, hay",NULL,8,NULL,NULL
+404,おおきい,NULL,"to, lớn",NULL,8,NULL,NULL
+405,ちいさい,NULL,"nhỏ, bé",NULL,8,NULL,NULL
+406,あたらしい,NULL,mới,NULL,8,NULL,NULL
+407,ふるい,NULL,cũ (không dùng khi nói về tuổi tác của một người),NULL,8,NULL,NULL
+408,いい（よい）,NULL,tốt,NULL,8,NULL,NULL
+409,わるい,NULL,xấu,NULL,8,NULL,NULL
+410,あつい,NULL,nóng,NULL,8,NULL,NULL
+411,さむい,NULL,"lạnh, rét (dùng cho thời tiết)",NULL,8,NULL,NULL
+412,つめたい,NULL,"lạnh, buốt (dùng cho cảm giác)",NULL,8,NULL,NULL
+413,むずかしい,NULL,khó,NULL,8,NULL,NULL
+414,やさしい,NULL,dễ,NULL,8,NULL,NULL
+415,たかい,NULL,"đắt, cao",NULL,8,NULL,NULL
+416,やすい,NULL,rẻ,NULL,8,NULL,NULL
+417,ひくい,NULL,thấp,NULL,8,NULL,NULL
+418,おもしろい,NULL,"thú vị, hay",NULL,8,NULL,NULL
+419,おいしい,NULL,ngon,NULL,8,NULL,NULL
+420,いそがしい,NULL,bận,NULL,8,NULL,NULL
+421,たのしい,NULL,vui,NULL,8,NULL,NULL
+422,しろい,NULL,trắng,NULL,8,NULL,NULL
+423,くろい,NULL,đen,NULL,8,NULL,NULL
+424,あかい,NULL,đỏ,NULL,8,NULL,NULL
+425,あおい,NULL,xanh da trời,NULL,8,NULL,NULL
+426,さくら,NULL,"anh đào (hoa, cây)",NULL,8,NULL,NULL
+427,やま,NULL,núi,NULL,8,NULL,NULL
+428,まち,NULL,"thị trấn, thị xã, thành phố",NULL,8,NULL,NULL
+429,たべもの,NULL,đồ ăn,NULL,8,NULL,NULL
+430,ところ,NULL,"nơi, chỗ",NULL,8,NULL,NULL
+431,りょう,NULL,kí túc xá,NULL,8,NULL,NULL
+432,レストラン,NULL,nhà hàng,NULL,8,NULL,NULL
+433,せいかつ,NULL,"cuộc sống, sinh hoạt",NULL,8,NULL,NULL
+434,［お］しごと,NULL,"việc, công việc (～を します : làm việc)",NULL,8,NULL,NULL
+435,どう,NULL,thế nào,NULL,8,NULL,NULL
+436,どんな ～,NULL,～ như thế nào,NULL,8,NULL,NULL
+437,とても,NULL,"rất, lắm",NULL,8,NULL,NULL
+438,あまり,NULL,không ～ lắm (dùng với thể phủ định),NULL,8,NULL,NULL
+439,そして,NULL,"và, thêm nữa (dùng để nối hai câu)",NULL,8,NULL,NULL
+440,～が、～,NULL,"～, nhưng ～",NULL,8,NULL,NULL
+441,おげんきですか。,NULL,Anh/Chị có khỏe không?,NULL,8,NULL,NULL
+442,そうですね。,NULL,Thế à./Để tôi xem. (cách nói trong lúc suy nghĩ câu trả lời),NULL,8,NULL,NULL
+443,［～、］もう いっぱい いかがですか。,NULL,Anh/Chị dùng thêm một chén/lý[～] nữa nhé?,NULL,8,NULL,NULL
+444,［いいえ、］けっこうです。,NULL,"Không, đủ rồi ạ.",NULL,8,NULL,NULL
+445,もう ～です［ね］。,NULL,"Đã ～ rồi nhỉ./Đã ～ rồi, đúng không?",NULL,8,NULL,NULL
+446,そろそろ しつれいします。,NULL,Sắp đến lúc tôi phải xin phép rồi./Đã đến lúc tôi phải về,NULL,8,NULL,NULL
+447,いいえ。,NULL,Không có gì./Không sao cả.,NULL,8,NULL,NULL
+448,また いらっしゃって ください。,NULL,Lần sau anh/chị lại đến chơi nhé.,NULL,8,NULL,NULL
+449,シャンハイ,NULL,Thượng Hải (上海),NULL,8,NULL,NULL
+450,きんかくじ,NULL,Chùa Kinkaku-ji (Chùa Vàng),NULL,8,NULL,NULL
+451,ならこうえん,NULL,Công viên Nara,NULL,8,NULL,NULL
+452,ふじさん,NULL,Núi Phú Sĩ (ngọn núi cao nhất Nhật Bản),NULL,8,NULL,NULL
+453,「しちにんの さむらい」,NULL,"""7 chàng võ sĩ Samurai"" (tên một bộ phim kinh điển của đạo diễn Kurosawa Akira)",NULL,8,NULL,NULL
+454,くるま,NULL,xe ô-tô,NULL,8,NULL,NULL
+455,べんきょう,NULL,học,NULL,8,NULL,NULL
+456,どれ,NULL,cái nào,NULL,8,NULL,NULL
+457,にほんの せいかつに なれましたか。,NULL,Anh/Chị đã quen với cuộc sống ở Nhật Bản chưa?,NULL,8,NULL,NULL
+458,びわこ,NULL,Hồ Biwa,NULL,8,NULL,NULL
+459,わかります,NULL,"hiểu, nắm được",NULL,9,NULL,NULL
+460,あります,NULL,có (sở hữu),NULL,9,NULL,NULL
+461,すき［な］,NULL,thích,NULL,9,NULL,NULL
+462,きらい［な］,NULL,"ghét, không thích",NULL,9,NULL,NULL
+463,じょうず［な］,NULL,"giỏi, khéo",NULL,9,NULL,NULL
+464,へた［な］,NULL,kém,NULL,9,NULL,NULL
+465,のみもの,NULL,đồ uống,NULL,9,NULL,NULL
+466,りょうり,NULL,"món ăn, việc nấu ăn (～を します : nấu ăn)",NULL,9,NULL,NULL
+467,スポーツ,NULL,thể thao (～を します : chơi thể thao),NULL,9,NULL,NULL
+468,やきゅう,NULL,bóng chày (～を します : chơi bóng chày),NULL,9,NULL,NULL
+469,ダンス,NULL,"nhảy, khiêu vũ (～を します : nhảy, khiêu vũ)",NULL,9,NULL,NULL
+470,りょこう,NULL,"du lịch, chuyến du lịch (～［を］します : đi du lịch)",NULL,9,NULL,NULL
+471,おんがく,NULL,âm nhạc,NULL,9,NULL,NULL
+472,うた,NULL,bài hát,NULL,9,NULL,NULL
+473,クラシック,NULL,nhạc cổ điển,NULL,9,NULL,NULL
+474,ジャズ,NULL,nhạc jazz,NULL,9,NULL,NULL
+475,コンサート,NULL,buổi hòa nhạc,NULL,9,NULL,NULL
+476,カラオケ,NULL,karaoke,NULL,9,NULL,NULL
+477,かぶき,NULL,Kabuki (một thể loại ca kịch truyền thống của Nhật),NULL,9,NULL,NULL
+478,え,NULL,"tranh, hội họa",NULL,9,NULL,NULL
+479,じ,NULL,chữ,NULL,9,NULL,NULL
+480,かんじ,NULL,chữ Hán,NULL,9,NULL,NULL
+481,ひらがな,NULL,chữ Hiragana,NULL,9,NULL,NULL
+482,かたかな,NULL,chữ Katakana,NULL,9,NULL,NULL
+483,ローマじ,NULL,chữ La Mã,NULL,9,NULL,NULL
+484,こまかい おかね,NULL,tiền lẻ,NULL,9,NULL,NULL
+485,チケット,NULL,vé,NULL,9,NULL,NULL
+486,じかん,NULL,thời gian,NULL,9,NULL,NULL
+487,ようじ,NULL,"việc bận, công chuyện",NULL,9,NULL,NULL
+488,やくそく,NULL,"cuộc hẹn, lời hứa (～［を］します : hứa, hẹn)",NULL,9,NULL,NULL
+489,アルバイト,NULL,việc làm thêm (～を します : làm thêm),NULL,9,NULL,NULL
+490,ごしゅじん,NULL,chồng (dùng khi nói về chồng người khác),NULL,9,NULL,NULL
+491,おっと／しゅじん,NULL,chồng (dùng khi nói về chồng mình),NULL,9,NULL,NULL
+492,おくさん,NULL,vợ (dùng khi nói về vợ người khác),NULL,9,NULL,NULL
+493,つま／かない,NULL,vợ (dùng khi nói về vợ mình),NULL,9,NULL,NULL
+494,こども,NULL,con cái,NULL,9,NULL,NULL
+495,よく,NULL,"tốt, rõ (chỉ mức độ)",NULL,9,NULL,NULL
+496,だいたい,NULL,"đại khái, đại thể",NULL,9,NULL,NULL
+497,たくさん,NULL,nhiều,NULL,9,NULL,NULL
+498,すこし,NULL,"ít, một ít",NULL,9,NULL,NULL
+499,ぜんぜん,NULL,hoàn toàn ～ không (dùng với thể phủ định),NULL,9,NULL,NULL
+500,はやく,NULL,"sớm, nhanh",NULL,9,NULL,NULL
+501,～から,NULL,vì ～,NULL,9,NULL,NULL
+502,どうして,NULL,tại sao,NULL,9,NULL,NULL
+503,かして ください。,NULL,Hãy cho tôi mượn (nó).,NULL,9,NULL,NULL
+504,いいですよ。,NULL,Được chứ./Được ạ,NULL,9,NULL,NULL
+505,ざんねんです［が］,NULL,"Tôi xin lỗi, [nhưng...]/Đáng tiếc là...",NULL,9,NULL,NULL
+506,ああ,NULL,Ah/Ôi,NULL,9,NULL,NULL
+507,いっしょに いかがですか。,NULL,Anh/Chị cùng ～ với tôi (chúng tôi) không?,NULL,9,NULL,NULL
+508,［～は］ちょっと……。,NULL,[～thì] có lẽ không được rồi. (cách từ chối khéo khi nhận được một lời mời nào đó),NULL,9,NULL,NULL
+509,だめですか。,NULL,Không được à?,NULL,9,NULL,NULL
+510,また こんど おねがいします。,NULL,Hẹn anh/chị lần sau vậy. (cách từ chối khéo một lời mời mà không muốn làm phật lòng người đưa ra lời mời),NULL,9,NULL,NULL
+511,ざんねんです［ね］。,NULL,Thật đáng tiếc nhỉ./Buồn nhỉ.,NULL,9,NULL,NULL
+512,すみません。,NULL,Xin lỗi,NULL,9,NULL,NULL
+513,もしもし,NULL,a-lô,NULL,9,NULL,NULL
+514,おざわせいじ,NULL,"Ozawa Seiji(1935～), một nhạc trưởng nổi tiếng của Nhật",NULL,9,NULL,NULL
+515,あります,NULL,"ở (tồn tại, dùng cho đồ vật)",NULL,10,NULL,NULL
+516,います,NULL,"ở (tồn tại, dùng cho người và động vật)",NULL,10,NULL,NULL
+517,いろいろ［な］,NULL,"nhiều, đa dạng",NULL,10,NULL,NULL
+518,おとこの ひと,NULL,người đàn ông,NULL,10,NULL,NULL
+519,おんなの ひと,NULL,người đàn bà,NULL,10,NULL,NULL
+520,おとこの こ,NULL,cậu con trai,NULL,10,NULL,NULL
+521,おんなの こ,NULL,cô con gái,NULL,10,NULL,NULL
+522,いぬ,NULL,chó,NULL,10,NULL,NULL
+523,ねこ,NULL,mèo,NULL,10,NULL,NULL
+524,パンダ,NULL,gấu trúc,NULL,10,NULL,NULL
+525,ぞう,NULL,voi,NULL,10,NULL,NULL
+526,き,NULL,"cây, gỗ",NULL,10,NULL,NULL
+527,もの,NULL,"vật, đồ vật",NULL,10,NULL,NULL
+528,でんち,NULL,pin,NULL,10,NULL,NULL
+529,はこ,NULL,hộp,NULL,10,NULL,NULL
+530,スイッチ,NULL,công tắc,NULL,10,NULL,NULL
+531,れいぞうこ,NULL,tủ lạnh,NULL,10,NULL,NULL
+532,テーブル,NULL,bàn,NULL,10,NULL,NULL
+533,ベッド,NULL,giường,NULL,10,NULL,NULL
+534,たな,NULL,"giá sách, kệ sách",NULL,10,NULL,NULL
+535,ドア,NULL,cửa,NULL,10,NULL,NULL
+536,まど,NULL,cửa sổ,NULL,10,NULL,NULL
+537,ポスト,NULL,"hộp thư, hòm thư",NULL,10,NULL,NULL
+538,ビル,NULL,tòa nhà,NULL,10,NULL,NULL
+539,ATM,NULL,"máy rút tiền tự động, ATM",NULL,10,NULL,NULL
+540,コンビニ,NULL,cửa hàng tiện lợi (mở 24/24),NULL,10,NULL,NULL
+541,こうえん,NULL,công viên,NULL,10,NULL,NULL
+542,きっさてん,NULL,"quán giải khát, quán cà-phê",NULL,10,NULL,NULL
+543,～や,NULL,"hiệu ～, cửa hàng ～",NULL,10,NULL,NULL
+544,のりば,NULL,"điểm đón tắc-xi, tàu, v.v.",NULL,10,NULL,NULL
+545,けん,NULL,tỉnh,NULL,10,NULL,NULL
+546,うえ,NULL,trên,NULL,10,NULL,NULL
+547,した,NULL,dưới,NULL,10,NULL,NULL
+548,まえ,NULL,trước,NULL,10,NULL,NULL
+549,うしろ,NULL,sau,NULL,10,NULL,NULL
+550,みぎ,NULL,(bên) phải,NULL,10,NULL,NULL
+551,ひだり,NULL,(bên) trái,NULL,10,NULL,NULL
+552,なか,NULL,"trong, giữa",NULL,10,NULL,NULL
+553,そと,NULL,ngoài,NULL,10,NULL,NULL
+554,となり,NULL,bên cạnh,NULL,10,NULL,NULL
+555,ちかく,NULL,gần,NULL,10,NULL,NULL
+556,あいだ,NULL,"giữa, ở giữa",NULL,10,NULL,NULL
+557,～や ～［など］,NULL,"～ và ～, [v.v.]",NULL,10,NULL,NULL
+558,［どうも］すみません。,NULL,Cảm ơn,NULL,10,NULL,NULL
+559,ナンプラー,NULL,"nampla, nước mắm",NULL,10,NULL,NULL
+560,コーナー,NULL,"góc, khu vực",NULL,10,NULL,NULL
+561,いちばん した,NULL,ở dưới cùng,NULL,10,NULL,NULL
+562,とうきょう ディズニーランド,NULL,Công viên Tokyo Disneyland,NULL,10,NULL,NULL
+563,アジアストア,NULL,tên siêu thị giả định,NULL,10,NULL,NULL
+564,フィルム,NULL,phim,NULL,10,NULL,NULL
+565,ほんや,NULL,hiệu sách,NULL,10,NULL,NULL
+566,いちばん ～,NULL,～ nhất (いちばん うえ: vị trí cao nhất),NULL,10,NULL,NULL
+567,－だんめ,NULL,"gí thứ －, tầng thứ － (だん được dùng cho giá sách v.v.)",NULL,10,NULL,NULL
+568,チリソース,NULL,tương ớt (chili sauce),NULL,10,NULL,NULL
+569,おく,NULL,"bên trong cùng, phía sâu bên trong",NULL,10,NULL,NULL
+570,スパイス・コーナー,NULL,góc gia vị (spice corner),NULL,10,NULL,NULL
+571,ユニューア・ストア,NULL,tên một siêu thị (giả tưởng),NULL,10,NULL,NULL
+572,います［こどもが～］,NULL,có [con],NULL,11,NULL,NULL
+573,います［にほんに～］,NULL,ở [Nhật],NULL,11,NULL,NULL
+574,かかります,NULL,"mất, tốn (thời gian, tiền bạc)",NULL,11,NULL,NULL
+575,やすみます［かいしゃを～］,NULL,nghỉ [làm việc],NULL,11,NULL,NULL
+576,ひとつ,NULL,một cái (dùng để đếm đồ vật),NULL,11,NULL,NULL
+577,ふたつ,NULL,hai cái,NULL,11,NULL,NULL
+578,みっつ,NULL,ba cái,NULL,11,NULL,NULL
+579,よっつ,NULL,bốn cái,NULL,11,NULL,NULL
+580,いつつ,NULL,năm cái,NULL,11,NULL,NULL
+581,むっつ,NULL,sáu cái,NULL,11,NULL,NULL
+582,ななつ,NULL,bảy cái,NULL,11,NULL,NULL
+583,やっつ,NULL,tám cái,NULL,11,NULL,NULL
+584,ここのつ,NULL,chín cái,NULL,11,NULL,NULL
+585,とお,NULL,mười cái,NULL,11,NULL,NULL
+586,いくつ,NULL,"mấy cái, bao nhiêu cái",NULL,11,NULL,NULL
+587,ひとり,NULL,một người,NULL,11,NULL,NULL
+588,ふたり,NULL,hai người,NULL,11,NULL,NULL
+589,－にん,NULL,－ người,NULL,11,NULL,NULL
+590,－だい,NULL,"－ cái, chiếc (dùng để đếm máy móc, xe cộ, v.v.)",NULL,11,NULL,NULL
+591,－まい,NULL,"－ tờ, tấm (dùng để đếm những vật mỏng như tờ giấy, con tem, v.v.)",NULL,11,NULL,NULL
+592,－かい,NULL,－ lần,NULL,11,NULL,NULL
+593,りんご,NULL,táo,NULL,11,NULL,NULL
+594,みかん,NULL,quýt,NULL,11,NULL,NULL
+595,サンドイッチ,NULL,bánh san-uých,NULL,11,NULL,NULL
+596,カレー［ライス］,NULL,món [cơm] cà-ri,NULL,11,NULL,NULL
+597,アイスクリーム,NULL,kem,NULL,11,NULL,NULL
+598,きって,NULL,tem,NULL,11,NULL,NULL
+599,はがき,NULL,bưu thiếp,NULL,11,NULL,NULL
+600,ふうとう,NULL,phong bì,NULL,11,NULL,NULL
+601,りょうしん,NULL,bố mẹ,NULL,11,NULL,NULL
+602,きょうだい,NULL,anh chị em,NULL,11,NULL,NULL
+603,あに,NULL,anh trai (mình),NULL,11,NULL,NULL
+604,おにいさん,NULL,anh trai (của người khác),NULL,11,NULL,NULL
+605,あね,NULL,chị gái (mình),NULL,11,NULL,NULL
+606,おねえさん,NULL,chị gái (của người khác),NULL,11,NULL,NULL
+607,おとうと,NULL,em trai (mình),NULL,11,NULL,NULL
+608,おとうとさん,NULL,em trai (của người khác),NULL,11,NULL,NULL
+609,いもうと,NULL,em gái (mình),NULL,11,NULL,NULL
+610,いもうとさん,NULL,em gái (của người khác),NULL,11,NULL,NULL
+611,がいこく,NULL,nước ngoài,NULL,11,NULL,NULL
+612,りゅうがくせい,NULL,"lưu học sinh, sinh viên người nước ngoài",NULL,11,NULL,NULL
+613,クラス,NULL,lớp học,NULL,11,NULL,NULL
+614,－じかん,NULL,－ tiếng,NULL,11,NULL,NULL
+615,－しゅうかん,NULL,－ tuần,NULL,11,NULL,NULL
+616,－かげつ,NULL,－ tháng,NULL,11,NULL,NULL
+617,－ねん,NULL,－ năm,NULL,11,NULL,NULL
+618,～ぐらい,NULL,khoảng ～,NULL,11,NULL,NULL
+619,どのくらい,NULL,bao lâu,NULL,11,NULL,NULL
+620,ぜんぶで,NULL,tổng cộng,NULL,11,NULL,NULL
+621,みんな,NULL,tất cả,NULL,11,NULL,NULL
+622,～だけ,NULL,chỉ ～,NULL,11,NULL,NULL
+623,かしこまりました。,NULL,Tôi đã rõ rồi ạ (thưa ông/bà),NULL,11,NULL,NULL
+624,いい［お］てんきですね。,NULL,Trời đẹp nhỉ,NULL,11,NULL,NULL
+625,おでかけですか。,NULL,Anh/Chị đi ra ngoài đấy à?,NULL,11,NULL,NULL
+626,ちょっと ～まで。,NULL,Tôi đi ～ một chút,NULL,11,NULL,NULL
+627,いってらっしゃい。,NULL,Anh/Chị đi nhé. (nguyên nghĩa: Anh/Chị đi rồi lại về nhé.),NULL,11,NULL,NULL
+628,いって きます。,NULL,Tôi đi đây. (nguyên nghĩa: Tôi đi rồi sẽ về),NULL,11,NULL,NULL
+629,ふなびん,NULL,(gửi) bằng đường biển,NULL,11,NULL,NULL
+630,こうくうびん（エアメール）,NULL,(gửi) bằng đường hàng không,NULL,11,NULL,NULL
+631,おねがいします。,NULL,Nhờ anh/chị.,NULL,11,NULL,NULL
+632,オーストラリア,NULL,Úc,NULL,11,NULL,NULL
+633,そくたつ,NULL,(bưu phẩm) gửi nhanh,NULL,11,NULL,NULL
+634,かきとめ,NULL,(bưu phẩm) gửi bảo đảm,NULL,11,NULL,NULL
+635,いらっしゃいませ。,NULL,Xin mời vào./ Xin chào quý khách. (lời chào của người bán hàng đối với khách hàng),NULL,11,NULL,NULL
+636,いって まいります。,NULL,Tôi đi đây. (nguyên nghĩa; Tôi đi rồi sẽ về.),NULL,11,NULL,NULL
+637,それから,NULL,"sau đó, tiếp nữa",NULL,11,NULL,NULL
+638,かんたん［な］,NULL,"đơn giản, dễ",NULL,12,NULL,NULL
+639,ちかい,NULL,gần,NULL,12,NULL,NULL
+640,とおい,NULL,xa,NULL,12,NULL,NULL
+641,はやい,NULL,"nhanh, sớm",NULL,12,NULL,NULL
+642,おそい,NULL,"chậm, muộn",NULL,12,NULL,NULL
+643,おおい［ひとが～］,NULL,nhiều [người],NULL,12,NULL,NULL
+644,すくない［ひとが～］,NULL,ít [người],NULL,12,NULL,NULL
+645,あたたかい,NULL,ấm,NULL,12,NULL,NULL
+646,すずしい,NULL,mát,NULL,12,NULL,NULL
+647,あまい,NULL,ngọt,NULL,12,NULL,NULL
+648,からい,NULL,cay,NULL,12,NULL,NULL
+649,おもい,NULL,nặng,NULL,12,NULL,NULL
+650,かるい,NULL,nhẹ,NULL,12,NULL,NULL
+651,いい［コーヒーが～］,NULL,"thích, chọn, dùng [cà phê]",NULL,12,NULL,NULL
+652,きせつ,NULL,mùa,NULL,12,NULL,NULL
+653,はる,NULL,mùa xuân,NULL,12,NULL,NULL
+654,なつ,NULL,mùa hè,NULL,12,NULL,NULL
+655,あき,NULL,mùa thu,NULL,12,NULL,NULL
+656,ふゆ,NULL,mùa đông,NULL,12,NULL,NULL
+657,てんき,NULL,thời tiết,NULL,12,NULL,NULL
+658,あめ,NULL,mưa,NULL,12,NULL,NULL
+659,ゆき,NULL,tuyết,NULL,12,NULL,NULL
+660,くもり,NULL,có mây,NULL,12,NULL,NULL
+661,ホテル,NULL,khách sạn,NULL,12,NULL,NULL
+662,くうこう,NULL,sân bay,NULL,12,NULL,NULL
+663,うみ,NULL,"biển, đại dương",NULL,12,NULL,NULL
+664,せかい,NULL,thế giới,NULL,12,NULL,NULL
+665,パーティー,NULL,"tiệc (～を します : tổ chức tiệc, mở tiệc)",NULL,12,NULL,NULL
+666,［お］まつり,NULL,lễ hội,NULL,12,NULL,NULL
+667,すきやき,NULL,"Sukiyaki (món lẩu thịt bò, rau)",NULL,12,NULL,NULL
+668,さしみ,NULL,Sashimi (món gỏi cá sống),NULL,12,NULL,NULL
+669,［お］すし,NULL,Sushi (món cơm trộn giấm có cá tươi ở trên),NULL,12,NULL,NULL
+670,てんぷら,NULL,Tempura (món hải sản và rau chiên tẩm bột),NULL,12,NULL,NULL
+671,ぶたにく,NULL,"thịt heo, thịt lợn",NULL,12,NULL,NULL
+672,とりにく,NULL,thịt gà,NULL,12,NULL,NULL
+673,ぎゅうにく,NULL,thịt bò,NULL,12,NULL,NULL
+674,レモン,NULL,chanh,NULL,12,NULL,NULL
+675,いけばな,NULL,nghệ thuật cắm hoa (～を します : cắm hoa),NULL,12,NULL,NULL
+676,もみじ,NULL,"cây lá đỏ, lá đỏ",NULL,12,NULL,NULL
+677,どちら,NULL,cái nào (trong hai cái),NULL,12,NULL,NULL
+678,どちらも,NULL,cả hai,NULL,12,NULL,NULL
+679,いちばん,NULL,nhất,NULL,12,NULL,NULL
+680,ずっと,NULL,"(hơn) hẳn, suốt",NULL,12,NULL,NULL
+681,はじめて,NULL,lần đầu tiên,NULL,12,NULL,NULL
+682,ただいま。,NULL,Tôi đã về đây. (dùng để nói khi về đến nhà),NULL,12,NULL,NULL
+683,おかえりなさい。,NULL,Anh/Chị đã về đấy à. (dùng để nói với ai đó mới lại về nhé),NULL,12,NULL,NULL
+684,わあ、すごい ひとですね。,NULL,"Ôi, (người) đông quá nhỉ!",NULL,12,NULL,NULL
+685,つかれました。,NULL,Tôi mệt rồi.,NULL,12,NULL,NULL
+686,ぎおんまつり,NULL,Lễ hội Gi-ôn (lễ hội nổi tiếng nhất ở Kyoto),NULL,12,NULL,NULL
+687,ホンコン,NULL,Hồng Kông (香港),NULL,12,NULL,NULL
+688,シンガポール,NULL,Singapore,NULL,12,NULL,NULL
+689,ABC ストア,NULL,tên siêu thị giả định,NULL,12,NULL,NULL
+690,ジャパン,NULL,tên siêu thị giả định,NULL,12,NULL,NULL
+691,しけん,NULL,"kỳ thi, bài thi",NULL,12,NULL,NULL
+692,すごいですね。,NULL,Ghê quá nhỉ./Hay quá nhỉ.,NULL,12,NULL,NULL
+693,でも,NULL,nhưng,NULL,12,NULL,NULL
+694,まいにちや,NULL,tên một siêu thị (giả tưởng),NULL,12,NULL,NULL
+695,あそびます,NULL,chơi,NULL,13,NULL,NULL
+696,およぎます,NULL,bơi,NULL,13,NULL,NULL
+697,むかえます,NULL,đón,NULL,13,NULL,NULL
+698,つかれます,NULL,mệt (khi nói trạng thái đã mệt rồi thì dùng つかれました),NULL,13,NULL,NULL
+699,けっこんします,NULL,"kết hôn, lập gia đình, cưới",NULL,13,NULL,NULL
+700,かいものします,NULL,"mua sắm, mua hàng",NULL,13,NULL,NULL
+701,しょくじします,NULL,"ăn cơm, dùng bữa",NULL,13,NULL,NULL
+702,さんぽします［こうえんを～］,NULL,đi dạo [ở công viên],NULL,13,NULL,NULL
+703,たいへん［な］,NULL,"vát vả, khó khăn, khổ",NULL,13,NULL,NULL
+704,ほしい,NULL,muốn có,NULL,13,NULL,NULL
+705,ひろい,NULL,rộng,NULL,13,NULL,NULL
+706,せまい,NULL,"chật, hẹp",NULL,13,NULL,NULL
+707,プール,NULL,bể bơi,NULL,13,NULL,NULL
+708,かわ,NULL,sông,NULL,13,NULL,NULL
+709,びじゅつ,NULL,mỹ thuật,NULL,13,NULL,NULL
+710,つり,NULL,việc câu cá (～を します : câu cá),NULL,13,NULL,NULL
+711,スキー,NULL,việc trượt tuyết (～を します : trượt tuyết),NULL,13,NULL,NULL
+712,しゅうまつ,NULL,cuối tuần,NULL,13,NULL,NULL
+713,［お］しょうがつ,NULL,Tết,NULL,13,NULL,NULL
+714,～ごろ,NULL,khoảng ～ (dùng cho thời gian),NULL,13,NULL,NULL
+715,なにか,NULL,cái gì đó,NULL,13,NULL,NULL
+716,どこか,NULL,"đâu đó, chỗ nào đó",NULL,13,NULL,NULL
+816,つかいます,NULL,"dùng, sử dụng",NULL,15,NULL,NULL
+717,のどが かわきます,NULL,khát (khi nói trạng thái đang khát thì dùng のどが かわきました),NULL,13,NULL,NULL
+718,おなかが すきます,NULL,đói (khi nói trạng thái đang đói thì dùng おなかが すきました),NULL,13,NULL,NULL
+719,そう しましょう。,NULL,Nhất trí./Hãy làm vậy đi. (nói khi đồng ý với đề xuất của ai),NULL,13,NULL,NULL
+720,ごちゅうもんは？,NULL,Anh/Chị dùng món gì ạ?,NULL,13,NULL,NULL
+721,ていしょく,NULL,"cơm suất, cơm phần",NULL,13,NULL,NULL
+722,ぎゅうどん,NULL,món cơm với thịt bò ở trên,NULL,13,NULL,NULL
+723,［しょうしょう］おまち ください。,NULL,Xin anh/chị vui lòng đợi [một chút],NULL,13,NULL,NULL
+724,～で ございます。,NULL,(cách nói lịch sự của です),NULL,13,NULL,NULL
+725,べつべつに,NULL,"riêng, riêng ra",NULL,13,NULL,NULL
+726,アキックス,NULL,tên công ty giả định,NULL,13,NULL,NULL
+727,おはようテレビ,NULL,tên chương trình truyền hình giả định,NULL,13,NULL,NULL
+728,だします［てがみを～］,NULL,gửi (thư),NULL,13,NULL,NULL
+729,はいります［きっさてんに～］,NULL,vào [quán giải khát],NULL,13,NULL,NULL
+730,でます［きっさてんを～］,NULL,"ra, ra khỏi [quán giả khát]",NULL,13,NULL,NULL
+731,さびしい,NULL,"buồn, cô đơn",NULL,13,NULL,NULL
+732,しやくしょ,NULL,"văn phòng hành chính quận, thành phố",NULL,13,NULL,NULL
+733,けいざい,NULL,kinh tế,NULL,13,NULL,NULL
+734,かいぎ,NULL,"họp, cuộc họp (～を します : họp, tổ chức cuộc họp)",NULL,13,NULL,NULL
+735,とうろく,NULL,việc đăng ký (～を します : đăng ký),NULL,13,NULL,NULL
+736,おなかが いっぱいです。,NULL,(Tôi) no rồi.,NULL,13,NULL,NULL
+737,そうですね。,NULL,Đúng thế. (câu nói khi muốn tỏ thái độ tán thành với người cùng nói chuyện),NULL,13,NULL,NULL
+738,ロシア,NULL,Nga,NULL,13,NULL,NULL
+739,つるや,NULL,tên một nhà hàng (giả tưởng),NULL,13,NULL,NULL
+740,つけます,NULL,bật,NULL,14,NULL,NULL
+741,けします,NULL,tắt,NULL,14,NULL,NULL
+742,あけます,NULL,mở,NULL,14,NULL,NULL
+743,しめます,NULL,"đóng (cửa, cửa sổ)",NULL,14,NULL,NULL
+744,いそぎます,NULL,"vội, gấp",NULL,14,NULL,NULL
+745,まちます,NULL,"đợi, chờ",NULL,14,NULL,NULL
+746,もちます,NULL,"mang, cầm",NULL,14,NULL,NULL
+747,とります,NULL,"lấy, chuyển",NULL,14,NULL,NULL
+748,てつだいます,NULL,giúp (làm việc gì),NULL,14,NULL,NULL
+749,よびます,NULL,gọi,NULL,14,NULL,NULL
+750,はなします,NULL,"nói, nói chuyện",NULL,14,NULL,NULL
+751,つかいます,NULL,"dùng, sử dụng",NULL,14,NULL,NULL
+752,とめます,NULL,"dừng, đỗ",NULL,14,NULL,NULL
+753,みせます,NULL,"cho xem, trình",NULL,14,NULL,NULL
+754,おしえます［じゅうしょを～］,NULL,"nói, cho biết [địa chỉ]",NULL,14,NULL,NULL
+755,すわります,NULL,ngồi,NULL,14,NULL,NULL
+756,たちます,NULL,đứng,NULL,14,NULL,NULL
+757,はいります［きっさてんに～］,NULL,vào [quán giải khát],NULL,14,NULL,NULL
+758,でます［きっさてんを～］,NULL,"ra, ra khỏi [quán giải khát]",NULL,14,NULL,NULL
+759,ふります［あめが～］,NULL,mưa,NULL,14,NULL,NULL
+760,コピーします,NULL,"copy, phô-tô",NULL,14,NULL,NULL
+761,でんき,NULL,"điện, đèn điện",NULL,14,NULL,NULL
+762,エアコン,NULL,máy điều hòa (nhiệt độ),NULL,14,NULL,NULL
+763,パスポート,NULL,hộ chiếu,NULL,14,NULL,NULL
+764,なまえ,NULL,tên,NULL,14,NULL,NULL
+765,じゅうしょ,NULL,địa chỉ,NULL,14,NULL,NULL
+766,ちず,NULL,bản đồ,NULL,14,NULL,NULL
+767,しお,NULL,muối,NULL,14,NULL,NULL
+768,さとう,NULL,đường,NULL,14,NULL,NULL
+769,もんだい,NULL,"câu hỏi, vấn đề",NULL,14,NULL,NULL
+770,こたえ,NULL,câu trả lời,NULL,14,NULL,NULL
+771,よみかた,NULL,cách đọc,NULL,14,NULL,NULL
+772,～かた,NULL,cách ～,NULL,14,NULL,NULL
+773,まっすぐ,NULL,thẳng,NULL,14,NULL,NULL
+774,ゆっくり,NULL,"chậm, thong thả, thoải mái",NULL,14,NULL,NULL
+775,すぐ,NULL,"ngay, lập tức",NULL,14,NULL,NULL
+776,また,NULL,lại,NULL,14,NULL,NULL
+777,あとで,NULL,sau,NULL,14,NULL,NULL
+778,もう すこし,NULL,thêm một chút nữa,NULL,14,NULL,NULL
+779,もう ～,NULL,thêm ～,NULL,14,NULL,NULL
+780,さあ,NULL,thôi/nào (dùng để thúc giục hoặc khuyến khích ai đó làm gì),NULL,14,NULL,NULL
+781,あれ？,NULL,"Ôi! (câu cảm thán khi phát hiện hoặc thấy cái gì đó lạ, hoặc bất ngờ)",NULL,14,NULL,NULL
+782,しんごうを みぎへ まがって ください。,NULL,Anh/Chị hãy rẽ phải ở chỗ đèn tín hiệu.,NULL,14,NULL,NULL
+783,これで おねがいします。,NULL,Gửi anh tiền này.,NULL,14,NULL,NULL
+784,おつり,NULL,"tiền thừa, tiền thối lại",NULL,14,NULL,NULL
+785,みどり ちょう,NULL,tên thành phố giả định,NULL,14,NULL,NULL
+786,まがります［みぎへ～］,NULL,"rẽ, quẹo [phải]",NULL,14,NULL,NULL
+787,はじめます,NULL,bắt đầu,NULL,14,NULL,NULL
+788,いいですよ。,NULL,Được chứ./ Được ạ.,NULL,14,NULL,NULL
+789,うめだ,NULL,tên một địa phương ở Osaka,NULL,14,NULL,NULL
+790,おきます,NULL,"đặt, để",NULL,15,NULL,NULL
+791,つくります,NULL,"làm, chế tạo, sản xuất",NULL,15,NULL,NULL
+792,うります,NULL,bán,NULL,15,NULL,NULL
+793,しります,NULL,biết,NULL,15,NULL,NULL
+794,すみます,NULL,"sống, ở",NULL,15,NULL,NULL
+795,けんきゅうします,NULL,nghiên cứu,NULL,15,NULL,NULL
+796,しりょう,NULL,"tài liệu, tư liệu",NULL,15,NULL,NULL
+797,カタログ,NULL,ca-ta-lô,NULL,15,NULL,NULL
+798,じこくひょう,NULL,bảng giờ tàu chạy,NULL,15,NULL,NULL
+799,ふく,NULL,quần áo,NULL,15,NULL,NULL
+800,せいひん,NULL,sản phẩm,NULL,15,NULL,NULL
+801,ソフト,NULL,phần mềm,NULL,15,NULL,NULL
+802,でんしじしょ,NULL,kim từ điển,NULL,15,NULL,NULL
+803,けいざい,NULL,kinh tế,NULL,15,NULL,NULL
+804,しやくしょ,NULL,tòa thị chính,NULL,15,NULL,NULL
+805,こうこう,NULL,"trường trung học phổ thông, trường cấp 3",NULL,15,NULL,NULL
+806,はいしゃ,NULL,nha sĩ,NULL,15,NULL,NULL
+807,どくしん,NULL,độc thân,NULL,15,NULL,NULL
+808,すみません,NULL,xin lỗi,NULL,15,NULL,NULL
+809,みなさん,NULL,"các anh chị, các ông bà, ác bạn, quý vị",NULL,15,NULL,NULL
+810,おもいだします,NULL,"nhớ lại, hồi tưởng lại",NULL,15,NULL,NULL
+811,いらっしゃいます,NULL,(kính ngữ của います),NULL,15,NULL,NULL
+812,にっぽんばし,NULL,tên khu phố mua sắm ở Osaka,NULL,15,NULL,NULL
+813,みんなの インタビュー,NULL,tên chương trình truyền hình giả định,NULL,15,NULL,NULL
+814,たちます,NULL,đứng,NULL,15,NULL,NULL
+815,すわります,NULL,ngồi,NULL,15,NULL,NULL
+817,しって います,NULL,biết,NULL,15,NULL,NULL
+818,すんで います［おおさかに～］,NULL,sống [ở Osaka],NULL,15,NULL,NULL
+819,せんもん,NULL,chuyên môn,NULL,15,NULL,NULL
+820,とこや,NULL,hiệu cắt tóc,NULL,15,NULL,NULL
+821,プレイガイド,NULL,quầy bán vé (trong nhà hát),NULL,15,NULL,NULL
+822,とくに,NULL,đặc biệt,NULL,15,NULL,NULL
+823,ごかぞく,NULL,gia đình (dùng cho người khác),NULL,15,NULL,NULL
+824,のります［でんしゃに～］,NULL,"đi, lên [tàu]",NULL,16,NULL,NULL
+825,おります［でんしゃを～］,NULL,xuống [tàu],NULL,16,NULL,NULL
+826,のりかえます,NULL,"chuyển, đổi (tàu)",NULL,16,NULL,NULL
+827,あびます［シャワーを～］,NULL,tắm [vòi hoa sen],NULL,16,NULL,NULL
+828,いれます,NULL,"cho vào, bỏ vào",NULL,16,NULL,NULL
+829,だします,NULL,"lấy ra, đưa ra, gửi",NULL,16,NULL,NULL
+830,おろします［おかねを～］,NULL,rút [tiền],NULL,16,NULL,NULL
+831,はいります［だいがくに～］,NULL,vào [đại học],NULL,16,NULL,NULL
+832,でます［だいがくを～］,NULL,"ra, tốt nghiệp[đại học]",NULL,16,NULL,NULL
+833,おします,NULL,"bấm, ấn",NULL,16,NULL,NULL
+834,のみます,NULL,"uống (bia, rượu)",NULL,16,NULL,NULL
+835,はじめます,NULL,bắt đầu,NULL,16,NULL,NULL
+836,けんがくします,NULL,tham quan kiến tập,NULL,16,NULL,NULL
+837,でんわします,NULL,gọi điện thoại,NULL,16,NULL,NULL
+838,わかい,NULL,trẻ,NULL,16,NULL,NULL
+839,ながい,NULL,dài,NULL,16,NULL,NULL
+840,みじかい,NULL,ngắn,NULL,16,NULL,NULL
+841,あかるい,NULL,sáng,NULL,16,NULL,NULL
+842,くらい,NULL,tối,NULL,16,NULL,NULL
+843,からだ,NULL,"người, cơ thể",NULL,16,NULL,NULL
+844,あたま,NULL,đầu,NULL,16,NULL,NULL
+845,かみ,NULL,tóc,NULL,16,NULL,NULL
+846,かお,NULL,mặt,NULL,16,NULL,NULL
+847,め,NULL,mắt,NULL,16,NULL,NULL
+848,みみ,NULL,tai,NULL,16,NULL,NULL
+849,はな,NULL,mũi,NULL,16,NULL,NULL
+850,くち,NULL,miệng,NULL,16,NULL,NULL
+851,は,NULL,răng,NULL,16,NULL,NULL
+852,おなか,NULL,bụng,NULL,16,NULL,NULL
+853,あし,NULL,chân,NULL,16,NULL,NULL
+854,せ,NULL,chiều cao (cơ thể),NULL,16,NULL,NULL
+855,サービス,NULL,dịch vụ,NULL,16,NULL,NULL
+856,ジョギング,NULL,việc chạy bộ (～を します : chạy bộ),NULL,16,NULL,NULL
+857,シャワー,NULL,vòi hoa sen,NULL,16,NULL,NULL
+858,みどり,NULL,"màu xanh lá cây, cây xanh",NULL,16,NULL,NULL
+859,［お］てら,NULL,chùa,NULL,16,NULL,NULL
+860,じんじゃ,NULL,đền thờ đạo Thần,NULL,16,NULL,NULL
+861,－ばん,NULL,số －,NULL,16,NULL,NULL
+862,どうやって,NULL,làm thế nào ～,NULL,16,NULL,NULL
+863,どの ～,NULL,～ nào (dùng đối với trường hợp từ ba thứ trở lên),NULL,16,NULL,NULL
+864,どれ,NULL,cái nào (dùng trong trường hợp ba cái hoặc nhiều hơn),NULL,16,NULL,NULL
+865,すごいですね。,NULL,Thật là tuyệt vời!/Kinh quá nhỉ!,NULL,16,NULL,NULL
+866,［いいえ、］まだまだです。,NULL,"(Không), tôi còn phải cố gắng nhiều lắm. (cách nói khiêm nhường khi được ai đó khen)",NULL,16,NULL,NULL
+867,おひきだしですか。,NULL,Anh/Chị rút tiền ạ?,NULL,16,NULL,NULL
+868,まず,NULL,"trước hết, đầu tiên",NULL,16,NULL,NULL
+869,つぎに,NULL,"tiếp theo, sau đó",NULL,16,NULL,NULL
+870,キャッシュカード,NULL,"thẻ rút tiền mặt, thẻ ATM",NULL,16,NULL,NULL
+871,あんしょうばんごう,NULL,mã số bí mật (mật khẩu),NULL,16,NULL,NULL
+872,きんがく,NULL,"số tiền, khoản tiền",NULL,16,NULL,NULL
+873,かくにん,NULL,"sự xác nhận, sự kiểm tra lại (～します : xác nhận)",NULL,16,NULL,NULL
+874,ボタン,NULL,nút,NULL,16,NULL,NULL
+875,JR,NULL,Công ty Đường sắt Nhật Bản,NULL,16,NULL,NULL
+876,ゆきまつり,NULL,Lễ hội tuyết,NULL,16,NULL,NULL
+877,バンドン,NULL,Bandung (ở In-đô-nê-xi-a),NULL,16,NULL,NULL
+878,フランケン,NULL,Franken (ở Đức),NULL,16,NULL,NULL
+879,ベラクルス,NULL,Veracruz (ở Mexico),NULL,16,NULL,NULL
+880,うめだ,NULL,tên một quận ở Osaka,NULL,16,NULL,NULL
+881,だいがくまえ,NULL,tên điểm dừng xe buýt giả định,NULL,16,NULL,NULL
+882,やめます［かいしゃを～］,NULL,"bỏ, thôi [việc công ty]",NULL,16,NULL,NULL
+883,せが たかい,NULL,cao (dùng cho người),NULL,16,NULL,NULL
+884,あたまが いい,NULL,thông minh,NULL,16,NULL,NULL
+885,りゅうがくせい,NULL,"lưu học sinh, du học sinh",NULL,16,NULL,NULL
+886,アジア,NULL,châu Á,NULL,16,NULL,NULL
+887,ベトナム,NULL,Việt Nam,NULL,16,NULL,NULL
+888,フエ,NULL,Huế,NULL,16,NULL,NULL
+889,おぼえます,NULL,nhớ,NULL,17,NULL,NULL
+890,わすれます,NULL,quên,NULL,17,NULL,NULL
+891,なくします,NULL,"làm mất, đánh mất",NULL,17,NULL,NULL
+892,はらいます,NULL,trả tiền,NULL,17,NULL,NULL
+893,かえします,NULL,trả lại,NULL,17,NULL,NULL
+894,でかけます,NULL,ra ngoài,NULL,17,NULL,NULL
+895,ぬぎます,NULL,"cởi (quần áo, giầy, v.v.)",NULL,17,NULL,NULL
+896,もって いきます,NULL,"mang đi, mang theo",NULL,17,NULL,NULL
+897,もって きます,NULL,mang đến,NULL,17,NULL,NULL
+898,しんぱいします,NULL,lo lắng,NULL,17,NULL,NULL
+899,ざんぎょうします,NULL,làm thêm giờ,NULL,17,NULL,NULL
+900,しゅっちょうします,NULL,đi công tác,NULL,17,NULL,NULL
+901,のみます［くすりを～］,NULL,uống [thuốc],NULL,17,NULL,NULL
+902,はいります［おふろに～］,NULL,tắm bồn,NULL,17,NULL,NULL
+903,たいせつ［な］,NULL,"quan trọng, quý giá",NULL,17,NULL,NULL
+904,だいじょうぶ［な］,NULL,"không sao, không có vấn đề gì",NULL,17,NULL,NULL
+905,あぶない,NULL,nguy hiểm,NULL,17,NULL,NULL
+906,きんえん,NULL,cấm hút thuốc,NULL,17,NULL,NULL
+907,［けんこう］ほけんしょう,NULL,thẻ bảo hiêm [y tế],NULL,17,NULL,NULL
+908,ねつ,NULL,sốt,NULL,17,NULL,NULL
+909,びょうき,NULL,"ốm, bệnh",NULL,17,NULL,NULL
+910,くすり,NULL,thuốc,NULL,17,NULL,NULL
+911,［お］ふろ,NULL,bồn tắm,NULL,17,NULL,NULL
+912,うわぎ,NULL,áo khoác,NULL,17,NULL,NULL
+913,したぎ,NULL,quần áo lót,NULL,17,NULL,NULL
+914,２、３にち,NULL,"2, 3 ngày/vài ngày",NULL,17,NULL,NULL
+915,２、３～,NULL,"2, 3 ～/vài ～ (""～"" là hậu tố đếm)",NULL,17,NULL,NULL
+916,～までに,NULL,"trước ～, cho đến trước ～ (chỉ giới hạn thời gian)",NULL,17,NULL,NULL
+917,ですから,NULL,"vì thế, vì vậy, do đó",NULL,17,NULL,NULL
+918,どう しましたか。,NULL,Có vấn đề gì?/ Anh/Chị bị làm sao? (cách bác sĩ hỏi bệnh nhân),NULL,17,NULL,NULL
+919,のど,NULL,họng,NULL,17,NULL,NULL
+920,［～が］いたいです。,NULL,Tôi bị đau [～].,NULL,17,NULL,NULL
+921,かぜ,NULL,"cảm, cúm",NULL,17,NULL,NULL
+922,それから,NULL,"và, sau đó",NULL,17,NULL,NULL
+923,おだいじに。,NULL,Anh/Chị nhớ giữ gìn sức khỏe. (câu nói với người bbij ốm hoặc bị bệnh),NULL,17,NULL,NULL
+924,だします［レポートを～］,NULL,nộp [bản/bài báo cáo],NULL,17,NULL,NULL
+925,もんだい,NULL,vấn đề,NULL,17,NULL,NULL
+926,こたえ,NULL,câu trả lời,NULL,17,NULL,NULL
+927,せんせい,NULL,bác sĩ (cách gọi bác sĩ),NULL,17,NULL,NULL
+928,できます,NULL,có thể,NULL,18,NULL,NULL
+929,あらいます,NULL,rửa,NULL,18,NULL,NULL
+930,ひきます,NULL,"chơi (nhạc cụ, pianô, v.v.)",NULL,18,NULL,NULL
+931,うたいます,NULL,hát,NULL,18,NULL,NULL
+932,あつめます,NULL,"sưu tầm, thu thập, tập hợp",NULL,18,NULL,NULL
+933,すてます,NULL,"vứt, bỏ, bỏ đi",NULL,18,NULL,NULL
+934,かえます,NULL,"đổi, trao đổi",NULL,18,NULL,NULL
+935,うんてんします,NULL,lái,NULL,18,NULL,NULL
+936,よやくします,NULL,"đặt chỗ, đặt trước",NULL,18,NULL,NULL
+937,ピアノ,NULL,đàn pianô,NULL,18,NULL,NULL
+938,－メートル,NULL,－ mét,NULL,18,NULL,NULL
+939,げんきん,NULL,tiền mặt,NULL,18,NULL,NULL
+940,しゅみ,NULL,"sở thích, thú vui",NULL,18,NULL,NULL
+941,にっき,NULL,nhật ký,NULL,18,NULL,NULL
+942,おいのり,NULL,việc cầu nguyện (～を します : cầu nguyện),NULL,18,NULL,NULL
+943,かちょう,NULL,tổ trưởng,NULL,18,NULL,NULL
+944,ぶちょう,NULL,trưởng phòng,NULL,18,NULL,NULL
+945,しゃちょう,NULL,giám đốc,NULL,18,NULL,NULL
+946,どうぶつ,NULL,động vật,NULL,18,NULL,NULL
+947,うま,NULL,ngựa,NULL,18,NULL,NULL
+948,インターネット,NULL,"In-tơ-nét, Internet",NULL,18,NULL,NULL
+949,とくに,NULL,đặc biệt là,NULL,18,NULL,NULL
+950,へえ,NULL,Thế á! (dùng để biểu thị sự ngạc nhiên),NULL,18,NULL,NULL
+951,それは おもしろいですね。,NULL,(Điều đấy/Cái đấy) hay thật nhỉ.,NULL,18,NULL,NULL
+952,なかなか,NULL,"khó mà, mãi mà (dùng với thể phủ định)",NULL,18,NULL,NULL
+953,ほんとうですか。,NULL,Thật không ạ?,NULL,18,NULL,NULL
+954,ぜひ,NULL,nhất định,NULL,18,NULL,NULL
+955,ふるさと,NULL,"Furusato (tên một bài hát có nghĩa là ""quê nhà"")",NULL,18,NULL,NULL
+956,ビートルズ,NULL,Beatles (một ban nhạc nổi tiếng nước Anh),NULL,18,NULL,NULL
+957,あきはばら,NULL,một quận ở Tokyo,NULL,18,NULL,NULL
+958,けんがくします,NULL,thăm quan với mục đích học tập,NULL,18,NULL,NULL
+959,こくさい～,NULL,～ quốc tế,NULL,18,NULL,NULL
+960,ぼくじょう,NULL,trang trại chăn nuôi,NULL,18,NULL,NULL
+961,のぼります,NULL,"leo (núi), lên",NULL,19,NULL,NULL
+962,とまります［ホテルに～］,NULL,trọ [ở khách sạn],NULL,19,NULL,NULL
+963,そうじします,NULL,dọn vệ sinh (căn phòng),NULL,19,NULL,NULL
+964,せんたくします,NULL,giặt (áo quần),NULL,19,NULL,NULL
+965,なります,NULL,"trở thành, trở nên",NULL,19,NULL,NULL
+966,ねむい,NULL,buồn ngủ,NULL,19,NULL,NULL
+967,つよい,NULL,mạnh,NULL,19,NULL,NULL
+968,よわい,NULL,yếu,NULL,19,NULL,NULL
+969,れんしゅう,NULL,sự luyện tập (～［を］します : luyện tập),NULL,19,NULL,NULL
+970,ゴルフ,NULL,gôn (～を します : chơi gôn),NULL,19,NULL,NULL
+971,すもう,NULL,môn vật Sumo (～を します : đấu vật Sumo),NULL,19,NULL,NULL
+972,おちゃ,NULL,trà đạo,NULL,19,NULL,NULL
+973,ひ,NULL,ngày,NULL,19,NULL,NULL
+974,ちょうし,NULL,"tình trạng, trạng thái",NULL,19,NULL,NULL
+975,いちど,NULL,một lần,NULL,19,NULL,NULL
+976,いちども,NULL,"chưa lần nào, chưa bao giờ (dùng với thể phủ định)",NULL,19,NULL,NULL
+977,だんだん,NULL,dần dần,NULL,19,NULL,NULL
+978,もうすぐ,NULL,"sắp, sắp sửa",NULL,19,NULL,NULL
+979,おかげさまで,NULL,"Cảm ơn anh/chị, nhờ anh/chị mà ～. (dùng để bày tỏ sự cảm ơn khi nhận được sự giúp đỡ của ai đó)",NULL,19,NULL,NULL
+980,でも,NULL,nhưng,NULL,19,NULL,NULL
+981,かんぱい,NULL,Cạn chén!/Nâng cốc!,NULL,19,NULL,NULL
+982,ダイエット,NULL,"việc ăn kiêng, chế độ giảm cân (～を します : ăn kiêng)",NULL,19,NULL,NULL
+983,むり［な］,NULL,"không thể, quá sức",NULL,19,NULL,NULL
+984,からだに いい,NULL,tốt cho sức khỏe,NULL,19,NULL,NULL
+985,とうきょうスカイツリー,NULL,Tokyo Sky Tree (tháp truyền hình có đài ngắm cảnh ở Tokyo),NULL,19,NULL,NULL
+986,かつしかほくさい,NULL,một họa sĩ nổi tiếng thời Edo (1760-1849),NULL,19,NULL,NULL
+987,ちょうしが いい,NULL,trong tình trạng tốt,NULL,19,NULL,NULL
+988,ちょうしが わるい,NULL,trong tình trạng xấu,NULL,19,NULL,NULL
+989,パチンコ,NULL,trò chơi pachinko (～を します : chơi trò chơi pachinko),NULL,19,NULL,NULL
+990,じつは,NULL,thật ra là/sự tình là,NULL,19,NULL,NULL
+991,なんかいも,NULL,nhiều lần,NULL,19,NULL,NULL
+992,しかし,NULL,"nhưng, tuy nhiên",NULL,19,NULL,NULL
+993,ケーキ,NULL,"bánh ga-tô, bánh ngọt",NULL,19,NULL,NULL
+994,いります［ビザが～］,NULL,cần [thị thực/visa],NULL,20,NULL,NULL
+995,しらべます,NULL,"tìm hiểu, kiểm tra, điều tra",NULL,20,NULL,NULL
+996,しゅうりします,NULL,"sửa chữa, tu sửa",NULL,20,NULL,NULL
+997,ぼく,NULL,"tôi, tớ (cách xưng thân mật của わたし được dùng bởi nam giới)",NULL,20,NULL,NULL
+998,きみ,NULL,"cậu, bạn (cách nói thân mật của あなた được dùng cho người ngang hàng hoặc ít tuổi hơn)",NULL,20,NULL,NULL
+999,～くん,NULL,"anh ～, cậu ～ (cách nói thân mật của ～さん được dùng cho người ngang hàng hoặc ít tuổi hơn; thường được dùng sau tên bé trai)",NULL,20,NULL,NULL
+1000,うん,NULL,ừ (cách nói thân mật của はい),NULL,20,NULL,NULL
+1001,ううん,NULL,không (cách nói thân mật của いいえ),NULL,20,NULL,NULL
+1002,ことば,NULL,"từ, tiếng",NULL,20,NULL,NULL
+1003,きもの,NULL,kimono (trang phục truyền thống của Nhật Bản),NULL,20,NULL,NULL
+1004,ビザ,NULL,"thị thực, visa",NULL,20,NULL,NULL
+1005,はじめ,NULL,"ban đầu, đầu tiên",NULL,20,NULL,NULL
+1006,おわり,NULL,"kết thúc, hết phim",NULL,20,NULL,NULL
+1007,こっち,NULL,"phía này, chỗ này (cách nói thân mật của こちら)",NULL,20,NULL,NULL
+1008,そっち,NULL,"phía đó, chỗ đó (cách nói thân mật của そちら)",NULL,20,NULL,NULL
+1009,あっち,NULL,"phía kia, chỗ kia (cách nói thân mật của あちら)",NULL,20,NULL,NULL
+1010,どっち,NULL,"cái nào (giữa hai cái), phía nào, đâu (cách nói thân mật của どちら)",NULL,20,NULL,NULL
+1011,みんなで,NULL,mọi người cùng,NULL,20,NULL,NULL
+1012,～けど,NULL,"～, nhưng (cách nói thân mật của が)",NULL,20,NULL,NULL
+1013,おなかが いっぱいです,NULL,(Tôi) no rồi,NULL,20,NULL,NULL
+1014,よかったら,NULL,nếu anh/chị thích thì,NULL,20,NULL,NULL
+1015,いろいろ,NULL,nhiều thứ,NULL,20,NULL,NULL
+1016,なおします,NULL,"sửa, chữa",NULL,20,NULL,NULL
+1017,でんわします,NULL,gọi điện thoại,NULL,20,NULL,NULL
+1018,サラリーマン,NULL,người làm việc cho các công ty,NULL,20,NULL,NULL
+1019,ぶっか,NULL,"giá cả, mức giá, vật giá",NULL,20,NULL,NULL
+1020,このあいだ,NULL,"vừa rồi, hôm nọ",NULL,20,NULL,NULL
+1021,くにへ かえるの？,NULL,Anh/Chị có về nước không?,NULL,20,NULL,NULL
+1022,どう するの？,NULL,Anh/Chị tính sao?/ Anh/Chị (sẽ) làm gì?,NULL,20,NULL,NULL
+1023,どう しようかな。,NULL,Tính sao đây nhỉ?/ Để tôi xem.,NULL,20,NULL,NULL
+1024,おもいます,NULL,nghĩ,NULL,21,NULL,NULL
+1025,いいます,NULL,nói,NULL,21,NULL,NULL
+1026,かちます,NULL,thắng,NULL,21,NULL,NULL
+1027,まけます,NULL,thua,NULL,21,NULL,NULL
+1028,あります［おまつりが～］,NULL,"[lễ hội] được tổ chức, diễn ra",NULL,21,NULL,NULL
+1029,やくに たちます,NULL,"hữu ích, giúp ích",NULL,21,NULL,NULL
+1030,うごきます,NULL,"chuyển động, chạy",NULL,21,NULL,NULL
+1031,やめます［かいしゃを～］,NULL,"bỏ, thôi [việc công ty]",NULL,21,NULL,NULL
+1032,きを つけます,NULL,"chú ý, bảo trọng",NULL,21,NULL,NULL
+1033,りゅうがくします,NULL,du học,NULL,21,NULL,NULL
+1034,むだ［な］,NULL,"lãng phí, vô ích",NULL,21,NULL,NULL
+1035,ふべん［な］,NULL,bất tiện,NULL,21,NULL,NULL
+1036,すごい,NULL,"ghê quá, giỏi quá (dùng để bày tỏ sự ngạc nhiên hoặc thán phục)",NULL,21,NULL,NULL
+1037,ほんとう,NULL,sự thật,NULL,21,NULL,NULL
+1038,うそ,NULL,"sự giả dối, giả dối",NULL,21,NULL,NULL
+1039,じどうしゃ,NULL,"ô tô, xe hơi",NULL,21,NULL,NULL
+1040,こうつう,NULL,"giao thông, đi lại",NULL,21,NULL,NULL
+1041,ぶっか,NULL,"giá cả, mức giá, vật giá",NULL,21,NULL,NULL
+1042,ほうそう,NULL,"phát, phát thanh",NULL,21,NULL,NULL
+1043,ニュース,NULL,"tin tức, bản tin",NULL,21,NULL,NULL
+1044,アニメ,NULL,phim hoạt hình (Nhật Bản),NULL,21,NULL,NULL
+1045,マンガ,NULL,truyện tranh,NULL,21,NULL,NULL
+1046,デザイン,NULL,thiết kế,NULL,21,NULL,NULL
+1047,ゆめ,NULL,giấc mơ,NULL,21,NULL,NULL
+1048,てんさい,NULL,thiên tài,NULL,21,NULL,NULL
+1049,しあい,NULL,trận đấu (～を します : có trận đấu),NULL,21,NULL,NULL
+1050,いけん,NULL,ý kiến,NULL,21,NULL,NULL
+1051,はなし,NULL,"câu chuyện, bài nói chuyện (～を します : nói chuyện)",NULL,21,NULL,NULL
+1052,ちきゅう,NULL,trái đất,NULL,21,NULL,NULL
+1053,つき,NULL,"mặt trăng, trăng",NULL,21,NULL,NULL
+1054,さいきん,NULL,gần đây,NULL,21,NULL,NULL
+1055,たぶん,NULL,"chắc, có thể",NULL,21,NULL,NULL
+1056,きっと,NULL,"chắc chắn, nhất định",NULL,21,NULL,NULL
+1057,ほんとうに,NULL,thật sự,NULL,21,NULL,NULL
+1058,そんなに,NULL,(không) ～ lắm,NULL,21,NULL,NULL
+1059,～に ついて,NULL,về ～,NULL,21,NULL,NULL
+1060,ひさしぶりですね。,NULL,Đã lâu không gặp anh/chị.,NULL,21,NULL,NULL
+1061,～でも のみませんか。,NULL,Anh/Chị uống ～ nhé?,NULL,21,NULL,NULL
+1062,もちろん,NULL,"tất nhiên, dĩ nhiên",NULL,21,NULL,NULL
+1063,もう かえらないと……。,NULL,Tôi phải về bây giờ không thì...,NULL,21,NULL,NULL
+1064,アインシュタイン,NULL,Albert Einstein (1879-1955),NULL,21,NULL,NULL
+1065,ガガーリン,NULL,Yuri Alekseyevich Gagarin (1934-1968),NULL,21,NULL,NULL
+1066,ガリレオ,NULL,Galileo Galilei (1564-1642),NULL,21,NULL,NULL
+1067,キングぼくし,NULL,"Martin Luther King, Jr. (1929-1968)",NULL,21,NULL,NULL
+1068,フランクリン,NULL,Benjamin Franklin (1706-1790),NULL,21,NULL,NULL
+1069,かぐやひめ,NULL,"công chúa Kaguya (nữ anh hùng tron truyện cổ tích dân gian ""Taketori Monogatari"" của Nhật Bản)",NULL,21,NULL,NULL
+1070,てんじんまつり,NULL,Lễ hội Tenjin (một lễ hội ở Osaka),NULL,21,NULL,NULL
+1071,よしのやま,NULL,núi Yoshino (một ngọn núi ở tỉnh Nara),NULL,21,NULL,NULL
+1072,カンガルー,NULL,con căng-gu-ru,NULL,21,NULL,NULL
+1073,キャプテン・クック,NULL,Thuyển trưởng Cook (James Cook 1728-1779),NULL,21,NULL,NULL
+1074,ヨーネン,NULL,tên công ty giả định,NULL,21,NULL,NULL
+1075,たります,NULL,đủ,NULL,21,NULL,NULL
+1076,おなじ,NULL,giống,NULL,21,NULL,NULL
+1077,しゅしょう,NULL,thủ tướng,NULL,21,NULL,NULL
+1078,だいとうりょう,NULL,tổng thống,NULL,21,NULL,NULL
+1079,せいじ,NULL,chính trị,NULL,21,NULL,NULL
+1080,スピーチ,NULL,"bài diễn thuyết, bài phát biểu (～を します : diễn thuyết)",NULL,21,NULL,NULL
+1081,アルバイト,NULL,công việc làm thêm (～を します : làm thêm),NULL,21,NULL,NULL
+1082,ユーモア,NULL,hài hước,NULL,21,NULL,NULL
+1083,むだ,NULL,sự lãng phí,NULL,21,NULL,NULL
+1084,ラッシュ,NULL,giớ cao điểm,NULL,21,NULL,NULL
+1085,しかたが ありません。,NULL,Không có cách nào khác./ Đành chịu vậy./ Chuyện đã rồi.,NULL,21,NULL,NULL
+1086,しばらくですね。,NULL,Lâu rồi không gặp nhỉ.,NULL,21,NULL,NULL
+1087,みないと……。,NULL,Tôi phải xem,NULL,21,NULL,NULL
+1088,きます,NULL,"mặc (áo sơ mi, v.v.)",NULL,22,NULL,NULL
+1089,はきます,NULL,"đi, mặc (giày, quần âu, v.v.)",NULL,22,NULL,NULL
+1090,かぶります,NULL,"đội (mũ, v.v.)",NULL,22,NULL,NULL
+1091,かけます［めがねを～］,NULL,đeo [kính],NULL,22,NULL,NULL
+1092,します［ネクタイを～］,NULL,đeo [cà vạt],NULL,22,NULL,NULL
+1093,うまれます,NULL,sinh ra,NULL,22,NULL,NULL
+1094,わたしたち,NULL,"chúng tôi, chúng ta",NULL,22,NULL,NULL
+1095,コート,NULL,áo khoác,NULL,22,NULL,NULL
+1096,セーター,NULL,áo len,NULL,22,NULL,NULL
+1097,スーツ,NULL,"com-lê, vét",NULL,22,NULL,NULL
+1098,ぼうし,NULL,mũ,NULL,22,NULL,NULL
+1099,めがね,NULL,kính,NULL,22,NULL,NULL
+1100,ケーキ,NULL,bánh ngọt,NULL,22,NULL,NULL
+1101,［お］べんとう,NULL,cơm hộp,NULL,22,NULL,NULL
+1102,ロボット,NULL,rô bốt,NULL,22,NULL,NULL
+1103,ユーモア,NULL,sự hài hước,NULL,22,NULL,NULL
+1104,つごう,NULL,(sự) thích hợp,NULL,22,NULL,NULL
+1105,よく,NULL,thường hay,NULL,22,NULL,NULL
+1106,えーと,NULL,"ừ, à",NULL,22,NULL,NULL
+1107,おめでとう［ございます］。,NULL,"Chúc mừng. (dùng để nói trong dịp sinh nhật, lễ cưới, năm mới, v.v.)",NULL,22,NULL,NULL
+1108,おさがしですか。,NULL,Anh/Chị tìm ～ à?,NULL,22,NULL,NULL
+1109,では,NULL,Thế/Vậy (nhé),NULL,22,NULL,NULL
+1110,こちら,NULL,"đây, cái này (cách nói lịch sự của これ)",NULL,22,NULL,NULL
+1111,やちん,NULL,tiền thuê nhà,NULL,22,NULL,NULL
+1630,さわぎます,NULL,làm ồn,NULL,33,NULL,NULL
+1112,ダイニングキチン,NULL,bếp kèm phòng ăn,NULL,22,NULL,NULL
+1113,わしつ,NULL,phòng kiểu Nhật,NULL,22,NULL,NULL
+1114,おしいれ,NULL,"chỗ để chăn gối, đệm trong một căn phòng kiểu Nhật",NULL,22,NULL,NULL
+1115,ふとん,NULL,"chăn, đệm kiểu Nhật",NULL,22,NULL,NULL
+1116,パリ,NULL,Pa-ri,NULL,22,NULL,NULL
+1117,ばんりの ちょうじょう,NULL,Vạn Lý Trường Thành,NULL,22,NULL,NULL
+1118,みんなの アンケート,NULL,tiêu đề của bảng điều tra giả định,NULL,22,NULL,NULL
+1119,うーん。,NULL,Ừ～./ Để tôi xem./ Thế nào nhỉ,NULL,22,NULL,NULL
+1120,アパート,NULL,nhà chung cư,NULL,22,NULL,NULL
+1121,よかかいはつセンター,NULL,Trung tâm phát triển hoạt động giải trí cho người dân,NULL,22,NULL,NULL
+1122,レジャーはくしょ,NULL,sách trắng về sử dụng thời gian rảnh rỗi,NULL,22,NULL,NULL
+1123,ききます［せんせいに～］,NULL,hỏi [giáo viên],NULL,23,NULL,NULL
+1124,まわします,NULL,vặn,NULL,23,NULL,NULL
+1125,ひきます,NULL,kéo,NULL,23,NULL,NULL
+1126,かえます,NULL,đổi,NULL,23,NULL,NULL
+1127,さわります［ドアに～］,NULL,"sờ, chạm vào [cửa]",NULL,23,NULL,NULL
+1128,でます［おつりが～］,NULL,"[tiền thừa] ra, chạy ra",NULL,23,NULL,NULL
+1129,あるきます,NULL,đi bộ,NULL,23,NULL,NULL
+1130,わたります［はしを～］,NULL,"qua, đi qua [cầu]",NULL,23,NULL,NULL
+1131,まがります［みぎへ～］,NULL,"rẽ, quẹo [phải]",NULL,23,NULL,NULL
+1132,さびしい,NULL,"buồn, cô đơn",NULL,23,NULL,NULL
+1133,［お］ゆ,NULL,nước nóng,NULL,23,NULL,NULL
+1134,おと,NULL,âm thanh,NULL,23,NULL,NULL
+1135,サイズ,NULL,"cỡ, kích cỡ",NULL,23,NULL,NULL
+1136,こしょう,NULL,"(sự) hỏng, hỏng hóc (～します : bị hỏng)",NULL,23,NULL,NULL
+1137,みち,NULL,"đường, đường sá",NULL,23,NULL,NULL
+1138,こうさてん,NULL,ngã tư,NULL,23,NULL,NULL
+1139,しんごう,NULL,đèn tín hiệu,NULL,23,NULL,NULL
+1140,かど,NULL,góc,NULL,23,NULL,NULL
+1141,はし,NULL,cầu,NULL,23,NULL,NULL
+1142,ちゅうしゃじょう,NULL,bãi đỗ xe,NULL,23,NULL,NULL
+1143,たてもの,NULL,tòa nhà,NULL,23,NULL,NULL
+1144,なんかいも,NULL,nhiều lần,NULL,23,NULL,NULL
+1145,－め,NULL,"thứ －, số － (biểu thị thứ tự)",NULL,23,NULL,NULL
+1146,しょうとくたいし,NULL,Thái Tử Shotoku (574-622),NULL,23,NULL,NULL
+1147,ほうりゅうじ,NULL,"Chùa Horyuji, một ngôi chùa ở Nara do Hoàng tử Shotoku xây vào đầu thế kỉ thứ 7",NULL,23,NULL,NULL
+1148,げんきちゃ,NULL,tên trà giả định,NULL,23,NULL,NULL
+1149,ほんだえき,NULL,tên ga giả định,NULL,23,NULL,NULL
+1150,としょかんまえ,NULL,tên điểm dừng xe buýt giả định,NULL,23,NULL,NULL
+1151,うごきます［とけいが～］,NULL,"chuyển động, chạy [đồng hồ ～]",NULL,23,NULL,NULL
+1152,きを つけます［くるまに～］,NULL,"chú ý, cẩn thận [với ô-tô]",NULL,23,NULL,NULL
+1153,ひっこしします,NULL,chuyển nhà,NULL,23,NULL,NULL
+1154,でんきや,NULL,của hàng đồ điện,NULL,23,NULL,NULL
+1155,～や,NULL,cửa hàng ～,NULL,23,NULL,NULL
+1156,きかい,NULL,"máy, máy móc",NULL,23,NULL,NULL
+1157,つまみ,NULL,núm vặn,NULL,23,NULL,NULL
+1158,［お］しょうがつ,NULL,Tết (Dương lịch),NULL,23,NULL,NULL
+1159,ごちそうさま［でした］。,NULL,Xin cảm ơn anh/chị đã đãi tôi bữa cơ. (câu nói dùng khi ăn xong bữa cơm),NULL,23,NULL,NULL
+1160,がいこくじんとうろくしょう,NULL,"thẻ đăng ký người nước ngoài, thẻ đăng ký ngoại kiều",NULL,23,NULL,NULL
+1161,くれます,NULL,"cho, tặng (tôi)",NULL,24,NULL,NULL
+1162,なおします,NULL,"chữa, sửa",NULL,24,NULL,NULL
+1163,つれて いきます,NULL,dẫn (một ai đó) đi,NULL,24,NULL,NULL
+1164,つれて きます,NULL,dẫn (một ai đó) đến,NULL,24,NULL,NULL
+1165,おくります［ひとを～］,NULL,tiễn [một ai đó],NULL,24,NULL,NULL
+1166,しょうかいします,NULL,giới thiệu,NULL,24,NULL,NULL
+1167,あんないします,NULL,"hướng dẫn, giới thiệu, dẫn đường",NULL,24,NULL,NULL
+1168,せつめいします,NULL,"giải thích, trình bày",NULL,24,NULL,NULL
+1169,おじいさん／おじいちゃん,NULL,"ông nội, ông ngoại, ông (cụ/lão)",NULL,24,NULL,NULL
+1170,おばあさん／おばあちゃん,NULL,"bà nội, bà ngoại, bà (cụ/lão)",NULL,24,NULL,NULL
+1171,じゅんび,NULL,sự chuẩn bị (～［を］します : chuẩn bị),NULL,24,NULL,NULL
+1172,ひっこし,NULL,sự chuyển nhà (～［を］します : chuyển nhà),NULL,24,NULL,NULL
+1173,［お］かし,NULL,bánh kẹo,NULL,24,NULL,NULL
+1174,ホームステイ,NULL,homestay,NULL,24,NULL,NULL
+1175,ぜんぶ,NULL,"toàn bộ, tất cả",NULL,24,NULL,NULL
+1176,じぶんで,NULL,tự (mình),NULL,24,NULL,NULL
+1177,ほかに,NULL,"ngoài ra, bên cạnh đó",NULL,24,NULL,NULL
+1178,ははの ひ,NULL,Ngày của Mẹ,NULL,24,NULL,NULL
+1179,いれます［コーヒーを～］,NULL,pha [cà-phê],NULL,24,NULL,NULL
+1180,いみ,NULL,ý nghĩa,NULL,24,NULL,NULL
+1181,ワゴンしゃ,NULL,xe ô-tô kiểu wagon (có thùng đóng kín),NULL,24,NULL,NULL
+1182,［お］べんとう,NULL,cơm hộp,NULL,24,NULL,NULL
+1183,かんがえます,NULL,"nghĩ, suy nghĩ",NULL,25,NULL,NULL
+1184,つきます,NULL,đến,NULL,25,NULL,NULL
+1185,とります［としを～］,NULL,"có, thêm [tuổi]",NULL,25,NULL,NULL
+1186,たります,NULL,đủ,NULL,25,NULL,NULL
+1187,いなか,NULL,"quê, nông thôn",NULL,25,NULL,NULL
+1188,チャンス,NULL,cơ hội,NULL,25,NULL,NULL
+1189,おく,NULL,một trăm triệu,NULL,25,NULL,NULL
+1190,もし［～たら］,NULL,nếu,NULL,25,NULL,NULL
+1191,いみ,NULL,"nghĩa, ý nghĩa",NULL,25,NULL,NULL
+1192,もしもし,NULL,A-lô,NULL,25,NULL,NULL
+1193,てんきん,NULL,việc chuyển địa điểm làm việc (～します : chuyển địa điểm làm việc),NULL,25,NULL,NULL
+1194,こと,NULL,"việc, chuyện (～の こと : việc, chuyện về ～)",NULL,25,NULL,NULL
+1195,ひま,NULL,thời gian rảnh,NULL,25,NULL,NULL
+1196,［いろいろ］おせわに なりました。,NULL,Cảm ơn anh/chị đã giúp đỡ tôi (nhiều),NULL,25,NULL,NULL
+1197,がんばります,NULL,"cố, cố gắng",NULL,25,NULL,NULL
+1198,どうぞ おげんきで。,NULL,Chúc anh/chị mạnh khỏe. Anh/Chị hãy bảo trọng. (câu nói trước khi chia tay với ai đó mà có lẽ lâu nữa mới gặp lại),NULL,25,NULL,NULL
+1199,ベトナム,NULL,Việt Nam,NULL,25,NULL,NULL
+1200,りゅうがくします,NULL,du học,NULL,25,NULL,NULL
+1201,たいしかん,NULL,đại sứ quán,NULL,25,NULL,NULL
+1202,グループ,NULL,"nhóm, đoàn",NULL,25,NULL,NULL
+1203,いくら［～でも］,NULL,"cho dù, thế nào [～ đi nữa]",NULL,25,NULL,NULL
+1204,いっぱい のみましょう。,NULL,Chúng ta cùng uống nhé.,NULL,25,NULL,NULL
+1205,みます,NULL,"kiểm tra, khám bệnh",NULL,26,NULL,NULL
+1206,さがします,NULL,"tìm, tìm kiếm",NULL,26,NULL,NULL
+1207,おくれます［じかんに～］,NULL,"chậm, muộn [giờ]",NULL,26,NULL,NULL
+1208,まに あいます［じかんに～］,NULL,kịp [giờ],NULL,26,NULL,NULL
+1209,やります,NULL,làm,NULL,26,NULL,NULL
+1210,ひろいます,NULL,"nhặt, lượm",NULL,26,NULL,NULL
+1211,れんらくします,NULL,liên lạc,NULL,26,NULL,NULL
+1212,きぶんが いい,NULL,"cảm thấy thoải mái, cảm thấy khỏe",NULL,26,NULL,NULL
+1213,きぶんが わるい,NULL,"cảm thấy không thoải mái, cảm thấy mệt",NULL,26,NULL,NULL
+1214,うんどうかい,NULL,hội thi thể thao,NULL,26,NULL,NULL
+1215,ぼんおどり,NULL,múa Bon,NULL,26,NULL,NULL
+1216,フリーマーケット,NULL,"chợ đồ cũ, chợ trời",NULL,26,NULL,NULL
+1217,ばしょ,NULL,"địa điểm, nơi",NULL,26,NULL,NULL
+1218,ボランティア,NULL,tình nguyện viên,NULL,26,NULL,NULL
+1219,さいふ,NULL,ví,NULL,26,NULL,NULL
+1220,ごみ,NULL,rác,NULL,26,NULL,NULL
+1221,こっかいぎじどう,NULL,tòa nhà quốc hội,NULL,26,NULL,NULL
+1222,へいじつ,NULL,ngày thường,NULL,26,NULL,NULL
+1223,～べん,NULL,"phương ngữ ～, tiếng ～, giọng ～",NULL,26,NULL,NULL
+1224,こんど,NULL,lần tới,NULL,26,NULL,NULL
+1225,ずいぶん,NULL,"khác, tương đối",NULL,26,NULL,NULL
+1226,ちょくせつ,NULL,trực tiếp,NULL,26,NULL,NULL
+1227,いつでも,NULL,lúc nào cũng,NULL,26,NULL,NULL
+1228,どこでも,NULL,ở đâu cũng,NULL,26,NULL,NULL
+1229,だれでも,NULL,ai cũng,NULL,26,NULL,NULL
+1230,なんでも,NULL,cái gì cũng,NULL,26,NULL,NULL
+1231,こんな ～,NULL,～ như thế này,NULL,26,NULL,NULL
+1232,そんな ～,NULL,～ như thế đó (gần người nghe),NULL,26,NULL,NULL
+1233,あんな ～,NULL,～ như thế kia (xa cả người nói và người nghe),NULL,26,NULL,NULL
+1234,エドアストア,NULL,tên một cửa hàng giả định,NULL,26,NULL,NULL
+1235,かたづきます［にもつが～］,NULL,"được dọn dẹp ngăn nắp, gọn gàng [đồ đạc ～]",NULL,26,NULL,NULL
+1236,だします［ごみを～］,NULL,"đổ, để [rác]",NULL,26,NULL,NULL
+1237,もえる ごみ,NULL,rác cháy được,NULL,26,NULL,NULL
+1238,おきば,NULL,nơi để,NULL,26,NULL,NULL
+1239,よこ,NULL,bên cạnh,NULL,26,NULL,NULL
+1240,びん,NULL,chai,NULL,26,NULL,NULL
+1241,かん,NULL,lon,NULL,26,NULL,NULL
+1242,ガス,NULL,ga,NULL,26,NULL,NULL
+1243,～がいしゃ,NULL,công ty ～,NULL,26,NULL,NULL
+1244,うちゅう,NULL,vũ trụ,NULL,26,NULL,NULL
+1245,～さま,NULL,ông/bà/ngài ～ (kính ngữ của ～さん),NULL,26,NULL,NULL
+1246,うちゅうせん,NULL,tàu vũ trụ,NULL,26,NULL,NULL
+1247,こわい,NULL,sợ,NULL,26,NULL,NULL
+1248,うちゅうステーション,NULL,trạm vũ trụ,NULL,26,NULL,NULL
+1249,ちがいます,NULL,khác,NULL,26,NULL,NULL
+1250,うちゅうひこうし,NULL,nhà du hành vũ trụ,NULL,26,NULL,NULL
+1251,ほしであきひこ,NULL,nhà du hành vũ trụ người Nhật Bản (1968 - ),NULL,26,NULL,NULL
+1252,さんかします［パーティーに～］,NULL,"tham gia, dự [buổi tiệc]",NULL,26,NULL,NULL
+1253,もうしこみます,NULL,đăng ký,NULL,26,NULL,NULL
+1254,つごうが いい,NULL,"có thời gian, thuận tiện",NULL,26,NULL,NULL
+1255,つごうが わるい,NULL,"không có thời gian, bận, không thuận tiện",NULL,26,NULL,NULL
+1256,しんぶんしゃ,NULL,"công ty phát hành báo, tòa soạn báo",NULL,26,NULL,NULL
+1257,じゅうどう,NULL,judo (nhu đạo),NULL,26,NULL,NULL
+1258,NHK,NULL,Nippon Hoso Kyokai (Hãng phát thanh truyền hình),NULL,26,NULL,NULL
+1259,こどもの ひ,NULL,Ngày trẻ em,NULL,26,NULL,NULL
+1260,もえます［ごみが～］,NULL,cháy được [rác ～],NULL,26,NULL,NULL
+1261,げっすいきん,NULL,"thứ hai, thứ tư, thứ sáu",NULL,26,NULL,NULL
+1262,［お］ゆ,NULL,nước nóng,NULL,26,NULL,NULL
+1263,こまったなあ。,NULL,Làm thế nào đây!/Căng quá nhỉ!/Gay quá!,NULL,26,NULL,NULL
+1264,でんしメール,NULL,"thư điện tử, e-mail",NULL,26,NULL,NULL
+1265,べつの,NULL,khác,NULL,26,NULL,NULL
+1266,どいたかお,NULL,nhà du hành vũ trụ người Nhật (1954 - ),NULL,26,NULL,NULL
+1267,かいます,NULL,nuôi,NULL,27,NULL,NULL
+1268,はしります［みちを～］,NULL,chạy [trên đường],NULL,27,NULL,NULL
+1269,みえます［やまが～］,NULL,nhìn thấy [núi],NULL,27,NULL,NULL
+1270,きこえます［おとが～］,NULL,"nghe thấy [tiếng, âm thanh]",NULL,27,NULL,NULL
+1271,できます［みちが～］,NULL,"được làm, được hoàn thành [con đường ～]",NULL,27,NULL,NULL
+1272,ひらきます［きょうしつを～］,NULL,"mở, tổ chức [lớp]",NULL,27,NULL,NULL
+1273,しんぱい［な］,NULL,lo lắng,NULL,27,NULL,NULL
+1274,ペット,NULL,"thú cưng, động vật nuôi",NULL,27,NULL,NULL
+1275,とり,NULL,chim,NULL,27,NULL,NULL
+1276,こえ,NULL,tiếng,NULL,27,NULL,NULL
+1277,なみ,NULL,sóng,NULL,27,NULL,NULL
+1278,はなび,NULL,pháo hoa,NULL,27,NULL,NULL
+1279,どうぐ,NULL,dụng cụ,NULL,27,NULL,NULL
+1280,クリーニング,NULL,giặt là,NULL,27,NULL,NULL
+1281,いえ,NULL,nhà,NULL,27,NULL,NULL
+1282,マンション,NULL,chung cư,NULL,27,NULL,NULL
+1283,キッチン,NULL,bếp,NULL,27,NULL,NULL
+1284,～きょうしつ,NULL,lớp học ～,NULL,27,NULL,NULL
+1285,パーティールーム,NULL,phòng tổ chức tiệc,NULL,27,NULL,NULL
+1286,かた,NULL,"vị, ngài (kính ngữ của ひと)",NULL,27,NULL,NULL
+1287,～ご,NULL,～ sau (về mặt thời gian),NULL,27,NULL,NULL
+1288,～しか,NULL,chỉ ～ (được dùng với thể phủ định),NULL,27,NULL,NULL
+1289,ほかの,NULL,khác,NULL,27,NULL,NULL
+1290,はっきり,NULL,rõ ràng,NULL,27,NULL,NULL
+1291,かぐ,NULL,đồ gỗ trong nhà,NULL,27,NULL,NULL
+1292,ほんだな,NULL,giá sách,NULL,27,NULL,NULL
+1293,いつか,NULL,lúc nào đó,NULL,27,NULL,NULL
+1294,たてます,NULL,xây,NULL,27,NULL,NULL
+1295,すばらしい,NULL,tuyệt vời,NULL,27,NULL,NULL
+1296,こどもたち,NULL,bọn trẻ,NULL,27,NULL,NULL
+1297,だいすき［な］,NULL,rất thích,NULL,27,NULL,NULL
+1298,しゅじんこう,NULL,nhân vật chính,NULL,27,NULL,NULL
+1299,かたち,NULL,hình dạng,NULL,27,NULL,NULL
+1300,ふしぎ［な］,NULL,"lạ, kỳ lạ",NULL,27,NULL,NULL
+1301,ポケット,NULL,chiếc túi,NULL,27,NULL,NULL
+1302,たとえば,NULL,ví dụ,NULL,27,NULL,NULL
+1303,つけます,NULL,gắn,NULL,27,NULL,NULL
+1304,じゆうに,NULL,"một cách tự do, thoải mái",NULL,27,NULL,NULL
+1305,そら,NULL,bầu trời,NULL,27,NULL,NULL
+1306,とびます,NULL,bay,NULL,27,NULL,NULL
+1307,むかし,NULL,ngày xưa,NULL,27,NULL,NULL
+1308,じぶん,NULL,tự mình,NULL,27,NULL,NULL
+1309,しょうらい,NULL,tương lai,NULL,27,NULL,NULL
+1310,ドラえもん,NULL,tên nhân vật xuất hiện trong truyện tranh,NULL,27,NULL,NULL
+1311,とります［やすみを～］,NULL,xin [nghỉ],NULL,27,NULL,NULL
+1312,けしき,NULL,phong cảnh,NULL,27,NULL,NULL
+1313,ひるま,NULL,thời gian ban ngày,NULL,27,NULL,NULL
+1314,じどうはんばいき,NULL,máy bán tự động,NULL,27,NULL,NULL
+1315,つうしんはんばい,NULL,thương mại viễn thông (mua bán hàng qua các phương tiện truyền thông),NULL,27,NULL,NULL
+1316,だいどころ,NULL,bếp,NULL,27,NULL,NULL
+1317,ほとんど,NULL,"hầu hết, hầu như",NULL,27,NULL,NULL
+1318,かんさいくうこう,NULL,Sân bay (quốc tế) kansai,NULL,27,NULL,NULL
+1319,あきはばら,NULL,tên một khu phố bán đồ điện tử nổi tiếng ở Tokyo,NULL,27,NULL,NULL
+1320,いず,NULL,một bán đảo thuộc tỉnh Shizuoka,NULL,27,NULL,NULL
+1321,にちようだいく,NULL,làm thợ mộc chủ nhật,NULL,27,NULL,NULL
+1322,ゆめ,NULL,"giấc mơ, ước mơ (～を みます : mơ, mơ ước)",NULL,27,NULL,NULL
+1323,まんが,NULL,truyện tranh,NULL,27,NULL,NULL
+1324,ロボット,NULL,"người máy, rô-bốt",NULL,27,NULL,NULL
+1325,うれます［パンが～］,NULL,bán chạy [bánh mì ～],NULL,28,NULL,NULL
+1326,おどります,NULL,múa,NULL,28,NULL,NULL
+1327,かみます,NULL,"nhai, cắn",NULL,28,NULL,NULL
+1328,えらびます,NULL,"lựa, lựa chọn",NULL,28,NULL,NULL
+1329,かよいます［だいがくに～］,NULL,đi học [đại học],NULL,28,NULL,NULL
+1330,メモします,NULL,"ghi lại, memo",NULL,28,NULL,NULL
+1331,まじめ［な］,NULL,"nghiêm túc, ngoan",NULL,28,NULL,NULL
+1332,ねっしん［な］,NULL,nhiệt tình,NULL,28,NULL,NULL
+1333,えらい,NULL,"siêu, giỏi",NULL,28,NULL,NULL
+1334,ちょうど いい,NULL,vừa vặn,NULL,28,NULL,NULL
+1335,けしき,NULL,phong cảnh,NULL,28,NULL,NULL
+1336,びよういん,NULL,hiệu làm đẹp,NULL,28,NULL,NULL
+1337,だいどころ,NULL,nhà bếp,NULL,28,NULL,NULL
+1338,けいけん,NULL,"kinh nghiệm (～が あります : có ～, ～を します: có ～)",NULL,28,NULL,NULL
+1339,ちから,NULL,sức mạnh,NULL,28,NULL,NULL
+1340,にんき,NULL,được yêu thích (［がくせいに］～が あります : được [sinh viên] yêu thích),NULL,28,NULL,NULL
+1341,かたち,NULL,hình dạng,NULL,28,NULL,NULL
+1342,いろ,NULL,màu sắc,NULL,28,NULL,NULL
+1343,あじ,NULL,vị,NULL,28,NULL,NULL
+1344,ガム,NULL,kẹo cao su,NULL,28,NULL,NULL
+1345,しなもの,NULL,hàng hóa,NULL,28,NULL,NULL
+1346,ねだん,NULL,giá cả,NULL,28,NULL,NULL
+1347,きゅうりょう,NULL,lương,NULL,28,NULL,NULL
+1348,ボーナス,NULL,thưởng,NULL,28,NULL,NULL
+1349,ゲーム,NULL,"trò chơi, game",NULL,28,NULL,NULL
+1350,ばんぐみ,NULL,chương trình,NULL,28,NULL,NULL
+1351,ドラマ,NULL,phim truyền hình,NULL,28,NULL,NULL
+1352,かしゅ,NULL,ca sĩ,NULL,28,NULL,NULL
+1353,しょうせつ,NULL,tiểu thuyết,NULL,28,NULL,NULL
+1354,しょうせつか,NULL,"nhà văn, tiểu thuyết gia",NULL,28,NULL,NULL
+1355,～か,NULL,nhà ～,NULL,28,NULL,NULL
+1356,～き,NULL,máy ～,NULL,28,NULL,NULL
+1357,むすこ,NULL,con trai mình,NULL,28,NULL,NULL
+1358,むすこさん,NULL,con trai người khác,NULL,28,NULL,NULL
+1359,むすめ,NULL,con gái mình,NULL,28,NULL,NULL
+1360,むすめさん,NULL,con gái người khác,NULL,28,NULL,NULL
+1361,じぶん,NULL,mình,NULL,28,NULL,NULL
+1362,しょうらい,NULL,tương lai,NULL,28,NULL,NULL
+1363,しばらく,NULL,một lúc,NULL,28,NULL,NULL
+1364,たいてい,NULL,thường thì,NULL,28,NULL,NULL
+1365,それに,NULL,hơn nữa,NULL,28,NULL,NULL
+1366,それで,NULL,vì thế,NULL,28,NULL,NULL
+1367,［ちょっと］おねがいが あるんですが。,NULL,Tôi có [chút] việc muốn nhờ,NULL,28,NULL,NULL
+1368,じつは,NULL,thực ra,NULL,28,NULL,NULL
+1369,かいわ,NULL,hội thoại,NULL,28,NULL,NULL
+1370,うーん,NULL,ừ,NULL,28,NULL,NULL
+1371,おしらせ,NULL,thông báo,NULL,28,NULL,NULL
+1372,さんかします,NULL,tham gia,NULL,28,NULL,NULL
+1373,ひにち,NULL,thời gian (ngày),NULL,28,NULL,NULL
+1374,ど,NULL,thứ bảy,NULL,28,NULL,NULL
+1375,たいいくかん,NULL,nhà thi đấu thể thao,NULL,28,NULL,NULL
+1376,むりょう,NULL,miễn phí,NULL,28,NULL,NULL
+1377,さそいます,NULL,mời,NULL,28,NULL,NULL
+1378,イベント,NULL,sự kiện,NULL,28,NULL,NULL
+1379,ちがいます,NULL,khác,NULL,28,NULL,NULL
+1380,やさしい,NULL,"tình cảm, hiền lành",NULL,28,NULL,NULL
+1381,しゅうかん,NULL,tập quán,NULL,28,NULL,NULL
+1382,かんりにん,NULL,người quản lý,NULL,28,NULL,NULL
+1383,ホームステイ,NULL,homestay,NULL,28,NULL,NULL
+1384,おしゃべりします,NULL,"nói chuyện, tán chuyện",NULL,28,NULL,NULL
+1385,あきます［ドアが～］,NULL,mở [cửa ～],NULL,29,NULL,NULL
+1386,しまります［ドアが～］,NULL,đóng [cửa ～],NULL,29,NULL,NULL
+1387,つきます［でんきが～］,NULL,sáng [điện ～],NULL,29,NULL,NULL
+1388,きえます［でんきが～］,NULL,tắt [điện ～],NULL,29,NULL,NULL
+1389,こわれます［いすが～］,NULL,hỏng [ghế ～],NULL,29,NULL,NULL
+1390,われます［コップが～］,NULL,vỡ [cốc ～],NULL,29,NULL,NULL
+1391,おれます［きが～］,NULL,gãy [cây ～],NULL,29,NULL,NULL
+1392,やぶれます［かみが～］,NULL,rách [giấy ～],NULL,29,NULL,NULL
+1393,よごれます［ふくが～］,NULL,bẩn [áo quần ～],NULL,29,NULL,NULL
+1394,つきます［ポケットが～］,NULL,có [túi]/dính [giấy ～],NULL,29,NULL,NULL
+1395,はずれます［ボタンが～］,NULL,"bung, rời [nút ～]",NULL,29,NULL,NULL
+1396,とまります［くるまが～］,NULL,"dừng, đỗ [xe ～]",NULL,29,NULL,NULL
+1397,まちがえます,NULL,nhầm,NULL,29,NULL,NULL
+1398,おとします,NULL,"thả xuống, đánh rơi",NULL,29,NULL,NULL
+1399,かかります［かぎが～］,NULL,đóng [khóa ～],NULL,29,NULL,NULL
+1400,ふきます,NULL,"lau, chùi",NULL,29,NULL,NULL
+1401,とりかえます,NULL,thay,NULL,29,NULL,NULL
+1402,かたづけます,NULL,dọn dẹp,NULL,29,NULL,NULL
+1403,［お］さら,NULL,đĩa,NULL,29,NULL,NULL
+1404,［お］ちゃわん,NULL,"bát, chén",NULL,29,NULL,NULL
+1405,コップ,NULL,cốc,NULL,29,NULL,NULL
+1406,ガラス,NULL,ly,NULL,29,NULL,NULL
+1407,ふくろ,NULL,túi,NULL,29,NULL,NULL
+1408,しょるい,NULL,giấy tờ,NULL,29,NULL,NULL
+1409,えだ,NULL,cành cây,NULL,29,NULL,NULL
+1410,えきいん,NULL,nhân viên nhà ga,NULL,29,NULL,NULL
+1411,こうばん,NULL,"đồn cảnh sát, bốt cảnh sát",NULL,29,NULL,NULL
+1412,スピーチ,NULL,diễn văn (～を します : đọc ～),NULL,29,NULL,NULL
+1413,へんじ,NULL,trả lời (～を します : trả lời),NULL,29,NULL,NULL
+1414,おさきに どうぞ。,NULL,Mời anh/em cứ về trước,NULL,29,NULL,NULL
+1415,げんじものがたり,NULL,tiểu thuyết được viết bởi Murasaki Shikibu vào thời Heian,NULL,29,NULL,NULL
+1416,いまの でんしゃ,NULL,(chuyến) tàu điện vừa chạy,NULL,29,NULL,NULL
+1417,わすれもの,NULL,đồ bỏ quên,NULL,29,NULL,NULL
+1418,このくらい,NULL,"cỡ tầm này, khoảng chừng này",NULL,29,NULL,NULL
+1419,～がわ,NULL,phía ～,NULL,29,NULL,NULL
+1420,ポケット,NULL,túi,NULL,29,NULL,NULL
+1421,～ へん,NULL,chỗ ～,NULL,29,NULL,NULL
+1422,おぼえて いません。,NULL,Tôi không nhớ.,NULL,29,NULL,NULL
+1423,あみだな,NULL,giá để hành lý,NULL,29,NULL,NULL
+1424,たしか,NULL,chắc là,NULL,29,NULL,NULL
+1425,［ああ、］よかった。,NULL,"[Ôi,] tốt quá. (dùng khi biểu thị sự an tâm)",NULL,29,NULL,NULL
+1426,しんじゅく,NULL,tên một địa điểm/nhà ga ở Tokyo,NULL,29,NULL,NULL
+1427,じしん,NULL,động đất,NULL,29,NULL,NULL
+1428,かべ,NULL,tường,NULL,29,NULL,NULL
+1429,はり,NULL,kim đồng hồ,NULL,29,NULL,NULL
+1430,さします,NULL,chỉ,NULL,29,NULL,NULL
+1431,えきまえ,NULL,trước ga,NULL,29,NULL,NULL
+1432,たおれます,NULL,đổ,NULL,29,NULL,NULL
+1433,にし,NULL,phía tây,NULL,29,NULL,NULL
+1434,～の ほう,NULL,bên ～,NULL,29,NULL,NULL
+1435,もえます,NULL,cháy,NULL,29,NULL,NULL
+1436,レポーター,NULL,phóng viên,NULL,29,NULL,NULL
+1437,こみます［みちが～］,NULL,"đông, tắc [đường ～]",NULL,29,NULL,NULL
+1438,すきます［みちが～］,NULL,"vắng, thoáng [đường ～]",NULL,29,NULL,NULL
+1439,さいふ,NULL,cái ví,NULL,29,NULL,NULL
+1440,この へん,NULL,"xung quanh đây, gần đây",NULL,29,NULL,NULL
+1441,よつや,NULL,tên một ga ở Tokyo,NULL,29,NULL,NULL
+1442,ほう,NULL,"hướng, phương hướng",NULL,29,NULL,NULL
+1443,さんのみや,NULL,tên một địa điểm ở Kobe,NULL,29,NULL,NULL
+1444,はります,NULL,dán,NULL,30,NULL,NULL
+1445,かけます,NULL,treo,NULL,30,NULL,NULL
+1446,かざります,NULL,trang trí,NULL,30,NULL,NULL
+1447,ならべます,NULL,sắp xếp,NULL,30,NULL,NULL
+1448,うえます,NULL,trồng,NULL,30,NULL,NULL
+1449,もどします,NULL,để lại,NULL,30,NULL,NULL
+1450,まとめます,NULL,thu dọn (hành lý),NULL,30,NULL,NULL
+1451,しまいます,NULL,cất,NULL,30,NULL,NULL
+1452,きめます,NULL,quyết định,NULL,30,NULL,NULL
+1453,よしゅうします,NULL,chuẩn bị bài,NULL,30,NULL,NULL
+1454,ふくしゅうします,NULL,ôn tập,NULL,30,NULL,NULL
+1455,そのままに します,NULL,để nguyên như thế,NULL,30,NULL,NULL
+1456,じゅぎょう,NULL,giờ học,NULL,30,NULL,NULL
+1457,こうぎ,NULL,bài giảng,NULL,30,NULL,NULL
+1458,ミーティング,NULL,cuộc họp,NULL,30,NULL,NULL
+1459,よてい,NULL,"dự định, kế hoạch",NULL,30,NULL,NULL
+1460,おしらせ,NULL,thông báo,NULL,30,NULL,NULL
+1461,ガイドブック,NULL,sách hướng dẫn du lịch,NULL,30,NULL,NULL
+1462,カレンダー,NULL,lịch,NULL,30,NULL,NULL
+1463,ポスター,NULL,poster,NULL,30,NULL,NULL
+1464,よていひょう,NULL,lịch làm việc,NULL,30,NULL,NULL
+1465,ごみばこ,NULL,thùng rác,NULL,30,NULL,NULL
+1466,にんぎょう,NULL,búp bê,NULL,30,NULL,NULL
+1467,かびん,NULL,"bình hoa, lọ hoa",NULL,30,NULL,NULL
+1468,かがみ,NULL,gương,NULL,30,NULL,NULL
+1469,ひきだし,NULL,ngăn kéo,NULL,30,NULL,NULL
+1470,げんかん,NULL,"lối vào nhà, sảnh vào nhà",NULL,30,NULL,NULL
+1471,ろうか,NULL,hành lang,NULL,30,NULL,NULL
+1472,かべ,NULL,tường,NULL,30,NULL,NULL
+1473,いけ,NULL,"ao, hồ",NULL,30,NULL,NULL
+1474,もとの ところ,NULL,chỗ cũ,NULL,30,NULL,NULL
+1475,まわり,NULL,xung quanh,NULL,30,NULL,NULL
+1476,まんなか,NULL,chính giữa,NULL,30,NULL,NULL
+1477,すみ,NULL,góc,NULL,30,NULL,NULL
+1478,まだ,NULL,vẫn,NULL,30,NULL,NULL
+1479,リュック,NULL,ba lô,NULL,30,NULL,NULL
+1480,ひじょうぶくろ,NULL,túi (đựng vật dụng trong trường hợp) khẩn cấp,NULL,30,NULL,NULL
+1481,ひじょうじ,NULL,"trường hợp khẩn cấp, lúc khẩn cấp",NULL,30,NULL,NULL
+1482,せいかつします,NULL,"sinh hoạt, sống",NULL,30,NULL,NULL
+1483,かいちゅうでんとう,NULL,đèn pin,NULL,30,NULL,NULL
+1484,～とか、～とか,NULL,"như (là) ～, như (là) ～",NULL,30,NULL,NULL
+1485,まるい,NULL,tròn,NULL,30,NULL,NULL
+1486,ある ～,NULL,～ nọ,NULL,30,NULL,NULL
+1487,ゆめを みます,NULL,mơ,NULL,30,NULL,NULL
+1488,うれしい,NULL,vui,NULL,30,NULL,NULL
+1489,いや［な］,NULL,"ghét, không thích",NULL,30,NULL,NULL
+1490,すると,NULL,khi đó,NULL,30,NULL,NULL
+1491,めが さめます,NULL,"thức tỉnh, tỉnh giấc",NULL,30,NULL,NULL
+1492,かたづけます,NULL,"dọn dẹp, sắp xếp",NULL,30,NULL,NULL
+1493,しらせます,NULL,"thông báo, báo",NULL,30,NULL,NULL
+1494,そうだんします,NULL,"trao đổi, bàn bạc, tư vấn",NULL,30,NULL,NULL
+1495,おこさん,NULL,con (dùng đối với người khác),NULL,30,NULL,NULL
+1496,あんないしょ,NULL,sách/tài liệu hướng dẫn,NULL,30,NULL,NULL
+1497,こうばん,NULL,trạm/bốt cảnh sát,NULL,30,NULL,NULL
+1498,～ほど,NULL,"khoảng ～, chừng ～",NULL,30,NULL,NULL
+1499,ごくろうさま。,NULL,Anh/Chị đã làm việc vất vả./Cảm ơn anh/chị. (câu nói dùng để bày tỏ sự cảm ơn hoặc thông cảm với sự vất vả khi ai đó đã làm xong một việc gì),NULL,30,NULL,NULL
+1500,きぼう,NULL,"hi vọng, nguyện vọng",NULL,30,NULL,NULL
+1501,なにか ごきぼうが ありますか。,NULL,Anh/chị có nguyện vọng gì không?/Anh/Chị có yêu cầu gì không,NULL,30,NULL,NULL
+1502,ミュージカル,NULL,ca kịch,NULL,30,NULL,NULL
+1503,それは いいですね。,NULL,Điều đó được đấy nhỉ./Hay quá nhỉ.,NULL,30,NULL,NULL
+1504,ブロードウェイ,NULL,Broadway,NULL,30,NULL,NULL
+1505,つき,NULL,"mặt trăng, trăng",NULL,30,NULL,NULL
+1506,ちきゅう,NULL,trái đất,NULL,30,NULL,NULL
+1507,つづけます,NULL,tiếp tục,NULL,31,NULL,NULL
+1508,みつけます,NULL,tìm,NULL,31,NULL,NULL
+1509,とります［やすみを～］,NULL,xin [nghỉ],NULL,31,NULL,NULL
+1510,うけます［しけんを～］,NULL,dự [thi],NULL,31,NULL,NULL
+1511,もうしこみます,NULL,đăng ký,NULL,31,NULL,NULL
+1512,きゅうけいします,NULL,nghỉ giải lao,NULL,31,NULL,NULL
+1513,れんきゅう,NULL,ngày nghỉ liên tục,NULL,31,NULL,NULL
+1514,さくぶん,NULL,bài tập làm văn,NULL,31,NULL,NULL
+1515,はっぴょう,NULL,"phát biểu, công bố (～します: phát biểu)",NULL,31,NULL,NULL
+1516,てんらんかい,NULL,cuộc triển lãm,NULL,31,NULL,NULL
+1517,けっこんしき,NULL,lễ cưới,NULL,31,NULL,NULL
+1518,［お］そうしき,NULL,đám tang,NULL,31,NULL,NULL
+1519,しき,NULL,lễ,NULL,31,NULL,NULL
+1520,ほんしゃ,NULL,"trụ sở chính, tổng công ty",NULL,31,NULL,NULL
+1521,してん,NULL,chi nhánh,NULL,31,NULL,NULL
+1522,きょうかい,NULL,nhà thờ,NULL,31,NULL,NULL
+1523,だいがくいん,NULL,cao học,NULL,31,NULL,NULL
+1524,どうぶつえん,NULL,sở thú,NULL,31,NULL,NULL
+1525,おんせん,NULL,suối nước nóng,NULL,31,NULL,NULL
+1526,かえり,NULL,chiều về,NULL,31,NULL,NULL
+1527,おこさん,NULL,con (dùng nói về con người khác),NULL,31,NULL,NULL
+1528,－ごう,NULL,số (hiệu) ～,NULL,31,NULL,NULL
+1529,～の ほう,NULL,phía ～,NULL,31,NULL,NULL
+1530,ずっと,NULL,suốt,NULL,31,NULL,NULL
+1531,バリ,NULL,Ba-li (hòn đảo ở In-đô-nê-xi-a),NULL,31,NULL,NULL
+1532,ピカソ,NULL,"Pablo Picasso, danh họa người Tây Ban Nha (1881-1973)",NULL,31,NULL,NULL
+1533,のぞみ,NULL,tên của tàu Shinkansen (～４２号 : Nozomi số 42),NULL,31,NULL,NULL
+1534,しんこうべ,NULL,tên ga ở tỉnh Hyogo,NULL,31,NULL,NULL
+1535,のこります,NULL,"ở lại, còn",NULL,31,NULL,NULL
+1536,にゅうがくしけん,NULL,kỳ thi đầu vào,NULL,31,NULL,NULL
+1537,つきに,NULL,(trong) một,NULL,31,NULL,NULL
+1538,むら,NULL,làng,NULL,31,NULL,NULL
+1539,そつぎょうします,NULL,tốt nghiệp,NULL,31,NULL,NULL
+1540,えいがかん,NULL,rạp chiếu phim,NULL,31,NULL,NULL
+1541,いや［な］,NULL,chán,NULL,31,NULL,NULL
+1542,そら,NULL,bầu trời,NULL,31,NULL,NULL
+1543,とじます,NULL,nhắm,NULL,31,NULL,NULL
+1544,とかい,NULL,thành phố,NULL,31,NULL,NULL
+1545,こどもたち,NULL,"trẻ con, bọn trẻ",NULL,31,NULL,NULL
+1546,じゆうに,NULL,thoải mái,NULL,31,NULL,NULL
+1547,はじまります［しきが～］,NULL,bắt đầu [buổi lễ ～],NULL,31,NULL,NULL
+1548,にゅうがくします［だいがくに～］,NULL,"nhập học, vào [(trường) đại học]",NULL,31,NULL,NULL
+1549,しゅっせきします［かいぎに～］,NULL,"tham dự, tham gia [cuộc họp]",NULL,31,NULL,NULL
+1550,おきゃく［さん］,NULL,khách hàng,NULL,31,NULL,NULL
+1551,だれか,NULL,ai đó,NULL,31,NULL,NULL
+1552,うえのこうえん,NULL,Công viên Ueno (ở Tokyo),NULL,31,NULL,NULL
+1553,ふつうの,NULL,"thường, thông thường",NULL,31,NULL,NULL
+1554,インターネット,NULL,Internet,NULL,31,NULL,NULL
+1555,せかいじゅう,NULL,khắp thế giới,NULL,31,NULL,NULL
+1556,あつまります,NULL,tập trung,NULL,31,NULL,NULL
+1557,うつくしい,NULL,đẹp,NULL,31,NULL,NULL
+1558,しぜん,NULL,"tự nhiên, thiên nhiên",NULL,31,NULL,NULL
+1559,すばらしさ,NULL,tuyệt vời,NULL,31,NULL,NULL
+1560,きが つきます,NULL,"để ý, nhận ra",NULL,31,NULL,NULL
+1561,うんどうします,NULL,vận động,NULL,32,NULL,NULL
+1562,せいこうします,NULL,thành công,NULL,32,NULL,NULL
+1563,しっぱいします［しけんに～］,NULL,"thất bại, trượt [kỳ thi]",NULL,32,NULL,NULL
+1564,ごうかくします［しけんに～］,NULL,đỗ [kỳ thi],NULL,32,NULL,NULL
+1565,やみます［あめが～］,NULL,tạnh [mưa],NULL,32,NULL,NULL
+1566,はれます,NULL,quang đãng,NULL,32,NULL,NULL
+1567,くもります,NULL,có mây,NULL,32,NULL,NULL
+1568,つづきます［ねつが～］,NULL,kéo dài [sốt ～],NULL,32,NULL,NULL
+1569,ひきます［かぜを～］,NULL,bị cảm,NULL,32,NULL,NULL
+1570,ひやします,NULL,"làm mát, làm lạnh",NULL,32,NULL,NULL
+1571,こみます［みちが～］,NULL,đông [đường ～],NULL,32,NULL,NULL
+1572,すきます［みちが～］,NULL,vắng [đường ～],NULL,32,NULL,NULL
+1573,でます［しあいに～］,NULL,tham gia [trận đấu],NULL,32,NULL,NULL
+1574,でます［パーティーに～］,NULL,dự [tiệc],NULL,32,NULL,NULL
+1575,むりを します,NULL,gắng sức,NULL,32,NULL,NULL
+1576,じゅうぶん［な］,NULL,đủ,NULL,32,NULL,NULL
+1577,おかしい,NULL,"(kỷ) lạ, thú vị",NULL,32,NULL,NULL
+1578,うるさい,NULL,ồn ào,NULL,32,NULL,NULL
+1579,せんせい,NULL,bác sĩ,NULL,32,NULL,NULL
+1580,やけど,NULL,bỏng (～を します : bị ～),NULL,32,NULL,NULL
+1581,けが,NULL,thương (～を します : bị ～),NULL,32,NULL,NULL
+1582,せき,NULL,ho (～を します : ho / ～が でます : bị ～),NULL,32,NULL,NULL
+1583,インフルエンザ,NULL,cúm,NULL,32,NULL,NULL
+1584,そら,NULL,bầu trời,NULL,32,NULL,NULL
+1585,たいよう,NULL,mặt trời,NULL,32,NULL,NULL
+1586,ほし,NULL,sao,NULL,32,NULL,NULL
+1587,かぜ,NULL,gió,NULL,32,NULL,NULL
+1588,ひがし,NULL,đông,NULL,32,NULL,NULL
+1589,にし,NULL,tây,NULL,32,NULL,NULL
+1590,みなみ,NULL,nam,NULL,32,NULL,NULL
+1591,きた,NULL,bắc,NULL,32,NULL,NULL
+1592,こくさい～,NULL,～ quốc tế,NULL,32,NULL,NULL
+1593,すいどう,NULL,nước máy,NULL,32,NULL,NULL
+1594,エンジン,NULL,động cơ,NULL,32,NULL,NULL
+1595,チーム,NULL,đội,NULL,32,NULL,NULL
+1596,こんや,NULL,tối nay,NULL,32,NULL,NULL
+1597,ゆうがた,NULL,chiều tối,NULL,32,NULL,NULL
+1598,まえ,NULL,trước,NULL,32,NULL,NULL
+1599,おそく,NULL,muộn,NULL,32,NULL,NULL
+1600,こんなに,NULL,như thế này,NULL,32,NULL,NULL
+1601,そんなに,NULL,"như thế đó, nhứ thế đấy (về những vật/điều liên quan đến người nghe)",NULL,32,NULL,NULL
+1602,あんなに,NULL,như thế kia (về những vật/điều không liên quan đến cả người nói lẫn người nghe),NULL,32,NULL,NULL
+1603,ヨーロッパ,NULL,châu Âu,NULL,32,NULL,NULL
+1604,げんき,NULL,khỏe,NULL,32,NULL,NULL
+1605,い,NULL,dạ dày,NULL,32,NULL,NULL
+1606,ストレス,NULL,căng thẳng,NULL,32,NULL,NULL
+1607,それは いけませんね。,NULL,Thế thì thật không tốt,NULL,32,NULL,NULL
+1608,ほしうらない,NULL,bói sao,NULL,32,NULL,NULL
+1609,おうしざ,NULL,sao Kim Ngưu,NULL,32,NULL,NULL
+1610,はたらきすぎ,NULL,làm việc quá sức,NULL,32,NULL,NULL
+1611,こまります,NULL,khó khăn,NULL,32,NULL,NULL
+1612,たからくじ,NULL,"vé số, xổ số",NULL,32,NULL,NULL
+1613,あたります［たからくじが～］,NULL,trúng [xổ số],NULL,32,NULL,NULL
+1614,けんこう,NULL,sức khỏe,NULL,32,NULL,NULL
+1615,れんあい,NULL,tình yêu,NULL,32,NULL,NULL
+1616,こいびと,NULL,người yêu,NULL,32,NULL,NULL
+1617,ラッキーアイテム,NULL,thứ được cho là đem lại vân may trong bói toán,NULL,32,NULL,NULL
+1618,いし,NULL,"hòn đá, viên đá",NULL,32,NULL,NULL
+1619,もどります,NULL,"quay lại, trở lại",NULL,32,NULL,NULL
+1620,ふきます［かぜが～］,NULL,thổi [gió ～],NULL,32,NULL,NULL
+1621,なおります［びょうきが～］,NULL,khỏi [cúm],NULL,32,NULL,NULL
+1622,なおります［こしょうが～］,NULL,đã được sửa [chỗ hỏng ～],NULL,32,NULL,NULL
+1623,しんぱい［な］,NULL,lo lắng,NULL,32,NULL,NULL
+1624,つき,NULL,"trăng, mặt trăng",NULL,32,NULL,NULL
+1625,もしかしたら,NULL,"có thể, biết đâu là, có khả năng",NULL,32,NULL,NULL
+1626,オリンピック,NULL,Olympic,NULL,32,NULL,NULL
+1627,ゆっくり します,NULL,"nghỉ ngơi, thư thái, dưỡng sức",NULL,32,NULL,NULL
+1628,［お］かねもち,NULL,"người giàu có, người có nhiều tiền",NULL,32,NULL,NULL
+1629,にげます,NULL,trốn,NULL,33,NULL,NULL
+1631,あきらめます,NULL,"bỏ cuộc, từ bỏ",NULL,33,NULL,NULL
+1632,なげます,NULL,ném,NULL,33,NULL,NULL
+1633,まもります,NULL,"giữ (lời hứa), tuân thủ (quy tắc)",NULL,33,NULL,NULL
+1634,はじまります［しきが～］,NULL,bắt đầu [lễ],NULL,33,NULL,NULL
+1635,しゅっせきします［かいぎに～］,NULL,dự [họp],NULL,33,NULL,NULL
+1636,つたえます,NULL,"nói lại, truyền đạt lại",NULL,33,NULL,NULL
+1637,ちゅういします［くるまに～］,NULL,chú ý [xe ô tô],NULL,33,NULL,NULL
+1638,はずします［せきを～］,NULL,rời [ghế],NULL,33,NULL,NULL
+1639,もどります,NULL,"trở lại, quay trở lại",NULL,33,NULL,NULL
+1640,あります［でんわが～］,NULL,có [điện thoại],NULL,33,NULL,NULL
+1641,リサイクルします,NULL,tái chế,NULL,33,NULL,NULL
+1642,だめ［な］,NULL,không được,NULL,33,NULL,NULL
+1643,おなじ,NULL,giống,NULL,33,NULL,NULL
+1644,けいさつ,NULL,"cảnh sát, sở cảnh sát",NULL,33,NULL,NULL
+1645,せき,NULL,"ghế, chỗ (ngồi)",NULL,33,NULL,NULL
+1646,マーク,NULL,ký hiệu,NULL,33,NULL,NULL
+1647,ボール,NULL,bóng,NULL,33,NULL,NULL
+1648,しめきり,NULL,"hạn chót, hạn cuối",NULL,33,NULL,NULL
+1649,きそく,NULL,quy tắc,NULL,33,NULL,NULL
+1650,きけん,NULL,nguy hiểm,NULL,33,NULL,NULL
+1651,しようきんし,NULL,cấm sử dụng,NULL,33,NULL,NULL
+1652,たちいりきんし,NULL,cấm vào,NULL,33,NULL,NULL
+1653,じょこう,NULL,"chạy chậm, đi chậm",NULL,33,NULL,NULL
+1654,いりぐち,NULL,lối vào,NULL,33,NULL,NULL
+1655,でぐち,NULL,lối ra,NULL,33,NULL,NULL
+1656,ひじょうぐち,NULL,cửa thoát hiểm,NULL,33,NULL,NULL
+1657,むりょう,NULL,miễn phí,NULL,33,NULL,NULL
+1658,わりびき,NULL,giảm giá,NULL,33,NULL,NULL
+1659,のみほうだい,NULL,uống thoải mái không giới hạn (uống bao nhiêu đi nữa giá tiền cũng không đổi),NULL,33,NULL,NULL
+1660,しようちゅう,NULL,đang sử dụng,NULL,33,NULL,NULL
+1661,ぼしゅうちゅう,NULL,đang tuyển,NULL,33,NULL,NULL
+1662,～ちゅう,NULL,đang ～,NULL,33,NULL,NULL
+1663,どういう ～,NULL,～ như thế nào,NULL,33,NULL,NULL
+1664,いくら［～でも］,NULL,[dù có] ～ bao nhiêu đi nữa,NULL,33,NULL,NULL
+1665,もう,NULL,nữa (dùng với thể phủ định),NULL,33,NULL,NULL
+1666,あと ～,NULL,còn ～,NULL,33,NULL,NULL
+1667,～ほど,NULL,khoảng ～,NULL,33,NULL,NULL
+1668,ちゅうしゃいはん,NULL,đỗ xe sai quy định,NULL,33,NULL,NULL
+1669,ばっきん,NULL,tiền phạt,NULL,33,NULL,NULL
+1670,じしん,NULL,động đất,NULL,33,NULL,NULL
+1671,おきます,NULL,xảy ra,NULL,33,NULL,NULL
+1672,たすけあいます,NULL,giúp đỡ lẫn nhau,NULL,33,NULL,NULL
+1673,もともと,NULL,"vốn là, nguyên là",NULL,33,NULL,NULL
+1674,かなしい,NULL,buồn,NULL,33,NULL,NULL
+1675,もっと,NULL,hơn,NULL,33,NULL,NULL
+1676,あいさつ,NULL,chào hỏi (～を します : chào),NULL,33,NULL,NULL
+1677,あいて,NULL,đối phương,NULL,33,NULL,NULL
+1678,きもち,NULL,tâm trạng,NULL,33,NULL,NULL
+1679,あげます,NULL,"nâng, nâng lên, tăng lên",NULL,33,NULL,NULL
+1680,さげます,NULL,"hạ, hạ xuống, giảm xuống",NULL,33,NULL,NULL
+1681,ファイト,NULL,"""quyết chiến"", ""cố lên""",NULL,33,NULL,NULL
+1682,せんたくき,NULL,máy giặt,NULL,33,NULL,NULL
+1683,～き,NULL,máy ～,NULL,33,NULL,NULL
+1684,ほんじつきゅうぎょう,NULL,"hôm nay đóng cửa, hôm nay nghỉ",NULL,33,NULL,NULL
+1685,えいぎょうちゅう,NULL,đang mở cửa,NULL,33,NULL,NULL
+1686,そりゃあ,NULL,"thế thì, ồ",NULL,33,NULL,NULL
+1687,～いない,NULL,"trong khoảng ～, trong vòng ～",NULL,33,NULL,NULL
+1688,でんぽう,NULL,"bức điện, điện báo",NULL,33,NULL,NULL
+1689,ひとびと,NULL,"người, những người",NULL,33,NULL,NULL
+1690,きゅうよう,NULL,"việc gấp, việc khẩn",NULL,33,NULL,NULL
+1691,うちます［でんぽうを～］,NULL,gửi [bức điện],NULL,33,NULL,NULL
+1692,でんぽうだい,NULL,tiền cước điện báo,NULL,33,NULL,NULL
+1693,できるだけ,NULL,"cố gắng, trong khả năng có thể",NULL,33,NULL,NULL
+1694,みじかく,NULL,"ngắn gọn, đơn giản",NULL,33,NULL,NULL
+1695,また,NULL,thêm nữa,NULL,33,NULL,NULL
+1696,たとえば,NULL,ví dụ,NULL,33,NULL,NULL
+1697,キトク,NULL,tình trạng hiểm nghèo,NULL,33,NULL,NULL
+1698,おもい びょうき,NULL,bệnh nặng,NULL,33,NULL,NULL
+1699,あす,NULL,ngày mai,NULL,33,NULL,NULL
+1700,るす,NULL,vắng nhà,NULL,33,NULL,NULL
+1701,るすばん,NULL,"trông nhà, giữ nhà",NULL,33,NULL,NULL
+1702,［お］いわい,NULL,"việc mừng, vật mừng",NULL,33,NULL,NULL
+1703,なくなります,NULL,"chết, mất",NULL,33,NULL,NULL
+1704,かなしみ,NULL,buồn,NULL,33,NULL,NULL
+1705,りようします,NULL,"sử dụng, lợi dụng, tận dùng, dùng",NULL,33,NULL,NULL
+1706,みがきます［はを～］,NULL,"đánh [răng], đánh (giày)",NULL,34,NULL,NULL
+1707,くみたてます,NULL,lắp ráp,NULL,34,NULL,NULL
+1708,おります,NULL,"gập, bẻ",NULL,34,NULL,NULL
+1709,きが つきます［わすれものに～］,NULL,"để ý đến, chú ý đến [đồ để quên]",NULL,34,NULL,NULL
+1710,つけます［しゅうゆを～］,NULL,chấm [xì dầu],NULL,34,NULL,NULL
+1711,みつかります［かぎが～］,NULL,tìm thấy [chìa khóa],NULL,34,NULL,NULL
+1712,しつもんします,NULL,hỏi,NULL,34,NULL,NULL
+1713,さします［かさを～］,NULL,che [ô],NULL,34,NULL,NULL
+1714,スポーツクラブ,NULL,câu lạc bộ thể thao,NULL,34,NULL,NULL
+1715,［お］しろ,NULL,thành,NULL,34,NULL,NULL
+1716,せつめいしょ,NULL,sách hướng dẫn,NULL,34,NULL,NULL
+1717,ず,NULL,hình vẽ minh họa,NULL,34,NULL,NULL
+1718,せん,NULL,đường kẻ,NULL,34,NULL,NULL
+1719,やじるし,NULL,mũi tên (ký hiệu),NULL,34,NULL,NULL
+1720,くろ,NULL,màu đen (danh từ),NULL,34,NULL,NULL
+1721,しろ,NULL,màu trắng (danh từ),NULL,34,NULL,NULL
+1722,あか,NULL,màu đỏ (danh từ),NULL,34,NULL,NULL
+1723,あお,NULL,màu xanh (danh từ),NULL,34,NULL,NULL
+1724,こん,NULL,màu xanh sẫm (danh từ),NULL,34,NULL,NULL
+1725,きいろ,NULL,màu vàng (danh từ),NULL,34,NULL,NULL
+1726,ちゃいろ,NULL,màu nâu (danh từ),NULL,34,NULL,NULL
+1727,しょうゆ,NULL,xì dầu,NULL,34,NULL,NULL
+1728,ソース,NULL,nước sốt,NULL,34,NULL,NULL
+1729,おきゃく［さん］,NULL,[vị] khách,NULL,34,NULL,NULL
+1730,～か ～,NULL,～ hay là ～,NULL,34,NULL,NULL
+1731,ゆうべ,NULL,tối qua,NULL,34,NULL,NULL
+1732,さっき,NULL,lúc nãy,NULL,34,NULL,NULL
+1733,さどう,NULL,trà đạo,NULL,34,NULL,NULL
+1734,おちゃを たてます,NULL,đánh trà (trong trà đạo),NULL,34,NULL,NULL
+1735,さきに,NULL,trước,NULL,34,NULL,NULL
+1736,のせます,NULL,để lên,NULL,34,NULL,NULL
+2150,うごかします,NULL,di chuyển,NULL,40,NULL,NULL
+1737,これで いいですか。,NULL,Như thế này có được không?,NULL,34,NULL,NULL
+1738,いかがですか。,NULL,Như thế nào ạ?,NULL,34,NULL,NULL
+1739,にがい,NULL,đắng,NULL,34,NULL,NULL
+1740,おやこどんぶり,NULL,Oyakodonburi (món cơm gồm có thịt gà và trứng để trong tô lớn),NULL,34,NULL,NULL
+1741,ざいりょう,NULL,nguyên liệu,NULL,34,NULL,NULL
+1742,～ぶん,NULL,phần ～ (biểu thị lượng),NULL,34,NULL,NULL
+1743,－グラム,NULL,－ gram,NULL,34,NULL,NULL
+1744,ーこ,NULL,－ cái,NULL,34,NULL,NULL
+1745,たまねぎ,NULL,hành tây,NULL,34,NULL,NULL
+1746,よんぶんのいち（１／４）,NULL,một phần tư,NULL,34,NULL,NULL
+1747,ちょうみりょう,NULL,gia vị,NULL,34,NULL,NULL
+1748,てきとうな おおきさに,NULL,độ lớn thích hợp,NULL,34,NULL,NULL
+1749,なべ,NULL,nồi,NULL,34,NULL,NULL
+1750,ひ,NULL,lửa,NULL,34,NULL,NULL
+1751,ひに かけます,NULL,bắc lên bếp,NULL,34,NULL,NULL
+1752,にます,NULL,nấu,NULL,34,NULL,NULL
+1753,にえます,NULL,chín,NULL,34,NULL,NULL
+1754,どんぶり,NULL,bát tô lớn,NULL,34,NULL,NULL
+1755,たちます,NULL,trôi qua (thời gian),NULL,34,NULL,NULL
+1756,します［ネクタイを～］,NULL,"đeo, thắt [cà-vạt]",NULL,34,NULL,NULL
+1757,ほそい,NULL,"gầy, hẹp, thon",NULL,34,NULL,NULL
+1758,ふとい,NULL,"béo, to",NULL,34,NULL,NULL
+1759,ぼんおどり,NULL,múa trong hội Bon,NULL,34,NULL,NULL
+1760,かぐ,NULL,"gia cụ, đồ dùng nội thất",NULL,34,NULL,NULL
+1761,キー,NULL,chìa khóa,NULL,34,NULL,NULL
+1762,シートベルト,NULL,dây an toàn (ở ghế ngồi),NULL,34,NULL,NULL
+1763,とりにく,NULL,thịt gà,NULL,34,NULL,NULL
+1764,さきます［はなが～］,NULL,nở [hoa ～],NULL,35,NULL,NULL
+1765,かわります［いろが～］,NULL,"đổi, thay đổi [màu ～]",NULL,35,NULL,NULL
+1766,こまります,NULL,khó khăn,NULL,35,NULL,NULL
+1767,つけます［まるを～］,NULL,đánh [dấu tròn],NULL,35,NULL,NULL
+1768,なおります［びょうきが～］,NULL,khỏi [bệnh],NULL,35,NULL,NULL
+1769,なおります［こしょうが～］,NULL,được sửa xong [hỏng hóc ～],NULL,35,NULL,NULL
+1770,くりっくします,NULL,click chuột,NULL,35,NULL,NULL
+1771,にゅうりょくします,NULL,nhập vào,NULL,35,NULL,NULL
+1772,ただしい,NULL,đúng,NULL,35,NULL,NULL
+1773,むこう,NULL,"đằng ấy, phía đối diện",NULL,35,NULL,NULL
+1774,しま,NULL,đảo,NULL,35,NULL,NULL
+1775,みなと,NULL,cảng,NULL,35,NULL,NULL
+1776,きんじょ,NULL,hàng xóm,NULL,35,NULL,NULL
+1777,おくじょう,NULL,tầng thượng,NULL,35,NULL,NULL
+1778,かいがい,NULL,nước ngoài,NULL,35,NULL,NULL
+1779,やまのぼり,NULL,leo núi,NULL,35,NULL,NULL
+1780,れきし,NULL,lịch sử,NULL,35,NULL,NULL
+1781,きかい,NULL,cơ hội,NULL,35,NULL,NULL
+1782,きょか,NULL,sự cho phép,NULL,35,NULL,NULL
+1783,まる,NULL,dấu tròn,NULL,35,NULL,NULL
+1784,ふりがな,NULL,Furigana (chứ Kana biểu thị cách đọc của chữ Hán),NULL,35,NULL,NULL
+1785,せつび,NULL,thiết bị,NULL,35,NULL,NULL
+1786,レバー,NULL,"cần, cần gạt",NULL,35,NULL,NULL
+1787,キー,NULL,phím,NULL,35,NULL,NULL
+1788,カーテン,NULL,rèm cửa,NULL,35,NULL,NULL
+1789,ひも,NULL,sợi dây,NULL,35,NULL,NULL
+1790,すいはんき,NULL,nồi cơm điện,NULL,35,NULL,NULL
+1791,は,NULL,lá,NULL,35,NULL,NULL
+1792,むかし,NULL,ngày xưa,NULL,35,NULL,NULL
+1793,もっと,NULL,hơn nữa,NULL,35,NULL,NULL
+1794,これで おわりましょう。,NULL,Chúng ta dừng ở đây nhé,NULL,35,NULL,NULL
+1795,はこね,NULL,"khu nghỉ dưỡng, tham quan ở tỉnh Kanagawa",NULL,35,NULL,NULL
+1796,にっこう,NULL,địa điểm tham quan ở tỉnh Tochigi,NULL,35,NULL,NULL
+1797,アフリカ,NULL,châu Phi,NULL,35,NULL,NULL
+1798,マンガミュージアム,NULL,Bảo tàng truyện tranh quốc tế Kyoto,NULL,35,NULL,NULL
+1799,みんなの がっこう,NULL,tên trường tiếng Nhật giả định,NULL,35,NULL,NULL
+1800,だいこくずし,NULL,tên quán sushi giả định,NULL,35,NULL,NULL
+1801,IMCパソコンきょうしつ,NULL,tên trường đào tạo chuyên môn máy tính giả định,NULL,35,NULL,NULL
+1802,ははの あじ,NULL,tiêu đề của cuốn sách giả định,NULL,35,NULL,NULL
+1803,はる,NULL,hiệu làm đẹp giả định,NULL,35,NULL,NULL
+1804,さとうしか,NULL,phòng nha giả định,NULL,35,NULL,NULL
+1805,まいにちクッキング,NULL,trường dạy nấu ăn giả định,NULL,35,NULL,NULL
+1806,それなら,NULL,"nếu thế thì, nếu vậy thì",NULL,35,NULL,NULL
+1807,やこうバス,NULL,xe buýt đêm,NULL,35,NULL,NULL
+1808,さあ,NULL,"ờ, à (dùng ở đầu câu nói khi không nắm rõ một việc gì)",NULL,35,NULL,NULL
+1809,りょこうしゃ,NULL,công ty du lịch,NULL,35,NULL,NULL
+1810,くわしい,NULL,"cụ thể, chi tiết",NULL,35,NULL,NULL
+1811,スキーじょう,NULL,khu trượt tuyết,NULL,35,NULL,NULL
+1812,くさつ,NULL,khu nghỉ dưỡng ở tỉnh Gunma,NULL,35,NULL,NULL
+1813,しがこうげん,NULL,cao nguyên nằm trong công viên quốc gia thuộc tỉnh Nagano,NULL,35,NULL,NULL
+1814,しゅ,NULL,màu đỏ tươi,NULL,35,NULL,NULL
+1815,まじわります,NULL,"chơi với, quen với",NULL,35,NULL,NULL
+1816,ことわざ,NULL,thành ngữ,NULL,35,NULL,NULL
+1817,かんけい,NULL,quan hệ,NULL,35,NULL,NULL
+1818,なかよく します,NULL,chơi thân với,NULL,35,NULL,NULL
+1819,ひつよう［な］,NULL,cần thiết,NULL,35,NULL,NULL
+1820,ひろいます,NULL,"nhặt, nhặt lên",NULL,35,NULL,NULL
+1821,かかります［でんわが～］,NULL,có điện thoại,NULL,35,NULL,NULL
+1822,らく［な］,NULL,"thoải mái, nhàn hạ, dễ dàng",NULL,35,NULL,NULL
+1823,めずらしい,NULL,"hiếm, hiếm có",NULL,35,NULL,NULL
+1824,かた,NULL,"vị, người (cách nói kính trọng của ひと)",NULL,35,NULL,NULL
+1825,むら,NULL,làng,NULL,35,NULL,NULL
+1826,ハイキング,NULL,"leo núi, đi bộ trên núi",NULL,35,NULL,NULL
+1827,そうさ,NULL,thao tác,NULL,35,NULL,NULL
+1828,ほうほう,NULL,phương pháp,NULL,35,NULL,NULL
+1829,ふた,NULL,cái nắp,NULL,35,NULL,NULL
+1830,きょく,NULL,"bài hát, bài nhạc",NULL,35,NULL,NULL
+1831,たのしみ,NULL,"niềm vui, điều vui",NULL,35,NULL,NULL
+1832,はじめに,NULL,"đầu tiên, trước hết",NULL,35,NULL,NULL
+1833,これで おわります。,NULL,Đến đây là hết./ Chúng ta dừng ở đây.,NULL,35,NULL,NULL
+1834,はくば,NULL,một địa điểm nghỉ ngơi ở tỉnh Nagano,NULL,35,NULL,NULL
+1835,あいます［じこに～］,NULL,gặp [tai nạn],NULL,36,NULL,NULL
+1836,ちょきんします,NULL,tiết kiệm tiền,NULL,36,NULL,NULL
+1837,すぎます［７じを～］,NULL,quá [7 giờ],NULL,36,NULL,NULL
+1838,なれます［しごとに～］,NULL,quen với [công việc],NULL,36,NULL,NULL
+2256,しゃかい,NULL,xã hội,NULL,42,NULL,NULL
+1839,くさります［たべものが～］,NULL,"bị hỏng, bị thiu, bị ôi, bị nát [thức ăn ～]",NULL,36,NULL,NULL
+1840,けんどう,NULL,kiếm đạo (môn đấu kiếm truyền thống kiểu Nhật),NULL,36,NULL,NULL
+1841,じゅうどう,NULL,Judo,NULL,36,NULL,NULL
+1842,ラッシュ,NULL,tắc đường,NULL,36,NULL,NULL
+1843,うちゅう,NULL,vũ trụ,NULL,36,NULL,NULL
+1844,きょく,NULL,"ca khúc, bản nhạc",NULL,36,NULL,NULL
+1845,まいしゅう,NULL,hàng tuần,NULL,36,NULL,NULL
+1846,まいつき,NULL,hàng tháng,NULL,36,NULL,NULL
+1847,まいとし（まいねん）,NULL,hàng năm,NULL,36,NULL,NULL
+1848,このごろ,NULL,dạo này,NULL,36,NULL,NULL
+1849,やっと,NULL,cuối cùng thì cũng,NULL,36,NULL,NULL
+1850,かなり,NULL,khá,NULL,36,NULL,NULL
+1851,かならず,NULL,nhất định,NULL,36,NULL,NULL
+1852,ぜったいに,NULL,tuyệt đối,NULL,36,NULL,NULL
+1853,じょうずに,NULL,giỏi,NULL,36,NULL,NULL
+1854,できるだけ,NULL,trong khả năng có thể,NULL,36,NULL,NULL
+1855,ほとんど,NULL,"hầu hết, phần lớn (trong câu khẳng định), gần như hoàn toàn (trong câu phủ định)",NULL,36,NULL,NULL
+1856,ショパン,NULL,"Chopin, nhà soạn nhạc người Ba Lan (1810-49)",NULL,36,NULL,NULL
+1857,おきゃくさま,NULL,quý khách (kính ngữ của おきゃくさん),NULL,36,NULL,NULL
+1858,とくべつ［な］,NULL,đặc biệt,NULL,36,NULL,NULL
+1859,して いらっしゃいます,NULL,đang làm (kính ngữ của して います),NULL,36,NULL,NULL
+1860,すいえい,NULL,bơi,NULL,36,NULL,NULL
+1861,ちがいます,NULL,khác nhau,NULL,36,NULL,NULL
+1862,つかって いらっしゃるんですね。,NULL,đang dùng (kính ngữ của つかって いるんですね),NULL,36,NULL,NULL
+1863,チャレンジします,NULL,"thử sức, thử làm",NULL,36,NULL,NULL
+1864,きもち,NULL,tâm thế,NULL,36,NULL,NULL
+1865,のりもの,NULL,phương tiện đi lại,NULL,36,NULL,NULL
+1866,ーせいき,NULL,thế kỉ ー,NULL,36,NULL,NULL
+1867,とおく,NULL,nơi xa,NULL,36,NULL,NULL
+1868,めずらしい,NULL,hiếm,NULL,36,NULL,NULL
+1869,きしゃ,NULL,tàu lửa chạy bằng hơi nước,NULL,36,NULL,NULL
+1870,きせん,NULL,tàu thủy chạy bằng hơi nước,NULL,36,NULL,NULL
+1871,おおぜいの ～,NULL,nhiều ～ (dùng cho người),NULL,36,NULL,NULL
+1872,はこびます,NULL,vận chuyển,NULL,36,NULL,NULL
+1873,りようします,NULL,sử dụng,NULL,36,NULL,NULL
+1874,じゆうに,NULL,thoải mái,NULL,36,NULL,NULL
+1875,とどきます［にもつが～］,NULL,"được gửi đến, được chuyển đến [hành lý ～]",NULL,36,NULL,NULL
+1876,でます［しあいに～］,NULL,"tham gia, tham dự [trận đấu]",NULL,36,NULL,NULL
+1877,うちます［ワープロを～］,NULL,đánh [máy chữ],NULL,36,NULL,NULL
+1878,ふとります,NULL,"béo lên, tăng cân",NULL,36,NULL,NULL
+1879,やせます,NULL,"gầy đi, giảm cân",NULL,36,NULL,NULL
+1880,かたい,NULL,cứng,NULL,36,NULL,NULL
+1881,やわらかい,NULL,mềm,NULL,36,NULL,NULL
+1882,でんし～,NULL,～ điện tử,NULL,36,NULL,NULL
+1883,けいたい～,NULL,～ cầm tay,NULL,36,NULL,NULL
+1884,こうじょう,NULL,"nhà máy, phân xưởng",NULL,36,NULL,NULL
+1885,けんこう,NULL,sức khỏe,NULL,36,NULL,NULL
+1886,～ずつ,NULL,"từng ～, ～ một",NULL,36,NULL,NULL
+1887,その ほうが ～,NULL,"cái đó ～ hơn, như thế ～ hơn",NULL,36,NULL,NULL
+1888,～とか、～とか,NULL,"～, ～ v.v.",NULL,36,NULL,NULL
+1889,タンゴ,NULL,tăng-gô,NULL,36,NULL,NULL
+1890,れきし,NULL,lịch sử,NULL,36,NULL,NULL
+1891,とびます,NULL,bay,NULL,36,NULL,NULL
+1892,あんぜん［な］,NULL,an toàn,NULL,36,NULL,NULL
+1893,ちきゅう,NULL,trái đất,NULL,36,NULL,NULL
+1894,ライトきょうだい,NULL,"anh em nhà Wright, hai anh em người Mỹ đi tiên phong trong ngành hàng không; Wilbur Wright (1867-1912) và Orville Wright (1871-1948)",NULL,36,NULL,NULL
+1895,ほめます,NULL,khen,NULL,37,NULL,NULL
+1896,しかります,NULL,mắng,NULL,37,NULL,NULL
+1897,さそいます,NULL,"mời, rủ",NULL,37,NULL,NULL
+1898,しょうたいします,NULL,mời,NULL,37,NULL,NULL
+1899,たのみます,NULL,nhờ,NULL,37,NULL,NULL
+1900,ちゅういします,NULL,nhắc nhở,NULL,37,NULL,NULL
+1901,とります,NULL,lấy cắp,NULL,37,NULL,NULL
+1902,ふみます,NULL,dẫm,NULL,37,NULL,NULL
+1903,こわします,NULL,làm hỏng,NULL,37,NULL,NULL
+1904,よごします,NULL,làm bẩn,NULL,37,NULL,NULL
+1905,おこないます,NULL,tổ chức,NULL,37,NULL,NULL
+1906,ゆしゅつします,NULL,xuất khẩu,NULL,37,NULL,NULL
+1907,ゆにゅうします,NULL,nhập khẩu,NULL,37,NULL,NULL
+1908,ほんやくします,NULL,biên dịch,NULL,37,NULL,NULL
+1909,はつめいします,NULL,phát minh,NULL,37,NULL,NULL
+1910,はっけんします,NULL,phát hiện,NULL,37,NULL,NULL
+1911,こめ,NULL,gạo,NULL,37,NULL,NULL
+1912,むぎ,NULL,lúa mạch,NULL,37,NULL,NULL
+1913,せきゆ,NULL,dầu mỏ,NULL,37,NULL,NULL
+1914,げんりょう,NULL,nguyên liệu,NULL,37,NULL,NULL
+1915,インスタントラーメン,NULL,"mỳ ăn liền, mỳ gói",NULL,37,NULL,NULL
+1916,デート,NULL,hẹn hò,NULL,37,NULL,NULL
+1917,どろぼう,NULL,kẻ trộm,NULL,37,NULL,NULL
+1918,けいかん,NULL,cảnh sát,NULL,37,NULL,NULL
+1919,せかいじゅう,NULL,trên toàn thế giới,NULL,37,NULL,NULL
+1920,～じゅう,NULL,toàn ～,NULL,37,NULL,NULL
+1921,－せいき,NULL,thế kỷ ～,NULL,37,NULL,NULL
+1922,なにご,NULL,tiếng gì,NULL,37,NULL,NULL
+1923,だれか,NULL,ai đó,NULL,37,NULL,NULL
+1924,よかったですね。,NULL,Hay quá nhỉ./Vui quá nhỉ.,NULL,37,NULL,NULL
+1925,オリンピック,NULL,Olympic,NULL,37,NULL,NULL
+1926,ワールドカップ,NULL,Cúp bóng đa thế giới,NULL,37,NULL,NULL
+1927,とうだいじ,NULL,Chùa Todaiji,NULL,37,NULL,NULL
+1928,だいぶつ,NULL,tượng phật lớn,NULL,37,NULL,NULL
+1929,えどじだい,NULL,thời Edo (1603-1868),NULL,37,NULL,NULL
+1930,ポルトガル,NULL,Bồ Đào Nha,NULL,37,NULL,NULL
+1931,サウジアラビア,NULL,Ả rập xê út,NULL,37,NULL,NULL
+1932,ロシア,NULL,Nga,NULL,37,NULL,NULL
+1933,みなさま,NULL,quý vị (kính ngữ của みなさん),NULL,37,NULL,NULL
+1934,やけます［うちが～］,NULL,cháy [nhà ～],NULL,37,NULL,NULL
+1935,そのご,NULL,sau đó,NULL,37,NULL,NULL
+1936,せかいいさん,NULL,di sản thế giới,NULL,37,NULL,NULL
+1937,～の ひとつ,NULL,một trong những ～,NULL,37,NULL,NULL
+1938,きんいろ,NULL,màu (của) vàng,NULL,37,NULL,NULL
+1939,ほんもの,NULL,đồ thật,NULL,37,NULL,NULL
+1940,きん,NULL,vàng,NULL,37,NULL,NULL
+1941,－キロ,NULL,"－ kilôgam, － kilômét",NULL,37,NULL,NULL
+1942,うつくしい,NULL,đẹp,NULL,37,NULL,NULL
+1943,ごうか［な］,NULL,"sang trọng, hoành tráng",NULL,37,NULL,NULL
+1944,ちょうこく,NULL,điêu khắc,NULL,37,NULL,NULL
+1945,いいつたえ,NULL,truyền thuyết,NULL,37,NULL,NULL
+1946,ねむります,NULL,ngủ,NULL,37,NULL,NULL
+1947,ほります,NULL,khắc,NULL,37,NULL,NULL
+1948,なかま,NULL,đồng nghiệp,NULL,37,NULL,NULL
+1949,しかし,NULL,nhưng,NULL,37,NULL,NULL
+1950,その あと,NULL,sau đó,NULL,37,NULL,NULL
+1951,いっしょうけんめい,NULL,"chăm chỉ, gắng hết sức",NULL,37,NULL,NULL
+1952,ねずみ,NULL,chuột,NULL,37,NULL,NULL
+1953,いっぴき もいません。,NULL,không có một con nào cả,NULL,37,NULL,NULL
+1954,とうしょうぐう,NULL,"đền thờ thờ Tokugawa Ieyasu nằm ở Nikko, tỉnh Tochigi",NULL,37,NULL,NULL
+1955,ねむりねこ,NULL,con mèo ngủ,NULL,37,NULL,NULL
+1956,ひだりじんごろう,NULL,nhà điêu khắc nổi tiếng thời Edo (1594-1651),NULL,37,NULL,NULL
+1957,おこします,NULL,đánh thức,NULL,37,NULL,NULL
+1958,せっけいします,NULL,thiết kế,NULL,37,NULL,NULL
+1959,けんちくか,NULL,kiến trúc sư,NULL,37,NULL,NULL
+1960,かがくしゃ,NULL,nhà khoa học,NULL,37,NULL,NULL
+1961,まんが,NULL,truyện tranh,NULL,37,NULL,NULL
+1962,～に よって,NULL,do ～,NULL,37,NULL,NULL
+1963,ドミニカ,NULL,"Dominica, tên một quốc gia ở Trung Mỹ",NULL,37,NULL,NULL
+1964,ライトきょうだい,NULL,"anh em nhà Wright, hai anh em người Mỹ đi tiên phong trong ngành hàng không; Wilbur Wright (1867-1912) và Orville Wright (1871-1948)",NULL,37,NULL,NULL
+1965,げんじものがたり,NULL,"""Chuyện Genji""",NULL,37,NULL,NULL
+1966,むらさきしきぶ,NULL,"(973?-1014?) nữ tác giả viết ""Chuyện Genji"" sống trong thời Heian",NULL,37,NULL,NULL
+1967,グラハムーベル,NULL,"Alexander Graham Bell (1847-1922), nhà phát minh người Mỹ",NULL,37,NULL,NULL
+1968,うめたてます,NULL,lấp (biển),NULL,37,NULL,NULL
+1969,ぎじゅつ,NULL,kỹ thuật,NULL,37,NULL,NULL
+1970,とち,NULL,"đất, diện tích đất",NULL,37,NULL,NULL
+1971,そうおん,NULL,tiếng ồn,NULL,37,NULL,NULL
+1972,りようします,NULL,"lợi dụng, sử dụng",NULL,37,NULL,NULL
+1973,アクセス,NULL,"nối, gio thông đi đến",NULL,37,NULL,NULL
+1974,さんかします［りょこうに～］,NULL,tham gia [～ đi du lịch],NULL,38,NULL,NULL
+1975,そだてます,NULL,chăm sóc,NULL,38,NULL,NULL
+1976,はこびます,NULL,vận chuyển,NULL,38,NULL,NULL
+1977,にゅういんします,NULL,nhập viện,NULL,38,NULL,NULL
+1978,たいいんします,NULL,ra viện,NULL,38,NULL,NULL
+1979,いれます［でんげんを～］,NULL,bật [điện nguồn],NULL,38,NULL,NULL
+1980,きります［でんげんを～］,NULL,tắt [điện nguồn],NULL,38,NULL,NULL
+1981,かけます［かぎを～］,NULL,khóa [ổ khóa],NULL,38,NULL,NULL
+1982,つきます［うそを～］,NULL,nói dối,NULL,38,NULL,NULL
+1983,きもちが いい,NULL,"tâm trạng sảng khoái, tốt",NULL,38,NULL,NULL
+1984,きもちが わるい,NULL,tâm trạng không tốt,NULL,38,NULL,NULL
+1985,おおきな ～,NULL,"～ lớn, ～ to",NULL,38,NULL,NULL
+1986,ちいさな ～,NULL,"～ bé, ～ nhỏ",NULL,38,NULL,NULL
+1987,あかちゃん,NULL,em bé,NULL,38,NULL,NULL
+1988,しょうがっこう,NULL,"trường tiểu học, trường cấp 1",NULL,38,NULL,NULL
+1989,ちゅうがっこう,NULL,"trường trung học cơ sở, trường cấp 2",NULL,38,NULL,NULL
+1990,えきまえ,NULL,trước ga,NULL,38,NULL,NULL
+1991,かいがん,NULL,bờ biển,NULL,38,NULL,NULL
+1992,こうじょう,NULL,nhà máy,NULL,38,NULL,NULL
+1993,むら,NULL,làng,NULL,38,NULL,NULL
+1994,かな,NULL,chữ Kana,NULL,38,NULL,NULL
+1995,ゆびわ,NULL,nhẫn,NULL,38,NULL,NULL
+1996,でんげん,NULL,điện nguồn,NULL,38,NULL,NULL
+1997,しゅうかん,NULL,"thói quen, tập quán",NULL,38,NULL,NULL
+1998,けんこう,NULL,sức khỏe,NULL,38,NULL,NULL
+1999,～せい,NULL,hàng ～,NULL,38,NULL,NULL
+2000,おととし,NULL,năm kia,NULL,38,NULL,NULL
+2001,［あ、］いけない。,NULL,"[A,] không được rồi. (dùng khi làm nhầm hay thất bại việc gì đó)",NULL,38,NULL,NULL
+2002,おさきに［しつれいします］。,NULL,Tôi (xin phép) về trước,NULL,38,NULL,NULL
+2003,げんばくドーム,NULL,nhà vòm tưởng niệm vụ ném bom nguyên tử ở Hiroshima,NULL,38,NULL,NULL
+2004,いずもたいしゃ,NULL,"đền thờ ở thành phố Izumo, tỉnh Shimane",NULL,38,NULL,NULL
+2005,チェンマイ,NULL,Chiềng Mai (ở Thái Lan),NULL,38,NULL,NULL
+2006,かいらん,NULL,tài liệu thông báo,NULL,38,NULL,NULL
+2007,けんきゅうしつ,NULL,phòng nghiên cứu,NULL,38,NULL,NULL
+2008,きちんと,NULL,ngay ngắn,NULL,38,NULL,NULL
+2009,せいりします,NULL,sắp xếp,NULL,38,NULL,NULL
+2010,ほうほう,NULL,phương pháp,NULL,38,NULL,NULL
+2011,～と いう,NULL,có tên gọi là ～,NULL,38,NULL,NULL
+2012,－さつ,NULL,"quyển, cuốn (trợ số từ dùng để đếm sách, v.v.)",NULL,38,NULL,NULL
+2013,はんこ,NULL,con dấu,NULL,38,NULL,NULL
+2014,おします［はんこを～］,NULL,đóng [dấu],NULL,38,NULL,NULL
+2015,ふたご,NULL,sinh đôi,NULL,38,NULL,NULL
+2016,しまい,NULL,chị em,NULL,38,NULL,NULL
+2017,５ねんせい,NULL,năm thứ 5,NULL,38,NULL,NULL
+2018,にて います,NULL,giống,NULL,38,NULL,NULL
+2019,せいかく,NULL,tính cách,NULL,38,NULL,NULL
+2020,おとなしい,NULL,ngoan ngoãn,NULL,38,NULL,NULL
+2021,やさしい,NULL,hiền lành,NULL,38,NULL,NULL
+2022,せわを します,NULL,chăm sóc,NULL,38,NULL,NULL
+2023,じかんが たちます,NULL,thời gian trôi,NULL,38,NULL,NULL
+2024,だいすき［な］,NULL,rất thích,NULL,38,NULL,NULL
+2025,－てん,NULL,－ điểm,NULL,38,NULL,NULL
+2026,きが つよい,NULL,tính cách mạnh mẽ,NULL,38,NULL,NULL
+2027,けんかします,NULL,cãi nhau,NULL,38,NULL,NULL
+2028,ふしぎ［な］,NULL,kỳ lạ,NULL,38,NULL,NULL
+2029,ねんれい,NULL,tuổi tác,NULL,38,NULL,NULL
+2030,しかた,NULL,cách làm,NULL,38,NULL,NULL
+2031,なくなります,NULL,"mất, qua đời (cách nói gián tiếp của しにます(L.39))",NULL,38,NULL,NULL
+2032,うそ,NULL,"nói dối, lời nói dối",NULL,38,NULL,NULL
+2033,しょるい,NULL,"giấy tờ, tài liệu",NULL,38,NULL,NULL
+2034,クラス,NULL,"lớp học, lớp",NULL,38,NULL,NULL
+2035,こたえます［しつもんに～］,NULL,trả lời [câu hỏi],NULL,39,NULL,NULL
+2036,たおれます［ビルが～］,NULL,đổ [tòa nhà ～],NULL,39,NULL,NULL
+2037,とおります［みちを～］,NULL,đi (xuyên) qua [tường],NULL,39,NULL,NULL
+2038,しにます,NULL,chết,NULL,39,NULL,NULL
+2039,びっくりします,NULL,giật mình,NULL,39,NULL,NULL
+2040,がっかりします,NULL,thất vọng,NULL,39,NULL,NULL
+2041,あんしんします,NULL,yên tâm,NULL,39,NULL,NULL
+2042,けんかします,NULL,cãi nhau,NULL,39,NULL,NULL
+2043,りこんします,NULL,ly hôn,NULL,39,NULL,NULL
+2044,ふとります,NULL,béo ra,NULL,39,NULL,NULL
+2045,やせます,NULL,gầy đi,NULL,39,NULL,NULL
+2046,ふくざつ［な］,NULL,phức tạp,NULL,39,NULL,NULL
+2047,じゃま［な］,NULL,"vướng, vướng víu",NULL,39,NULL,NULL
+2048,かたい,NULL,cứng,NULL,39,NULL,NULL
+2049,やわらかい,NULL,mềm,NULL,39,NULL,NULL
+2050,きたない,NULL,bẩn,NULL,39,NULL,NULL
+2051,うれしい,NULL,vui,NULL,39,NULL,NULL
+2052,かなしい,NULL,buồn,NULL,39,NULL,NULL
+2053,はずかしい,NULL,"xấu hổ, ngượng",NULL,39,NULL,NULL
+2054,しゅしょう,NULL,thủ tướng,NULL,39,NULL,NULL
+2055,じしん,NULL,động đất,NULL,39,NULL,NULL
+2056,つなみ,NULL,sóng thần,NULL,39,NULL,NULL
+2057,たいふう,NULL,bão,NULL,39,NULL,NULL
+2058,かみなり,NULL,sấm,NULL,39,NULL,NULL
+2059,かじ,NULL,hỏa hoạn,NULL,39,NULL,NULL
+2060,じご,NULL,"tai nạn, sự cố",NULL,39,NULL,NULL
+2061,ハイキング,NULL,dã ngoại,NULL,39,NULL,NULL
+2062,［お］みあい,NULL,xem mặt (để kết hôn),NULL,39,NULL,NULL
+2063,そうさ,NULL,thao tác (～します : thao tác),NULL,39,NULL,NULL
+2064,かいじょう,NULL,hội trường,NULL,39,NULL,NULL
+2065,～だい,NULL,"phí ～, tiền ～",NULL,39,NULL,NULL
+2066,～や,NULL,người bán ～,NULL,39,NULL,NULL
+2067,フロント,NULL,lễ tân,NULL,39,NULL,NULL
+2068,－ごうしつ,NULL,số phòng －,NULL,39,NULL,NULL
+2069,タオル,NULL,khăn tắm,NULL,39,NULL,NULL
+2070,せっけん,NULL,xà phòng,NULL,39,NULL,NULL
+2071,おおぜい,NULL,nhiều (người),NULL,39,NULL,NULL
+2072,おつかれさまでした。,NULL,Anh/Chị đã vất vả quá. (lời động viên dành cho đồng nghiệp hoặc người dưới),NULL,39,NULL,NULL
+2073,うかがいます。,NULL,Tôi sẽ đi đến chỗ anh/chị ạ. (khiêm nhường ngữ của いきます),NULL,39,NULL,NULL
+2074,とちゅうで,NULL,trên đường,NULL,39,NULL,NULL
+2075,トラック,NULL,xe tải,NULL,39,NULL,NULL
+2076,ぶつかります,NULL,đâm nhau,NULL,39,NULL,NULL
+2077,おとな,NULL,người lớn,NULL,39,NULL,NULL
+2078,しかし,NULL,nhưng,NULL,39,NULL,NULL
+2079,また,NULL,"hơn nữa, và",NULL,39,NULL,NULL
+2080,ようふく,NULL,áo quần,NULL,39,NULL,NULL
+2081,せいようかします,NULL,Âu Mỹ hóa,NULL,39,NULL,NULL
+2082,あいます,NULL,phù hợp (với),NULL,39,NULL,NULL
+2083,いまでは,NULL,"bây giờ, hiện nay",NULL,39,NULL,NULL
+2084,せいじんしき,NULL,lễ thành nhân,NULL,39,NULL,NULL
+2085,でんとうてき［な］,NULL,mang tính truyền thống,NULL,39,NULL,NULL
+2086,やけます［うちが～］,NULL,cháy [nhà ～],NULL,39,NULL,NULL
+2087,やけます［パンが～］,NULL,được nướng [bánh mì ～],NULL,39,NULL,NULL
+2088,やけます［にくが～］,NULL,được nướng [thịt ～],NULL,39,NULL,NULL
+2089,ちこくします,NULL,"đến chậm, đến muộn",NULL,39,NULL,NULL
+2090,そうたいします,NULL,"về sớm, ra sớm (việc làm hay trường học)",NULL,39,NULL,NULL
+2091,でんわだい,NULL,"tiền điện thoại, phí điện thoại",NULL,39,NULL,NULL
+2092,あせ,NULL,mồ hôi (～を かきます : ra mồ hôi),NULL,39,NULL,NULL
+2093,ならびます,NULL,xếp hàng,NULL,39,NULL,NULL
+2094,かぞえます,NULL,đếm,NULL,40,NULL,NULL
+2095,はかります,NULL,"đo, cân",NULL,40,NULL,NULL
+2096,たしかめます,NULL,xác nhận,NULL,40,NULL,NULL
+2097,あいます［サイズが～］,NULL,vừa [cỡ ～],NULL,40,NULL,NULL
+2098,しゅっぱつします,NULL,xuất phát,NULL,40,NULL,NULL
+2099,とうちゃくします,NULL,đến,NULL,40,NULL,NULL
+2100,よいます,NULL,say rượu,NULL,40,NULL,NULL
+2101,うまく いきます,NULL,thuận lợi,NULL,40,NULL,NULL
+2102,でます［もんだいが～］,NULL,có [nội dung câu hỏi thi],NULL,40,NULL,NULL
+2103,そうだんします,NULL,"nói chuyện, thảo luận",NULL,40,NULL,NULL
+2104,ひつよう［な］,NULL,cần thiết,NULL,40,NULL,NULL
+2105,てんきよほう,NULL,dự báo thời tiết,NULL,40,NULL,NULL
+2106,ぼうねんかい,NULL,"tiệc cuối năm, tiệc tất niên",NULL,40,NULL,NULL
+2107,しんねんかい,NULL,tiệc đầu năm,NULL,40,NULL,NULL
+2108,にじかい,NULL,"tăng hai, hiệp hai",NULL,40,NULL,NULL
+2109,はっぴょうかい,NULL,buổi phát biểu,NULL,40,NULL,NULL
+2110,たいかい,NULL,"hội thi, cuộc thi",NULL,40,NULL,NULL
+2111,マラソン,NULL,ma-ra-tông,NULL,40,NULL,NULL
+2112,コンテスト,NULL,cuộc thi,NULL,40,NULL,NULL
+2113,おもて,NULL,mặt [phải],NULL,40,NULL,NULL
+2114,うら,NULL,mặt trái,NULL,40,NULL,NULL
+2115,まちがい,NULL,sai sót,NULL,40,NULL,NULL
+2116,きず,NULL,"vết thương, vết trầy, vết xước",NULL,40,NULL,NULL
+2117,ズボン,NULL,quần,NULL,40,NULL,NULL
+2118,［お］としより,NULL,"người già, người cao tuổi",NULL,40,NULL,NULL
+2119,ながさ,NULL,chiều dài,NULL,40,NULL,NULL
+2120,おもさ,NULL,trọng lượng,NULL,40,NULL,NULL
+2121,たかさ,NULL,chiều cao,NULL,40,NULL,NULL
+2122,おおきさ,NULL,"kích thước, độ lớn",NULL,40,NULL,NULL
+2123,［－］びん,NULL,chuyến [－],NULL,40,NULL,NULL
+2124,－こ,NULL,"－ cái, －chiếc (trợ số từ dùng để đếm vật nhỏ)",NULL,40,NULL,NULL
+2125,－ほん（－ぽん、－ぼん）,NULL,"－ cái, － cây, － chiếc (trợ số từ dùng để đếm vật có hình dạng thon dài)",NULL,40,NULL,NULL
+2126,－はい（－ぱい、－ばい）,NULL,"－ cốc, － ly (trợ số từ dùng để đếm số lượng đồ uống theo cốc, ly, v.v..)",NULL,40,NULL,NULL
+2127,－センチ,NULL,"－ xăng-ti-mét, － cen-ti-mét",NULL,40,NULL,NULL
+2128,－ミリ,NULL,－ mi-li-mét,NULL,40,NULL,NULL
+2129,－グラム,NULL,－ gram,NULL,40,NULL,NULL
+2130,～いじょう,NULL,trên ～,NULL,40,NULL,NULL
+2131,～いか,NULL,dưới ～,NULL,40,NULL,NULL
+2132,ながさき,NULL,thủ phủ của tỉnh Nagasaki,NULL,40,NULL,NULL
+2133,せんだい,NULL,thủ phủ của tỉnh Miyagi,NULL,40,NULL,NULL
+2134,JL,NULL,Hãng hàng không Nhật Bản,NULL,40,NULL,NULL
+2135,たなばたまつり,NULL,Lễ hội Tanabata,NULL,40,NULL,NULL
+2136,とうしょうぐう,NULL,"đền thờ thờ Tokugawa Ieyasu nằm ở Nikko, tỉnh Tochigi",NULL,40,NULL,NULL
+2137,どうでしょうか。,NULL,Như thế nào ạ? (từ lịch sự của どうですか),NULL,40,NULL,NULL
+2138,テスト,NULL,bài kiểm tra,NULL,40,NULL,NULL
+2139,せいせき,NULL,thành tích,NULL,40,NULL,NULL
+2140,ところで,NULL,nhân tiện,NULL,40,NULL,NULL
+2141,いらっしゃいます,NULL,đến (kính ngữ của きます),NULL,40,NULL,NULL
+2142,ようす,NULL,"bộ dạng, tình hình",NULL,40,NULL,NULL
+2143,じけん,NULL,vụ án,NULL,40,NULL,NULL
+2144,オートバイ,NULL,mô-tô phân khối lớn,NULL,40,NULL,NULL
+2145,ばくだん,NULL,bom,NULL,40,NULL,NULL
+2146,つみます,NULL,chất lên,NULL,40,NULL,NULL
+2147,うんてんしゅ,NULL,"tài xế, lái xe",NULL,40,NULL,NULL
+2148,はなれた,NULL,"xa, cách xa",NULL,40,NULL,NULL
+2149,きゅうに,NULL,đột nhiên,NULL,40,NULL,NULL
+2151,いっしょうけんめい,NULL,"chăm chỉ, gắng hết sức",NULL,40,NULL,NULL
+2152,はんにん,NULL,tên tội phạm,NULL,40,NULL,NULL
+2153,おとこ,NULL,người đàn ông,NULL,40,NULL,NULL
+2154,てに いれます,NULL,"có được, mua được",NULL,40,NULL,NULL
+2155,いまでも,NULL,ngay cả bây giờ cũng,NULL,40,NULL,NULL
+2156,きけん［な］,NULL,nguy hiểm,NULL,40,NULL,NULL
+2157,うちゅう,NULL,vũ trụ,NULL,40,NULL,NULL
+2158,ちきゅう,NULL,trái đất,NULL,40,NULL,NULL
+2159,へんじ,NULL,"hồi âm, trả lời",NULL,40,NULL,NULL
+2160,もうしこみ,NULL,đăng ký,NULL,40,NULL,NULL
+2161,ほんとう,NULL,thật,NULL,40,NULL,NULL
+2162,－ごう,NULL,"số [－] (số hiệu đoàn tàu, cơn bão)",NULL,40,NULL,NULL
+2163,－キロ,NULL,"－ ki-lô, － cân",NULL,40,NULL,NULL
+2164,さあ,NULL,"À..., Ồ... (dùng khi không rõ về điều gì đó)",NULL,40,NULL,NULL
+2165,ゴッホ,NULL,"Van-gốc (1853-1890), danh họa người Hà Lan",NULL,40,NULL,NULL
+2166,ゆきまつり,NULL,Lễ hội tuyết (ở Sapporo),NULL,40,NULL,NULL
+2167,のぞみ,NULL,tên một loại tàu Shinkansen,NULL,40,NULL,NULL
+2168,クラス,NULL,lớp học,NULL,40,NULL,NULL
+2169,が,NULL,nhưng,NULL,40,NULL,NULL
+2170,うわさします,NULL,đồn đại,NULL,40,NULL,NULL
+2171,いただきます,NULL,nhận (khiêm nhường ngữ của もらいます),NULL,41,NULL,NULL
+2172,くださいます,NULL,cho (kính ngữ của くれます),NULL,41,NULL,NULL
+2173,やります,NULL,"cho (dùng với người kém tuổi hươn, người dưới, động vật, thực vật)",NULL,41,NULL,NULL
+2174,あげます,NULL,tăng,NULL,41,NULL,NULL
+2175,さげます,NULL,giảm,NULL,41,NULL,NULL
+2176,しんせつに します,NULL,"thân thiện, thân thiết",NULL,41,NULL,NULL
+2177,かわいい,NULL,dễ thương,NULL,41,NULL,NULL
+2178,めずらしい,NULL,hiếm,NULL,41,NULL,NULL
+2179,おいわい,NULL,"chúc mừng, quà mừng (～を します : chúc mừng)",NULL,41,NULL,NULL
+2180,おとしだま,NULL,tiền mừng tuổi,NULL,41,NULL,NULL
+2181,［お］みまい,NULL,"thăm hỏi, quà thăm hỏi",NULL,41,NULL,NULL
+2182,きょうみ,NULL,"hứng thú với, có quan tâm đến (［コンピューターに］～が あります : có hứng thú với [máy tính])",NULL,41,NULL,NULL
+2183,じょうほう,NULL,thông tin,NULL,41,NULL,NULL
+2184,ぶんぽう,NULL,ngữ pháp,NULL,41,NULL,NULL
+2185,はつおん,NULL,phát âm,NULL,41,NULL,NULL
+2186,さる,NULL,con khỉ,NULL,41,NULL,NULL
+2187,えさ,NULL,thức ăn,NULL,41,NULL,NULL
+2188,おもちゃ,NULL,đồ chơi,NULL,41,NULL,NULL
+2189,えほん,NULL,sách tranh,NULL,41,NULL,NULL
+2190,えはがき,NULL,"bưu thiếp tranh, bưu thiếp ảnh",NULL,41,NULL,NULL
+2191,ドライバー,NULL,tuốc-nơ-vít,NULL,41,NULL,NULL
+2192,ハンカチ,NULL,khăn tay,NULL,41,NULL,NULL
+2193,くつした,NULL,"tất, vớ",NULL,41,NULL,NULL
+2194,てぶくろ,NULL,găng tay,NULL,41,NULL,NULL
+2195,ようちえん,NULL,trường mầm non,NULL,41,NULL,NULL
+2196,だんぼう,NULL,"máy điều hòa chiều nóng, máy sưởi",NULL,41,NULL,NULL
+2197,れいぼう,NULL,"máy điều hòa chiều lạnh, máy lạnh",NULL,41,NULL,NULL
+2198,おんど,NULL,nhiệu độ,NULL,41,NULL,NULL
+2199,そふ,NULL,ông (của mình),NULL,41,NULL,NULL
+2200,そぼ,NULL,bà (của mình),NULL,41,NULL,NULL
+2201,まご,NULL,cháu (của mình),NULL,41,NULL,NULL
+2202,おまごさん,NULL,cháu (của người khác),NULL,41,NULL,NULL
+2203,おじ,NULL,"chú, bác (của mình)",NULL,41,NULL,NULL
+2204,おじさん,NULL,"chú, bác (của người khác)",NULL,41,NULL,NULL
+2205,おば,NULL,"cô, dì, bác (của mình)",NULL,41,NULL,NULL
+2206,おばさん,NULL,"cô, dì, bác (của người khác)",NULL,41,NULL,NULL
+2207,かんりにん,NULL,người quản lý,NULL,41,NULL,NULL
+2208,～さん,NULL,"ông ～/bà ～ (tiếp vĩ ngữ dùng đằng sau tên nghề nghiệp, chức danh để biểu thị tính lịch sự)",NULL,41,NULL,NULL
+2209,このあいだ,NULL,vừa rồi,NULL,41,NULL,NULL
+2210,ひとこと,NULL,đôi lời,NULL,41,NULL,NULL
+2211,～ずつ,NULL,từng ～,NULL,41,NULL,NULL
+2212,ふたり,NULL,"cặp đôi, hai người",NULL,41,NULL,NULL
+2213,おたく,NULL,nhà (kính ngữ của うち hoặc いえ),NULL,41,NULL,NULL
+2214,どうぞ おしあわせに。,NULL,Chúc hai người hạnh phúc.,NULL,41,NULL,NULL
+2215,むかしばなし,NULL,truyện cổ tích,NULL,41,NULL,NULL
+2216,ある ～,NULL,một ～ nọ,NULL,41,NULL,NULL
+2217,おとこ,NULL,người con trai,NULL,41,NULL,NULL
+2218,こどもたち,NULL,"những đứa trẻ, bọn trẻ",NULL,41,NULL,NULL
+2219,いじめます,NULL,bắt nạt,NULL,41,NULL,NULL
+2220,かめ,NULL,con rùa,NULL,41,NULL,NULL
+2221,たすけます,NULL,"giúp, giúp đỡ",NULL,41,NULL,NULL
+2222,やさしい,NULL,hiền lành,NULL,41,NULL,NULL
+2223,おひめさま,NULL,nàng công chúa,NULL,41,NULL,NULL
+2224,くらします,NULL,sinh sống,NULL,41,NULL,NULL
+2225,りく,NULL,đất liền,NULL,41,NULL,NULL
+2226,すると,NULL,khi đó,NULL,41,NULL,NULL
+2227,けむり,NULL,khói,NULL,41,NULL,NULL
+2228,まっしろ［な］,NULL,trắng toát,NULL,41,NULL,NULL
+2229,なかみ,NULL,"đồ ở trong, nội dung bên trong",NULL,41,NULL,NULL
+2230,うらしまたろう,NULL,tên của nhân vật chính trong truyện cổ tích,NULL,41,NULL,NULL
+2231,よびます,NULL,mời,NULL,41,NULL,NULL
+2232,とりかえます,NULL,"đổi, thay",NULL,41,NULL,NULL
+2233,ゆびわ,NULL,cái nhẫn,NULL,41,NULL,NULL
+2234,バッグ,NULL,cái túi (bag),NULL,41,NULL,NULL
+2235,おととし,NULL,năm kia,NULL,41,NULL,NULL
+2236,はあ,NULL,"à, ồ",NULL,41,NULL,NULL
+2237,もうしわけ ありません。,NULL,Xin lỗi.,NULL,41,NULL,NULL
+2238,あずかります,NULL,"giữ, giữ hộ, giữ cho",NULL,41,NULL,NULL
+2239,せんじつ,NULL,"hôm trước, mấy hôm trước",NULL,41,NULL,NULL
+2240,たすかります,NULL,may có anh/chị giúp,NULL,41,NULL,NULL
+2241,［お］しろ,NULL,"lâu đài, thành",NULL,41,NULL,NULL
+2242,たのしく,NULL,vui,NULL,41,NULL,NULL
+2243,つつみます,NULL,gói,NULL,42,NULL,NULL
+2244,わかします,NULL,đun sôi,NULL,42,NULL,NULL
+2245,まぜます,NULL,trộn,NULL,42,NULL,NULL
+2246,けいさんします,NULL,"tính, tính toán",NULL,42,NULL,NULL
+2247,ならびます,NULL,xếp hàng,NULL,42,NULL,NULL
+2248,じょうぶ［な］,NULL,chắc chắn,NULL,42,NULL,NULL
+2249,アパート,NULL,phòng trọ,NULL,42,NULL,NULL
+2250,べんごし,NULL,luật sư,NULL,42,NULL,NULL
+2251,おんがくか,NULL,"nhạc sĩ, người hoạt động trong lĩnh vực âm nhạc",NULL,42,NULL,NULL
+2252,こどもたち,NULL,"những đứa trẻ, bọn trẻ",NULL,42,NULL,NULL
+2253,しぜん,NULL,tự nhiên,NULL,42,NULL,NULL
+2254,きょういく,NULL,giáo dục,NULL,42,NULL,NULL
+2255,ぶんか,NULL,văn hóa,NULL,42,NULL,NULL
+2257,せいじ,NULL,chính trị,NULL,42,NULL,NULL
+2258,ほうりつ,NULL,pháp luật,NULL,42,NULL,NULL
+2259,せんそう,NULL,chiến tranh,NULL,42,NULL,NULL
+2260,へいわ,NULL,hòa bình,NULL,42,NULL,NULL
+2261,もくてき,NULL,mục đích,NULL,42,NULL,NULL
+2262,ろんぶん,NULL,luận văn,NULL,42,NULL,NULL
+2263,たのしみ,NULL,niềm vui,NULL,42,NULL,NULL
+2264,ミキサー,NULL,máy xay,NULL,42,NULL,NULL
+2265,やかん,NULL,ấm đun nước,NULL,42,NULL,NULL
+2266,ふた,NULL,nắp,NULL,42,NULL,NULL
+2267,せんぬき,NULL,cái bật nắp chai,NULL,42,NULL,NULL
+2268,かんきり,NULL,cái mở nắp hộp,NULL,42,NULL,NULL
+2269,かんづめ,NULL,"đồ hộp, thực phẩm đóng hộp",NULL,42,NULL,NULL
+2270,のしぶくろ,NULL,phong bì dùng để bỏ tiền mừng,NULL,42,NULL,NULL
+2271,ふろしき,NULL,khăn vuông để gói đồ kiểu Nhật,NULL,42,NULL,NULL
+2272,そろばん,NULL,bàn tính,NULL,42,NULL,NULL
+2273,たいおんけい,NULL,nhiệt kế,NULL,42,NULL,NULL
+2274,ざいりょう,NULL,nguyên liệu,NULL,42,NULL,NULL
+2275,ある ～,NULL,một ～ nọ,NULL,42,NULL,NULL
+2276,いっしょうけんめい,NULL,"chăm chỉ, gắng hết sức",NULL,42,NULL,NULL
+2277,なぜ,NULL,tại sao,NULL,42,NULL,NULL
+2278,どのくらい,NULL,bao nhiêu,NULL,42,NULL,NULL
+2279,こくれん,NULL,Liên Hợp Quốc,NULL,42,NULL,NULL
+2280,エリーゼの ために,NULL,Dành cho Elise (tên bản nhạc),NULL,42,NULL,NULL
+2281,ベートーベン,NULL,"Beethoven, nhà soạn nhạc người Đức (1770-1827)",NULL,42,NULL,NULL
+2282,こどもニュース,NULL,Bản tin thiếu nhi (chương trình tin tức giả định),NULL,42,NULL,NULL
+2283,でます［ボーナスが～］,NULL,có [thưởng],NULL,42,NULL,NULL
+2284,はんぶん,NULL,một nửa,NULL,42,NULL,NULL
+2285,ローン,NULL,khoản vay ngân hàng,NULL,42,NULL,NULL
+2286,カップめん,NULL,mì ly (mì ăn liền để ở trong ly dùng một lần),NULL,42,NULL,NULL
+2287,せかいはつ,NULL,đầu tiên trên thế giới,NULL,42,NULL,NULL
+2288,～に よって,NULL,bởi ～,NULL,42,NULL,NULL
+2289,どんぶり,NULL,bát tô lớn,NULL,42,NULL,NULL
+2290,めん,NULL,mì sợi,NULL,42,NULL,NULL
+2291,ひろめます,NULL,"phổ cập, nhân rộng, mở rộng",NULL,42,NULL,NULL
+2292,しじょうちょうさ,NULL,điều tra thị trường,NULL,42,NULL,NULL
+2293,わります,NULL,"bẻ ra, chia nhỏ ra",NULL,42,NULL,NULL
+2294,そそぎます,NULL,đổ vào,NULL,42,NULL,NULL
+2295,チキンラーメン,NULL,tên của một loại mì ăn liền,NULL,42,NULL,NULL
+2296,あんどうももふく,NULL,"nhà kinh doanh, nhà phát minh người Nhật (1910-2007)",NULL,42,NULL,NULL
+2297,あつい,NULL,dày,NULL,42,NULL,NULL
+2298,うすい,NULL,mỏng,NULL,42,NULL,NULL
+2299,ふたり,NULL,"hai người, cặp, đôi",NULL,42,NULL,NULL
+2300,れきし,NULL,lịch sử,NULL,42,NULL,NULL
+2301,あんぜん,NULL,an toàn,NULL,42,NULL,NULL
+2302,かんけい,NULL,quan hệ,NULL,42,NULL,NULL
+2303,いし,NULL,"hòn đá, đá",NULL,42,NULL,NULL
+2304,ピラミッド,NULL,kim tự tháp,NULL,42,NULL,NULL
+2305,データ,NULL,"số liệu, dữ liệu",NULL,42,NULL,NULL
+2306,ファイル,NULL,cái kẹp tài liệu (file),NULL,42,NULL,NULL
+2307,ポーランド,NULL,Ba Lan,NULL,42,NULL,NULL
+2308,セット,NULL,bộ,NULL,42,NULL,NULL
+2309,あと,NULL,còn lại,NULL,42,NULL,NULL
+2310,カップラーメン,NULL,mì ăn liền đựng trong cốc,NULL,42,NULL,NULL
+2311,インスタントラーメン,NULL,mì ăn liền,NULL,42,NULL,NULL
+2312,なべ,NULL,"cái chảo, cái nồi",NULL,42,NULL,NULL
+2313,しょくひん,NULL,"thực phẩm, đồ ăn",NULL,42,NULL,NULL
+2314,ちょうさ,NULL,"việc điều tra, cuộc điều tra",NULL,42,NULL,NULL
+2315,カップ,NULL,cốc (dùng để đựng đồ ăn),NULL,42,NULL,NULL
+2316,また,NULL,"và, thêm nữa",NULL,42,NULL,NULL
+2317,～の かわりに,NULL,"thay ～, thay thế ～",NULL,42,NULL,NULL
+2318,どこででも,NULL,ở đâu cũng,NULL,42,NULL,NULL
+2319,いまでは,NULL,bây giờ (thì),NULL,42,NULL,NULL
+2320,ふえます［ゆしゅつが～］,NULL,tăng [xuất khẩu ～],NULL,43,NULL,NULL
+2321,へります［ゆしゅつが～］,NULL,giảm [xuất khẩu ～],NULL,43,NULL,NULL
+2322,あがります［ねだんが～］,NULL,tăng [giá cả ～],NULL,43,NULL,NULL
+2323,さがります［ねだんが～］,NULL,giảm [giá cả ～],NULL,43,NULL,NULL
+2324,きれます［ひもが～］,NULL,bị đứt [sợi dây],NULL,43,NULL,NULL
+2325,とれます［ボタンが～］,NULL,bị đứt [cúc áo ～],NULL,43,NULL,NULL
+2326,おちます［にもつ～］,NULL,bị rơi [hành lý ～],NULL,43,NULL,NULL
+2327,なくなります［ガソリンが～］,NULL,"hết [xăng], mất",NULL,43,NULL,NULL
+2328,へん［な］,NULL,lạ,NULL,43,NULL,NULL
+2329,しあわせ［な］,NULL,hạnh phúc,NULL,43,NULL,NULL
+2330,らく［な］,NULL,"nhàn, nhàn nhã",NULL,43,NULL,NULL
+2331,うまい,NULL,ngon,NULL,43,NULL,NULL
+2332,まずい,NULL,dở,NULL,43,NULL,NULL
+2333,つまらない,NULL,"chán, không hay, không đâu (lý do)",NULL,43,NULL,NULL
+2334,やさしい,NULL,hiền lành,NULL,43,NULL,NULL
+2335,ガソリン,NULL,xăng,NULL,43,NULL,NULL
+2336,ひ,NULL,lửa,NULL,43,NULL,NULL
+2337,パンフレット,NULL,tờ rơi quảng cáo,NULL,43,NULL,NULL
+2338,いまにも,NULL,bất kỳ lúc nào (dùng khi miêu tả trạng thái ngay trước khi sự biến đổi xảy ra.),NULL,43,NULL,NULL
+2339,わあ,NULL,Ôi!,NULL,43,NULL,NULL
+2340,ばら,NULL,hoa hồng,NULL,43,NULL,NULL
+2341,ドライブ,NULL,lái xe ô tô (theo sở thích),NULL,43,NULL,NULL
+2342,りゆう,NULL,lý do,NULL,43,NULL,NULL
+2343,あやまります,NULL,xin lỗi,NULL,43,NULL,NULL
+2344,しりあいます,NULL,quen biết,NULL,43,NULL,NULL
+2345,じょうぶ［な］,NULL,"chắc, bền",NULL,43,NULL,NULL
+2346,だんぼう,NULL,"thiết bị làm ấm, lò sưởi, máy điều hòa",NULL,43,NULL,NULL
+2347,れいぼう,NULL,"thiết bị làm mát, máy điều hòa",NULL,43,NULL,NULL
+2348,センス,NULL,"có khiếu, có gu (［ふくの］～が あります : có gu [ăn mặc])",NULL,43,NULL,NULL
+2349,かいいん,NULL,thành viên,NULL,43,NULL,NULL
+2350,てきとう［な］,NULL,"thích hợp, vừa phải",NULL,43,NULL,NULL
+2351,ねんれい,NULL,tuổi,NULL,43,NULL,NULL
+2352,しゅうにゅう,NULL,thu nhập,NULL,43,NULL,NULL
+2353,ぴったり,NULL,"vừa vặn, đúng",NULL,43,NULL,NULL
+2354,そのうえ,NULL,"thêm vào đó, hơn thế",NULL,43,NULL,NULL
+2355,～と いいます,NULL,"(tên) là ～, gọi là ～",NULL,43,NULL,NULL
+2356,なきます,NULL,khóc,NULL,44,NULL,NULL
+2357,わらいます,NULL,cười,NULL,44,NULL,NULL
+2358,ねむります,NULL,ngủ,NULL,44,NULL,NULL
+2359,かわきます［シャツが～］,NULL,khô [áo sơ-mi ～],NULL,44,NULL,NULL
+2360,ぬれます［シャツが～］,NULL,ướt [áo sơ-mi ～],NULL,44,NULL,NULL
+2361,すべります,NULL,trượt,NULL,44,NULL,NULL
+2362,おきます［じこが～］,NULL,xảy ra [tai nạn ～],NULL,44,NULL,NULL
+2363,ちょうせつします,NULL,điều chỉnh,NULL,44,NULL,NULL
+2364,あんぜん［な］,NULL,an toàn,NULL,44,NULL,NULL
+2365,きけん［な］,NULL,nguy hiểm,NULL,44,NULL,NULL
+2366,こい,NULL,"đặc, đậm",NULL,44,NULL,NULL
+2367,うすい,NULL,"loãng, nhạt",NULL,44,NULL,NULL
+2368,あつい,NULL,dày,NULL,44,NULL,NULL
+2369,ふとい,NULL,đậm,NULL,44,NULL,NULL
+2370,ほそい,NULL,nhạt,NULL,44,NULL,NULL
+2371,くうき,NULL,không khí,NULL,44,NULL,NULL
+2372,なみだ,NULL,nước mắt,NULL,44,NULL,NULL
+2373,わしょく,NULL,món ăn kiểu Nhật,NULL,44,NULL,NULL
+2374,ようしょく,NULL,món ăn kiểu Tây,NULL,44,NULL,NULL
+2375,おかず,NULL,thức ăn,NULL,44,NULL,NULL
+2376,りょう,NULL,lượng,NULL,44,NULL,NULL
+2377,－ばい,NULL,gấp － lần,NULL,44,NULL,NULL
+2378,シングル,NULL,phòng đơn,NULL,44,NULL,NULL
+2379,ツイン,NULL,phòng đôi,NULL,44,NULL,NULL
+2380,せんたくもの,NULL,áo quần giặt,NULL,44,NULL,NULL
+2381,DVD,NULL,DVD,NULL,44,NULL,NULL
+2382,ホテルひろしま,NULL,tên khách sạn giả định,NULL,44,NULL,NULL
+2383,どう なさいますか。,NULL,Chị muốn làm gì?,NULL,44,NULL,NULL
+2384,カット,NULL,cắt tóc,NULL,44,NULL,NULL
+2385,シャンプー,NULL,dầu gội (～を します : gội đầu),NULL,44,NULL,NULL
+2386,どういうふうに なさいますか。,NULL,Chị muốn cắt như thế nào?,NULL,44,NULL,NULL
+2387,ショート,NULL,cắt ngắn,NULL,44,NULL,NULL
+2388,～みたいに して ください。,NULL,Anh hãy cắt như ～.,NULL,44,NULL,NULL
+2389,これで よろしいでしょうか。,NULL,Như thế này được chưa ạ?,NULL,44,NULL,NULL
+2390,［どうも］おつかれさまでした。,NULL,"Xong rồi ạ, cảm ơn chị. (nhân viên nói với khách hàng)",NULL,44,NULL,NULL
+2391,いやがります,NULL,"ghét, không thích",NULL,44,NULL,NULL
+2392,また,NULL,hơn nữa,NULL,44,NULL,NULL
+2393,うまく,NULL,"tốt, giỏi",NULL,44,NULL,NULL
+2394,じゅんじょ,NULL,trình tự,NULL,44,NULL,NULL
+2395,あんしん［な］,NULL,yên tâm,NULL,44,NULL,NULL
+2396,ひょうげん,NULL,"biểu hiện, cách nói",NULL,44,NULL,NULL
+2397,たとえば,NULL,ví dụ,NULL,44,NULL,NULL
+2398,わかれます,NULL,chia tay,NULL,44,NULL,NULL
+2399,これら,NULL,những từ này,NULL,44,NULL,NULL
+2400,えんぎが わるい,NULL,"xui, không may",NULL,44,NULL,NULL
+2401,ていねい［な］,NULL,"lịch sự, cẩn thận",NULL,44,NULL,NULL
+2402,こまかい,NULL,"chi tiết, tỉ mỉ, nhỏ",NULL,44,NULL,NULL
+2403,はんぶん,NULL,một nửa,NULL,44,NULL,NULL
+2404,たんす,NULL,tủ đựng quần áo,NULL,44,NULL,NULL
+2405,りゆう,NULL,lý do,NULL,44,NULL,NULL
+2406,しんじます,NULL,tin,NULL,45,NULL,NULL
+2407,キャンセルします,NULL,hủy,NULL,45,NULL,NULL
+2408,しらせます,NULL,thông báo,NULL,45,NULL,NULL
+2409,ほしょうしょ,NULL,phiếu bảo hành,NULL,45,NULL,NULL
+2410,りょうしゅうしょ,NULL,hóa đơn,NULL,45,NULL,NULL
+2411,キャンプ,NULL,cắm trại,NULL,45,NULL,NULL
+2412,ちゅうし,NULL,hủy,NULL,45,NULL,NULL
+2413,てん,NULL,"điểm, điểm số",NULL,45,NULL,NULL
+2414,うめ,NULL,hoa mơ,NULL,45,NULL,NULL
+2415,１１０ばん,NULL,số điện thoại báo cảnh sát khi khẩn cấp,NULL,45,NULL,NULL
+2416,１１９ばん,NULL,số điện thoại báo cháy khi khẩn cấp,NULL,45,NULL,NULL
+2417,きゅうに,NULL,đột nhiên,NULL,45,NULL,NULL
+2418,むりに,NULL,"cố, gắng (làm không hợp lý)",NULL,45,NULL,NULL
+2419,たのしみに して います,NULL,tôi rất mong chờ,NULL,45,NULL,NULL
+2420,いじょうです。,NULL,Xin hết.,NULL,45,NULL,NULL
+2421,かかりいん,NULL,người phụ trách,NULL,45,NULL,NULL
+2422,コース,NULL,đường chạy ma-ra-tông,NULL,45,NULL,NULL
+2423,スタート,NULL,xuất phát,NULL,45,NULL,NULL
+2424,－い,NULL,thứ －,NULL,45,NULL,NULL
+2425,ゆうしょうします,NULL,chiến thắng,NULL,45,NULL,NULL
+2426,なやみ,NULL,"điều bận tâm, điều khổ tâm",NULL,45,NULL,NULL
+2427,めざまし［どけい］,NULL,[đồng hồ] báo thức,NULL,45,NULL,NULL
+2428,めが さめます,NULL,"tỉnh giấc, thức giấc",NULL,45,NULL,NULL
+2429,だいがくせい,NULL,sinh viên đại học,NULL,45,NULL,NULL
+2430,かいとう,NULL,câu trả lời (～します : trả lời),NULL,45,NULL,NULL
+2431,なります,NULL,kêu,NULL,45,NULL,NULL
+2432,セットします,NULL,đặt (giờ),NULL,45,NULL,NULL
+2433,それでも,NULL,"kể cả như thế, mặc dù như thế",NULL,45,NULL,NULL
+2434,あやまります,NULL,"xin lỗi, tạ lỗi",NULL,45,NULL,NULL
+2435,あいます［じこに～］,NULL,gặp [tai nạn],NULL,45,NULL,NULL
+2436,よういします,NULL,chuẩn bị,NULL,45,NULL,NULL
+2437,うまく いきます,NULL,"tốt, thuận lợi",NULL,45,NULL,NULL
+2438,おくりもの,NULL,quà tặng (～を します : tặng quà),NULL,45,NULL,NULL
+2439,まちがいでんわ,NULL,điện thoại nhầm,NULL,45,NULL,NULL
+2440,かかり,NULL,"nhân viên, người phụ trách",NULL,45,NULL,NULL
+2441,レバー,NULL,"tay bẻ, tay số, cần gạt",NULL,45,NULL,NULL
+2442,［－えん］さつ,NULL,tờ tiền giấy [－ yên],NULL,45,NULL,NULL
+2443,ちゃんと,NULL,"đúng, hẳn hoi",NULL,45,NULL,NULL
+2444,ねむります,NULL,ngủ,NULL,45,NULL,NULL
+2445,わたします,NULL,"đưa, trao",NULL,46,NULL,NULL
+2446,かえって きます,NULL,trở về,NULL,46,NULL,NULL
+2447,でます［バスが～］,NULL,"xuất phát, rời bến [xe buýt ～]",NULL,46,NULL,NULL
+2448,とどきます［にもつが～］,NULL,đến [hành lý ～],NULL,46,NULL,NULL
+2449,にゅうがくします［だいがくに～］,NULL,nhập học [đại học],NULL,46,NULL,NULL
+2450,そつぎょうします［だいがくを～］,NULL,tốt nghiệp [đại học],NULL,46,NULL,NULL
+2451,やきます,NULL,nướng,NULL,46,NULL,NULL
+2452,やけます［パンが～］,NULL,nướng chín [bánh mì ～],NULL,46,NULL,NULL
+2453,やけます［にくが～］,NULL,nướng chín [thịt ～],NULL,46,NULL,NULL
+2454,るす,NULL,"vắng nhà, đi vắng",NULL,46,NULL,NULL
+2455,たくはいびん,NULL,"hàng được chuyển phát tận nhà, dịch vụ chuyển phát tận nhà",NULL,46,NULL,NULL
+2456,げんいん,NULL,nguyên nhân,NULL,46,NULL,NULL
+2457,こちら,NULL,"phía tôi, tôi",NULL,46,NULL,NULL
+2458,～の ところ,NULL,chỗ ～,NULL,46,NULL,NULL
+2459,はんとし,NULL,nửa năm,NULL,46,NULL,NULL
+2460,ちょうど,NULL,"vừa đúng, đúng",NULL,46,NULL,NULL
+2461,たったいま,NULL,"vừa mới (dùng với thể quá khứ, biểu thị sự hoàn thành)",NULL,46,NULL,NULL
+2462,いま いいですか。,NULL,Bây giờ có nói chuyện được không?,NULL,46,NULL,NULL
+2567,もの,NULL,người (là người thân hoặc cấp dưới),NULL,48,NULL,NULL
+2463,ガスサービスセンター,NULL,trung tâm dịch vụ cung ứng ga,NULL,46,NULL,NULL
+2464,ガスレンジ,NULL,bếp ga,NULL,46,NULL,NULL
+2465,ぐあい,NULL,"tình trạng, trạng thái",NULL,46,NULL,NULL
+2466,もうしわけありません。,NULL,Xin lỗi.,NULL,46,NULL,NULL
+2467,どちらさまでしょうか。,NULL,Ai đấy ạ?,NULL,46,NULL,NULL
+2468,おまたせしました。,NULL,Xin lỗi đã bắt anh/chị chờ lâu.,NULL,46,NULL,NULL
+2469,むかいます,NULL,đi đến đấy,NULL,46,NULL,NULL
+2470,ついて います,NULL,may,NULL,46,NULL,NULL
+2471,ゆか,NULL,sàn,NULL,46,NULL,NULL
+2472,ころびます,NULL,ngã,NULL,46,NULL,NULL
+2473,ベル,NULL,chuông cửa,NULL,46,NULL,NULL
+2474,なります,NULL,"reng, kêu",NULL,46,NULL,NULL
+2475,あわてて,NULL,vội vàng,NULL,46,NULL,NULL
+2476,じゅんばんに,NULL,theo thứ tự,NULL,46,NULL,NULL
+2477,できごと,NULL,sự việc,NULL,46,NULL,NULL
+2478,ちゅうしゃ,NULL,tiêm,NULL,46,NULL,NULL
+2479,しょくよく,NULL,"cảm giác muốn ăn, cảm giác ngon miệng",NULL,46,NULL,NULL
+2480,パンフレット,NULL,"tờ rơi, tờ quảng cáo",NULL,46,NULL,NULL
+2481,ステレオ,NULL,stereo,NULL,46,NULL,NULL
+2482,いま いいでしょうか。,NULL,Bây giờ tôi làm phiền anh có được không ạ?,NULL,46,NULL,NULL
+2483,ちしき,NULL,"tri thức, kiến thức",NULL,46,NULL,NULL
+2484,ほうこ,NULL,kho báu,NULL,46,NULL,NULL
+2485,てにはいります［じょうほうが～］,NULL,"lấy được, thu thập được [thông tin]",NULL,46,NULL,NULL
+2486,システム,NULL,hệ thống,NULL,46,NULL,NULL
+2487,たとえば,NULL,"ví dụ, chẳng hạn",NULL,46,NULL,NULL
+2488,キーワード,NULL,từ khóa,NULL,46,NULL,NULL
+2489,いちぶぶん,NULL,một bộ phận,NULL,46,NULL,NULL
+2490,にゅうりょくします,NULL,nhập,NULL,46,NULL,NULL
+2491,びょう,NULL,giây,NULL,46,NULL,NULL
+2492,でます［ほんが～］,NULL,được xuất bản [quyển sách ～],NULL,46,NULL,NULL
+2493,ふきます［かぜが～］,NULL,thổi [gió ～],NULL,47,NULL,NULL
+2494,もえます［ごみが～］,NULL,cháy [rác ～],NULL,47,NULL,NULL
+2495,なくなります,NULL,qua đời (từ nói tránh của しにます),NULL,47,NULL,NULL
+2496,あつまります［ひとが～］,NULL,tập trung [người ～],NULL,47,NULL,NULL
+2497,わかれます［ひとが～］,NULL,chia tay [người ～],NULL,47,NULL,NULL
+2498,します［おと／こえが～］,NULL,có [tiếng/âm thanh],NULL,47,NULL,NULL
+2499,します［あじが～］,NULL,có [vị],NULL,47,NULL,NULL
+2500,します［においが～］,NULL,có [mùi],NULL,47,NULL,NULL
+2501,きびしい,NULL,nghiêm khắc,NULL,47,NULL,NULL
+2502,ひどい,NULL,khủng khiếp,NULL,47,NULL,NULL
+2503,こわい,NULL,"sợ, đáng sợ",NULL,47,NULL,NULL
+2504,じっけん,NULL,thực nghiệm,NULL,47,NULL,NULL
+2505,データ,NULL,dữ liệu,NULL,47,NULL,NULL
+2506,じんこう,NULL,dân số,NULL,47,NULL,NULL
+2507,におい,NULL,mùi,NULL,47,NULL,NULL
+2508,かがく,NULL,khoa học,NULL,47,NULL,NULL
+2509,いがく,NULL,y học,NULL,47,NULL,NULL
+2510,ぶんがく,NULL,văn học,NULL,47,NULL,NULL
+2511,パトカー,NULL,xe tuần tra cảnh sát,NULL,47,NULL,NULL
+2512,きゅうきゅうしゃ,NULL,xe cấp cứu,NULL,47,NULL,NULL
+2513,さんせい,NULL,tán thành,NULL,47,NULL,NULL
+2514,はんたい,NULL,phản đối,NULL,47,NULL,NULL
+2515,だいとうりょう,NULL,tổng thống,NULL,47,NULL,NULL
+2516,～に よると,NULL,theo ～ (biểu thị nguồn thông tin),NULL,47,NULL,NULL
+2517,こんやくします,NULL,"đính ước, ăn hỏi",NULL,47,NULL,NULL
+2518,どうも,NULL,có vẻ như (được dùng khi biểu thị sự suy đoán),NULL,47,NULL,NULL
+2519,こいびと,NULL,người yêu,NULL,47,NULL,NULL
+2520,あいて,NULL,"đối phương, hôn phu, hôn thê",NULL,47,NULL,NULL
+2521,しりあいます,NULL,quen biết,NULL,47,NULL,NULL
+2522,けしょう,NULL,trang điểm (～を します : trang điểm),NULL,47,NULL,NULL
+2523,せわを します,NULL,chăm sóc,NULL,47,NULL,NULL
+2524,じょせい,NULL,"phụ nữ, nữ",NULL,47,NULL,NULL
+2525,だんせい,NULL,"nam giới, nam",NULL,47,NULL,NULL
+2526,ながいき,NULL,thọ (～します : sống lâu),NULL,47,NULL,NULL
+2527,りゆう,NULL,lý do,NULL,47,NULL,NULL
+2528,かんけい,NULL,quan hệ,NULL,47,NULL,NULL
+2529,さします［かさを～］,NULL,che [ô],NULL,47,NULL,NULL
+2530,てんきよほう,NULL,dự báo thời tiết,NULL,47,NULL,NULL
+2531,はっぴょう,NULL,"phát biểu, báo cáo",NULL,47,NULL,NULL
+2532,バリ［とう］,NULL,[đảo] Bali (ở Indonesia),NULL,47,NULL,NULL
+2533,イラン,NULL,Iran,NULL,47,NULL,NULL
+2534,カリフォルニア,NULL,California (ở Mỹ),NULL,47,NULL,NULL
+2535,グアム,NULL,Guam,NULL,47,NULL,NULL
+2536,へいきんじゅみょう,NULL,tuổi thọ trung bình,NULL,47,NULL,NULL
+2537,くらべます［だんせいと～］,NULL,so sánh [với nam giới],NULL,47,NULL,NULL
+2538,はかせ,NULL,tiến sĩ,NULL,47,NULL,NULL
+2539,のう,NULL,não,NULL,47,NULL,NULL
+2540,ホルモン,NULL,hóc-môn,NULL,47,NULL,NULL
+2541,けしょうひん,NULL,mỹ phẩm,NULL,47,NULL,NULL
+2542,しらべ,NULL,"điều tra, tìm hiểu",NULL,47,NULL,NULL
+2543,おろします,NULL,lấy xuống,NULL,48,NULL,NULL
+2544,とどけます,NULL,"đưa đến, chuyển đến",NULL,48,NULL,NULL
+2545,せわを します,NULL,chăm sóc,NULL,48,NULL,NULL
+2546,ろくおんします,NULL,ghi âm,NULL,48,NULL,NULL
+2547,いや［な］,NULL,"chán, không thích",NULL,48,NULL,NULL
+2548,じゅく,NULL,"lò luyện thi, nơi học thêm",NULL,48,NULL,NULL
+2549,せいと,NULL,học sinh,NULL,48,NULL,NULL
+2550,ファイル,NULL,"fai tài liệu, kẹp tài liệu",NULL,48,NULL,NULL
+2551,じゆうに,NULL,"một cách tự do, một cách thoải mái",NULL,48,NULL,NULL
+2552,～かん,NULL,trong khoảng ～,NULL,48,NULL,NULL
+2553,いい ことですね。,NULL,Điều đó hay quá nhỉ!,NULL,48,NULL,NULL
+2554,おいそがしいですか。,NULL,Anh/Chị có bận không ạ? (được dùng khi hỏi người trên),NULL,48,NULL,NULL
+2555,えいぎょう,NULL,kinh doanh,NULL,48,NULL,NULL
+2556,それまでに,NULL,cho đến lúc đấy,NULL,48,NULL,NULL
+2557,かまいません。,NULL,Không sao.,NULL,48,NULL,NULL
+2558,たのしみます,NULL,tận hưởng,NULL,48,NULL,NULL
+2559,おや,NULL,bố mẹ,NULL,48,NULL,NULL
+2560,しょうがくせい,NULL,học sinh tiểu học,NULL,48,NULL,NULL
+2561,－パーセント,NULL,－ phần trăm,NULL,48,NULL,NULL
+2562,その つぎ,NULL,tiếp theo đó,NULL,48,NULL,NULL
+2563,しゅうじ,NULL,hcoj viết chữ bằng bút lông,NULL,48,NULL,NULL
+2564,ふつうの,NULL,"thông thường, bình thường",NULL,48,NULL,NULL
+2565,きびしい,NULL,"nghiêm, nghiêm khắc, nghiêm ngặt",NULL,48,NULL,NULL
+2566,スケジュール,NULL,"thời khóa biểu, lịch làm việc",NULL,48,NULL,NULL
+2568,にゅうかん,NULL,Cục Quản lý nhập cảnh,NULL,48,NULL,NULL
+2569,さいにゅうこくビザ,NULL,thị thực tái nhập cảnh,NULL,48,NULL,NULL
+2570,ひさしぶり,NULL,lâu,NULL,48,NULL,NULL
+2571,もともと,NULL,vốn dĩ,NULL,48,NULL,NULL
+2572,－せいき,NULL,thế kỷ －,NULL,48,NULL,NULL
+2573,かわりを します,NULL,thay thế,NULL,48,NULL,NULL
+2574,スピード,NULL,tốc độ,NULL,48,NULL,NULL
+2575,きょうそうします,NULL,"chạy đua, thi chạy",NULL,48,NULL,NULL
+2576,サーカス,NULL,xiếc,NULL,48,NULL,NULL
+2577,げい,NULL,"trò diễn, tiết mục, tài năng",NULL,48,NULL,NULL
+2578,うつくしい,NULL,đẹp,NULL,48,NULL,NULL
+2579,すがた,NULL,"dáng điệu, tư thế",NULL,48,NULL,NULL
+2580,こころ,NULL,"trái tim, tấm lòng, tình cảm",NULL,48,NULL,NULL
+2581,とらえます,NULL,giành được,NULL,48,NULL,NULL
+2582,～に よって,NULL,đối với ～,NULL,48,NULL,NULL
+2583,りようします,NULL,sử dụng,NULL,49,NULL,NULL
+2584,つとめます［かいしゃに～］,NULL,làm việc [ở công ty],NULL,49,NULL,NULL
+2585,かけます［いすに～］,NULL,ngồi xuống [ghế],NULL,49,NULL,NULL
+2586,すごします,NULL,trải qua,NULL,49,NULL,NULL
+2587,いらっしゃいます,NULL,"ở, đi, đến (kính ngữ của います, いきます, きます)",NULL,49,NULL,NULL
+2588,めしあがります,NULL,"ăn, uống (kính ngữ của たべます, のみます)",NULL,49,NULL,NULL
+2589,おっしゃいます,NULL,"nói, tên là ～ (kính ngữ của いいます)",NULL,49,NULL,NULL
+2590,なさいます,NULL,làm (kính ngữ của します),NULL,49,NULL,NULL
+2591,ごらんに なります,NULL,xem (kính ngữ của みます),NULL,49,NULL,NULL
+2592,ごぞんじです,NULL,biết (kính ngữ của しっています),NULL,49,NULL,NULL
+2593,あいさつ,NULL,"chào hỏi (～を します : chào), lời chào mừng",NULL,49,NULL,NULL
+2594,りょかん,NULL,nhà khách kiểu Nhật truyền thống,NULL,49,NULL,NULL
+2595,バスてい,NULL,bến xe buýt,NULL,49,NULL,NULL
+2596,おくさま,NULL,vợ của người khác (kính ngữ của おくさん),NULL,49,NULL,NULL
+2597,～さま,NULL,(kính ngữ của ～さん),NULL,49,NULL,NULL
+2598,たまに,NULL,thi thoảng,NULL,49,NULL,NULL
+2599,どなたでも,NULL,vị nào cũng (kính ngữ của だれでも),NULL,49,NULL,NULL
+2600,～と いいます,NULL,tên là ～,NULL,49,NULL,NULL
+2601,－ねん－くみ,NULL,tổ － năm thứ －,NULL,49,NULL,NULL
+2602,だします［ねつを～］,NULL,bị [sốt],NULL,49,NULL,NULL
+2603,よろしく おつたえ ください。,NULL,Cho tôi gửi lời hỏi thăm.,NULL,49,NULL,NULL
+2604,しつれいいたします。,NULL,Xin phép thầy tôi cúp máy ạ. (kính ngữ cửa しつれいします),NULL,49,NULL,NULL
+2605,ひまわりしょうがっこう,NULL,trường tiểu học giả định,NULL,49,NULL,NULL
+2606,けいれき,NULL,lí lịch,NULL,49,NULL,NULL
+2607,いがくぶ,NULL,khoa y,NULL,49,NULL,NULL
+2608,めざします,NULL,"hướng đến, muốn trở thành",NULL,49,NULL,NULL
+2609,すすみます,NULL,học lên,NULL,49,NULL,NULL
+2610,iPSさいぼう,NULL,tế bào iPS,NULL,49,NULL,NULL
+2611,かいはつします,NULL,phát triển,NULL,49,NULL,NULL
+2612,マウス,NULL,chuột,NULL,49,NULL,NULL
+2613,ヒト,NULL,người,NULL,49,NULL,NULL
+2614,じゅしょうします,NULL,nhận giải thưởng,NULL,49,NULL,NULL
+2615,こうえんかい,NULL,buổi nói chuyện,NULL,49,NULL,NULL
+2616,やまなかしんや,NULL,nhà nghiên cứu y học người Nhật (1962-),NULL,49,NULL,NULL
+2617,ノーベルしょう,NULL,giải Nobel,NULL,49,NULL,NULL
+2618,やすみます,NULL,ngủ,NULL,49,NULL,NULL
+2619,よります［ぎんこうに～］,NULL,ghé qua [ngân hàng],NULL,49,NULL,NULL
+2620,はいざら,NULL,cái gạt tàn,NULL,49,NULL,NULL
+2621,かいじょう,NULL,"hội trường, địa điểm tổ chức",NULL,49,NULL,NULL
+2622,ぼうえき,NULL,"thương mại quốc tế, mậu dịch",NULL,49,NULL,NULL
+2623,かえりに,NULL,trên đường về,NULL,49,NULL,NULL
+2624,ちっとも,NULL,"chẳng ～ tí nào, không hề",NULL,49,NULL,NULL
+2625,えんりょなく,NULL,"không giữ ý, không làm khách",NULL,49,NULL,NULL
+2626,では,NULL,bị [sốt],NULL,49,NULL,NULL
+2627,こうし,NULL,"giảng viên, giáo viên",NULL,49,NULL,NULL
+2628,おおくの ～,NULL,nhiều ～,NULL,49,NULL,NULL
+2629,さくひん,NULL,tác phẩm,NULL,49,NULL,NULL
+2630,せかいてきに,NULL,"tầm cỡ thế giới, mang tính thế giới",NULL,49,NULL,NULL
+2631,さっか,NULL,nhà văn,NULL,49,NULL,NULL
+2632,～で いらっしゃいます,NULL,là ～ (tôn kính ngữ của です),NULL,49,NULL,NULL
+2633,ちょうなん,NULL,trưởng nam,NULL,49,NULL,NULL
+2634,しょうがい,NULL,"khuyết tật, tàn tật",NULL,49,NULL,NULL
+2635,おもちです,NULL,có (cách nói tôn kính của もって います),NULL,49,NULL,NULL
+2636,さっきょく,NULL,sáng tác nhạc,NULL,49,NULL,NULL
+2637,かつどう,NULL,hoạt động,NULL,49,NULL,NULL
+2638,それでは,NULL,"bây giờ thì, đến đây",NULL,49,NULL,NULL
+2639,おおえ けんざぶろう,NULL,một nhà văn người Nhật (1935-),NULL,49,NULL,NULL
+2640,とうきょうだいがく,NULL,Đại học Tokyo,NULL,49,NULL,NULL
+2641,ノーベルぶんがくしょう,NULL,Giải thưởng Nobel Văn học,NULL,49,NULL,NULL
+2642,まいります,NULL,"đi, đến (khiêm nhường ngữ của いきます, きます)",NULL,50,NULL,NULL
+2643,おります,NULL,ở (khiêm nhường ngữ của います),NULL,50,NULL,NULL
+2644,いただきます,NULL,"ăn, uống, nhận (khiêm nhường ngữ của たべます, のみます, もらいます)",NULL,50,NULL,NULL
+2645,もうします,NULL,"nói, tên là ～ (khiêm nhường ngữ của いいます)",NULL,50,NULL,NULL
+2646,いたします,NULL,làm (khiêm nhường ngữ của します),NULL,50,NULL,NULL
+2647,はいけんします,NULL,xem (khiêm nhường ngữ của みます),NULL,50,NULL,NULL
+2648,ぞんじます,NULL,biết (khiêm nhường ngữ của しります),NULL,50,NULL,NULL
+2649,うかがいます,NULL,"hỏi, đến thăm (khiêm nhường ngữ của ききます, いきます)",NULL,50,NULL,NULL
+2650,おめに かかります,NULL,gặp (khiêm nhường ngữ của あいます),NULL,50,NULL,NULL
+2651,いれます［コーヒーを～］,NULL,pha [cà phê],NULL,50,NULL,NULL
+2652,よういします,NULL,chuẩn bị sẵn,NULL,50,NULL,NULL
+2653,わたくし,NULL,tôi (khiêm nhường ngữ của わたし),NULL,50,NULL,NULL
+2654,ガイド,NULL,hướng dẫn viên du lịch,NULL,50,NULL,NULL
+2655,メールアドレス,NULL,địa chỉ email,NULL,50,NULL,NULL
+2656,スケジュール,NULL,lịch làm việc,NULL,50,NULL,NULL
+2657,さらいしゅう,NULL,tuần sau nữa,NULL,50,NULL,NULL
+2658,さらいげつ,NULL,tháng sau nữa,NULL,50,NULL,NULL
+2659,さらいねん,NULL,năm sau nữa,NULL,50,NULL,NULL
+2660,はじめに,NULL,"trước hết, đầu tiên",NULL,50,NULL,NULL
+2661,えどとうきょうはくぶつかん,NULL,Bảo tàng Edo Tokyo,NULL,50,NULL,NULL
+2662,きんちょうします,NULL,hồi hộp,NULL,50,NULL,NULL
+2663,しょうきん,NULL,tiền thưởng,NULL,50,NULL,NULL
+2664,きりん,NULL,huơu cao cổ,NULL,50,NULL,NULL
+2665,ころ,NULL,"lúc, thời",NULL,50,NULL,NULL
+2666,かないます［ゆめが～］,NULL,thành hiện thực [mơ ước ～],NULL,50,NULL,NULL
+2667,おうえんします,NULL,động viên,NULL,50,NULL,NULL
+2668,こころから,NULL,từ đáy lòng,NULL,50,NULL,NULL
+2669,かんしゃします,NULL,cảm ơn,NULL,50,NULL,NULL
+2670,おれい,NULL,cảm ơn,NULL,50,NULL,NULL
+2671,おげんきで いらっしゃいますか。,NULL,Anh/Chị có khỏe không ạ? (kính ngữ của おげんきですか),NULL,50,NULL,NULL
+2672,めいわくを かけます,NULL,làm phiền,NULL,50,NULL,NULL
+2673,いかします,NULL,phát huy,NULL,50,NULL,NULL
+2674,ミュンヘン,NULL,Munich (Đức),NULL,50,NULL,NULL
+2675,ございます,NULL,có (thể lịch sự của あります),NULL,50,NULL,NULL
+2676,～で ございます,NULL,là (thể lịch sự của ～です),NULL,50,NULL,NULL
+2677,おたく,NULL,nhà (dùng cho người khác),NULL,50,NULL,NULL
+2678,こうがい,NULL,ngoại ô,NULL,50,NULL,NULL
+2679,アルバム,NULL,album,NULL,50,NULL,NULL
+2680,はんとし,NULL,nửa năm,NULL,50,NULL,NULL
+2681,さいしょに,NULL,"đầu tiên, trước hết",NULL,50,NULL,NULL
+2682,さいごに,NULL,cuối cùng,NULL,50,NULL,NULL
+2683,ただいま,NULL,bây giờ (thể lich sự của いま),NULL,50,NULL,NULL
+2684,ほうそうします,NULL,"phát thanh, truyền hình",NULL,50,NULL,NULL
+2685,とります［ビデオに～］,NULL,"thu [video], quay",NULL,50,NULL,NULL
+2686,しぜん,NULL,"tự nhiên, thiên nhiên",NULL,50,NULL,NULL
+2687,ぞう,NULL,con voi,NULL,50,NULL,NULL
+2688,ひとこと よろしいでしょうか。,NULL,Tôi xin phép nói vài lời có được không ạ?,NULL,50,NULL,NULL
+2689,きょうりょくします,NULL,hợp tác,NULL,50,NULL,NULL
+2690,はいけい,NULL,kính gửi ～,NULL,50,NULL,NULL
+2691,うつくしい,NULL,đẹp,NULL,50,NULL,NULL
+2692,［お］しろ,NULL,lâu đài,NULL,50,NULL,NULL
+2693,けいぐ,NULL,kính thưa,NULL,50,NULL,NULL
