@@ -47,7 +47,7 @@ def upgrade() -> None:
                 sa.Column('level', sa.String(), nullable=True),
                 sa.Column('example', sa.String(), nullable=True)
     )
-    op.create_index('ix_vocabularies_word', 'vocabularies', ['word'])
+    # op.create_index('ix_vocabularies_word', 'vocabularies', ['word'])
 
 
     op.create_table('readings',
@@ -69,7 +69,7 @@ def upgrade() -> None:
                 sa.Column('question_id', sa.Integer(), 
                           sa.ForeignKey('questions.id', ondelete='CASCADE'), nullable=False)
     )
-    op.create_index('ix_readings_title', 'readings', ['title'])
+    # op.create_index('ix_readings_title', 'readings', ['title'])
 
 
     op.create_table('mazii_vocabs',
@@ -93,7 +93,7 @@ def upgrade() -> None:
                 sa.Column('meaning_detail_id', sa.Integer(),
                           sa.ForeignKey('meaning_detail.id', ondelete='CASCADE'), nullable=False)
     )
-    op.create_index('ix_mazii_vocabs_word', 'mazii_vocabs', ['word'])
+    # op.create_index('ix_mazii_vocabs_word', 'mazii_vocabs', ['word'])
 
     op.create_table('kanji',
                 sa.Column('id', sa.Integer(), primary_key=True),
@@ -105,27 +105,48 @@ def upgrade() -> None:
                 sa.Column('meaning', sa.String(), nullable=False),
                 sa.Column('explain', postgresql.ARRAY(sa.String()), nullable=False),
     )
-    op.create_index('ix_kanji_word', 'kanji', ['word'])
+    # op.create_index('ix_kanji_word', 'kanji', ['word'])
+    
+    op.create_table('chat_sessions',
+        sa.Column('id', sa.String(), nullable=False),
+        sa.Column('created_at', sa.TIMESTAMP(timezone=True), server_default=sa.text('now()'), nullable=True),
+        sa.PrimaryKeyConstraint('id')
+    )
+    op.create_table('chat_messages',
+        sa.Column('id', sa.Integer(), nullable=False),
+        sa.Column('session_id', sa.String(), nullable=False),
+        sa.Column('prompt', sa.String(), nullable=False),
+        sa.Column('response', sa.String(), nullable=False),
+        sa.Column('created_at', sa.TIMESTAMP(timezone=True), server_default=sa.text('now()'), nullable=True),
+        sa.ForeignKeyConstraint(['session_id'], ['chat_sessions.id'], ),
+        sa.PrimaryKeyConstraint('id')
+    )
+    # op.create_index(op.f('ix_chat_messages_id'), 'chat_messages', ['id'], unique=False)
+    
     pass
 
 
 def downgrade() -> None:
     """Downgrade schema."""
+    # op.drop_index(op.f('ix_chat_messages_id'), table_name='chat_messages')
+    op.drop_table('chat_messages')
+    op.drop_table('chat_sessions')
+    
     op.drop_table('users')
     op.drop_table('reading_items')
-    op.drop_index('ix_vocabularies_word', table_name='vocabularies')
+    # op.drop_index('ix_vocabularies_word', table_name='vocabularies')
     op.drop_table('vocabularies')
 
-    op.drop_index('ix_readings_title', table_name='readings')
+    # op.drop_index('ix_readings_title', table_name='readings')
     op.drop_table('readings')
     op.drop_table('questions')
     op.drop_table('answers')
 
-    op.drop_index('ix_mazii_vocabs_word', table_name='mazii_vocabs')
+    # op.drop_index('ix_mazii_vocabs_word', table_name='mazii_vocabs')
     op.drop_table('mazii_vocabs')
     op.drop_table('meaning_detail')
     op.drop_table('examples')
 
-    op.drop_index('ix_kanji_word', table_name='kanji')
+    # op.drop_index('ix_kanji_word', table_name='kanji')
     op.drop_table('kanji')
     pass
