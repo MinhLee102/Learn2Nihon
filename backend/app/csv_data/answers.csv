@@ -1,0 +1,109 @@
+id,answer_text,is_correct,question_id
+1,高層ビル (Skyscrapers),f,1
+2,最新のテクノロジー (Latest technology),f,1
+3,活気あるナイトライフ (Vibrant nightlife),f,1
+4,美しい自然 (Beautiful nature),t,1
+5,電車はほとんど時間通りに運行しない (Trains are rarely on time),f,2
+6,ラッシュアワーでも混雑は一切ない (There is no congestion even during rush hour),f,2
+7,交通機関は非常に効率的でアクセスしやすい (Transportation is very efficient and accessible),t,2
+8,タクシーが唯一の交通手段である (Taxis are the only means of transportation),f,2
+9,美味しい食事を見つけること (Finding delicious food),f,3
+10,礼儀正しい日本人と交流すること (Interacting with polite Japanese people),f,3
+11,言葉の壁と文化の違い (Language barrier and cultural differences),t,3
+12,四季を楽しむこと (Enjoying the four seasons),f,3
+13,花見 (Cherry blossom viewing),f,4
+14,花火大会 (Fireworks festival),t,4
+15,収穫祭 (Harvest festival),f,4
+16,雪まつり (Snow festival),f,4
+17,雪まつり (Snow festival),t,5
+18,桜祭り (Cherry blossom festival),f,5
+19,盆踊り (Bon dance),f,5
+20,花火大会 (Fireworks festival),f,5
+21,伝統的な音楽 (Traditional music),f,6
+22,美味しい屋台料理 (Delicious street food),f,6
+23,観光地巡り (Sightseeing),t,6
+24,踊り (Dance),f,6
+25,パン (Bread),f,7
+26,米 (Rice),t,7
+27,そば (Buckwheat noodles),f,7
+28,魚 (Fish),f,7
+29,味噌汁と漬物 (Miso soup and pickles),t,8
+30,ケーキとコーヒー (Cake and coffee),f,8
+31,ラーメン (Ramen),f,8
+32,ピザ (Pizza),f,8
+33,世界的に評価されていない (Not valued globally),f,9
+34,ユネスコ無形文化遺産に登録されている (Registered as UNESCO Intangible Cultural Heritage),t,9
+35,肉料理が中心である (Mainly meat dishes),f,9
+36,輸入食材を多く使う (Uses many imported ingredients),f,9
+37,遊ぶ (Play),f,10
+38,掃除をする (Clean the classroom),t,10
+39,給食を食べる (Eat lunch),f,10
+40,帰宅する (Go home),f,10
+41,スポーツ (Sports),f,11
+42,音楽 (Music),f,11
+43,美術 (Art),f,11
+44,料理 (Cooking),t,11
+45,個人主義 (Individualism),f,12
+46,チームワークと協力 (Teamwork and cooperation),t,12
+47,外国語の習得 (Learning foreign languages),f,12
+48,アルバイト (Part-time jobs),f,12
+49,花見 (Cherry blossom viewing),f,13
+50,海や山でのレジャー (Leisure at sea and mountains),t,13
+51,紅葉 (Autumn leaves),f,13
+52,雪景色 (Snow scenery),f,13
+53,エベレスト (Everest),f,14
+54,富士山 (Mount Fuji),t,14
+55,阿蘇山 (Mount Aso),f,14
+56,白山 (Mount Hakusan),f,14
+57,桜 (Cherry blossoms),f,15
+58,紅葉 (Autumn leaves),t,15
+59,雪 (Snow),f,15
+60,海 (Sea),f,15
+61,農業 (Agriculture),f,16
+62,自動車産業 (Automobile industry),t,16
+63,観光業 (Tourism),f,16
+64,ファッション (Fashion),f,16
+65,農村 (Countryside),f,17
+66,東京などの都市 (Cities like Tokyo),t,17
+67,温泉地 (Hot spring resorts),f,17
+68,漁村 (Fishing villages),f,17
+69,ロボット工学 (Robotics),f,18
+70,エレクトロニクス (Electronics),f,18
+71,自動車産業 (Automobile industry),f,18
+72,ファッションデザイン (Fashion design),t,18
+73,大阪 (Osaka),f,19
+74,奈良と京都 (Nara and Kyoto),t,19
+75,札幌 (Sapporo),f,19
+76,福岡 (Fukuoka),f,19
+77,侍や武士の文化 (Samurai culture),t,20
+78,現代音楽 (Modern music),f,20
+79,野球 (Baseball),f,20
+80,ファッション (Fashion),f,20
+81,経済 (Economy),f,21
+82,独自の文化 (Unique culture),t,21
+83,軍事力 (Military power),f,21
+84,科学 (Science),f,21
+85,肉をたくさん食べる (Eating a lot of meat),f,22
+86,健康的な食生活 (Healthy diet),t,22
+87,夜更かしする (Staying up late),f,22
+88,薬を飲まない (Not taking medicine),f,22
+89,毎日の運動と温泉 (Daily exercise and hot springs),t,23
+90,ゲーム (Video games),f,23
+91,お菓子 (Snacks),f,23
+92,夜勤 (Night shifts),f,23
+93,医療制度が整っているから (Because the healthcare system is well-developed),t,24
+94,観光客が多いから (Because there are many tourists),f,24
+95,交通が便利だから (Because transportation is convenient),f,24
+96,文化が豊かだから (Because culture is rich),f,24
+97,テニス (Tennis),f,25
+98,野球とサッカー (Baseball and soccer),t,25
+99,バスケットボール (Basketball),f,25
+100,水泳 (Swimming),f,25
+101,現代的なスポーツ (Modern sport),f,26
+102,伝統的なスポーツ (Traditional sport),t,26
+103,外国から来たスポーツ (Imported sport),f,26
+104,遊び (Play),f,26
+105,リレーと玉入れ (Relay and ball toss),t,27
+106,登山 (Mountain climbing),f,27
+107,スキー (Skiing),f,27
+108,水泳大会 (Swimming competition),f,27
