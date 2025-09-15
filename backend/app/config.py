@@ -18,6 +18,9 @@ class Settings(BaseSettings):
     email: EmailStr
     password: str
 
+    GEMINI_API_KEY:str
+    AZURE_SPEECH_KEY: str   
+    AZURE_SPEECH_REGION: str 
     class Config:
         env_file = ".env"
 
