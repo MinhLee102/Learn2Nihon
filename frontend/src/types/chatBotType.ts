@@ -1,3 +1,5 @@
+// types/chatBotType.ts (KHÔNG ĐỔI)
+
 export interface ChatMessages {
     id: string;
     text: string;
@@ -6,9 +8,10 @@ export interface ChatMessages {
 }
 
 export interface ChatbotResponse {
-  response_text: string; 
+  response: string; 
+  session_id: string;
 }
 
 export interface SpeechToTextResponse {
-  transcribed_text: string; 
+  transcription: string; 
 }

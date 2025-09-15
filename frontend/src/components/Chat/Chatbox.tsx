@@ -12,6 +12,7 @@ const Chatbot: React.FC = () => {
     const [messages, setMessages] = useState<ChatMessages[]>([]);
     const [currentInput, setCurrentInput] = useState<string>('');
     const [isLoadingAIResponse, setIsLoadingAIResponse] = useState(false);
+    const [sessionId, setSessionId] = useState<string | null>(null);
     const chatHistoryRef = useRef<HTMLDivElement>(null);
     const inputRef = useRef<HTMLInputElement>(null);
 
@@ -47,15 +48,17 @@ const Chatbot: React.FC = () => {
     setIsLoadingAIResponse(true); 
 
     try {
-      const aiResponse = await sendChatMessageToAI(messageText);
+      const aiResponse = await sendChatMessageToAI(messageText, sessionId);
       
       const newAIMessage: ChatMessages = {
         id: Date.now().toString() + '-ai',
-        text: aiResponse?.response_text || "Xin lỗi, tôi không hiểu. Bạn có thể nói rõ hơn không?",
+        text: aiResponse?.response || "Xin lỗi, tôi không hiểu. Bạn có thể nói rõ hơn không?",
         isUser: false,
         timestamp: new Date(),
       };
       setMessages((prev) => [...prev, newAIMessage]);
+      // Cập nhật state sessionId với giá trị mới nhận được từ backend
+      setSessionId(aiResponse.session_id);
 
     } catch (error) {
       console.error("Error sending message:", error);
@@ -74,7 +77,7 @@ const Chatbot: React.FC = () => {
         inputRef.current.focus();
       }
     }
-  }, []);
+  }, [sessionId]);
 
   const handleInputSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

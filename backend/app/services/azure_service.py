@@ -11,11 +11,23 @@ def transcribe_audio_from_bytes(audio_bytes: bytes) -> str:
             subscription=settings.AZURE_SPEECH_KEY,
             region=settings.AZURE_SPEECH_REGION
         )
-        # Cấu hình để nhận dạng tiếng Nhật
         speech_config.speech_recognition_language = "ja-JP"
 
-        # Tạo recognizer từ audio stream trong bộ nhớ
-        audio_config = speechsdk.audio.AudioConfig(stream=audio_bytes)
+        # 1. Tạo một PushAudioInputStream. Đây là một luồng trong bộ nhớ
+        #    mà SDK có thể đọc được.
+        stream = speechsdk.audio.PushAudioInputStream()
+
+        # 2. Khởi tạo AudioConfig từ luồng này.
+        audio_config = speechsdk.audio.AudioConfig(stream=stream)
+
+        # 3. Đẩy (write) toàn bộ dữ liệu audio_bytes vào luồng.
+        stream.write(audio_bytes)
+
+        # 4. Đóng luồng để báo hiệu rằng không còn dữ liệu nào nữa.
+        #    Đây là bước quan trọng, nếu không recognizer sẽ chờ mãi.
+        stream.close()
+
+        # Tạo recognizer từ speech_config và audio_config đã được sửa
         speech_recognizer = speechsdk.SpeechRecognizer(
             speech_config=speech_config,
             audio_config=audio_config
@@ -26,9 +38,11 @@ def transcribe_audio_from_bytes(audio_bytes: bytes) -> str:
 
         # Xử lý kết quả
         if result.reason == speechsdk.ResultReason.RecognizedSpeech:
+            print(f"Recognized: {result.text}") # Thêm log để debug
             return result.text
         elif result.reason == speechsdk.ResultReason.NoMatch:
-            return "" # Trả về chuỗi rỗng nếu không nhận dạng được
+            print("No speech could be recognized.") # Thêm log để debug
+            return ""
         elif result.reason == speechsdk.ResultReason.Canceled:
             cancellation_details = result.cancellation_details
             print(f"Speech Recognition canceled: {cancellation_details.reason}")

@@ -23,16 +23,20 @@ const useAzureSpeech = (): UseAzureSpeechResult => {
     try {
       // Gửi audio blob đến backend
       const response = await getAzureTranscription(audioBlob);
-      if (response?.transcribed_text) {
-        setTranscript(response.transcribed_text); 
-      }
-    } catch (err: unknown) {
-        if (err instanceof Error) {
-            setError(err.message);
-        } else {
-            setError("Lỗi xử lý âm thanh Azure.");
+      if (response?.transcription) {
+                setTranscript(response.transcription); 
+            } else {
+                // Xử lý khi backend trả về chuỗi rỗng (không nhận dạng được)
+                setTranscript('');
+                setError('Không nhận dạng được giọng nói.');
+            }
+        } catch (err: unknown) {
+            if (err instanceof Error) {
+                setError(err.message);
+            } else {
+                setError("Lỗi xử lý âm thanh Azure.");
+            }
         }
-    }
   }, []);
 
   const startRecording = useCallback(async () => {
