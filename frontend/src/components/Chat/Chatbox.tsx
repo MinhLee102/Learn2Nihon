@@ -16,22 +16,27 @@ const Chatbot: React.FC = () => {
     const chatHistoryRef = useRef<HTMLDivElement>(null);
     const inputRef = useRef<HTMLInputElement>(null);
 
-    const { isRecording, transcript, startRecording, stopRecording, error: speechError } = useAzureSpeech();
+    const { isRecording, transcript, transcriptFinal, startRecording, stopRecording, error: speechError } = useAzureSpeech();
 
     useEffect(() => {
         if (chatHistoryRef.current) {
-        chatHistoryRef.current.scrollTop = chatHistoryRef.current.scrollHeight;
+            chatHistoryRef.current.scrollTop = chatHistoryRef.current.scrollHeight;
         }
     }, [messages]);
 
+    // Cập nhật input với transcript real-time (nếu có)
     useEffect(() => {
-        if (transcript && isRecording) {
-        setCurrentInput(transcript);
+        if (isRecording) {
+            setCurrentInput(transcript);
         }
-        if (inputRef.current && !isLoadingAIResponse) { 
+    }, [transcript, isRecording]);
+
+    // Tự động focus vào input
+    useEffect(() => {
+        if (inputRef.current && !isLoadingAIResponse && !isRecording) { 
             inputRef.current.focus();
         }
-    }, [transcript, isRecording, isLoadingAIResponse]);
+    }, [isLoadingAIResponse, isRecording]);
 
 
   const handleSendMessage = useCallback(async (messageText: string) => {
@@ -84,18 +89,20 @@ const Chatbot: React.FC = () => {
     handleSendMessage(currentInput);
   };
 
-  const handleVoiceButtonClick = useCallback(async () => {
-    if (isRecording) {
-      await stopRecording();
-      if (currentInput.trim()) {
-        await handleSendMessage(currentInput);
-      }
-      setCurrentInput('');
-    } else {
-      setCurrentInput(''); 
-      await startRecording();
-    }
-  }, [isRecording, stopRecording, startRecording, currentInput, handleSendMessage]);
+  useEffect(() => {
+        if (transcriptFinal) {
+            handleSendMessage(transcriptFinal);
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [transcriptFinal]); // Chỉ phụ thuộc vào transcriptFinal
+
+  const handleVoiceButtonClick = async () => {
+        if (isRecording) {
+            await stopRecording();
+        } else {
+            await startRecording();
+        }
+    };
 
   return (
     <div className="flex flex-col h-[calc(100vh-90px)] bg-white rounded-2xl shadow-md">
