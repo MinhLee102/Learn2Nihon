@@ -2,6 +2,8 @@
 
 import React from 'react';
 import type { ChatMessages } from '@/types/chatBotType';
+import ReactMarkdown from 'react-markdown';
+
 
 interface ChatBubbleProps {
   message: ChatMessages;
@@ -17,7 +19,9 @@ const ChatBubble: React.FC<ChatBubbleProps> = ({ message }) => {
       <div
         className={`max-w-[70%] px-4 py-2 my-1 rounded-lg shadow-sm ${bubbleClass}`}
       >
-        <p className="whitespace-pre-wrap">{message.text}</p>
+        <div className="whitespace-pre-wrap">
+          <ReactMarkdown>{message.text}</ReactMarkdown>
+        </div>
 
         <span className="text-xs text-opacity-75 mt-1 block">
           {message.timestamp.toLocaleTimeString()}

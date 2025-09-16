@@ -1,4 +1,4 @@
-// types/chatBotType.ts (KHÔNG ĐỔI)
+
 
 export interface ChatMessages {
     id: string;
