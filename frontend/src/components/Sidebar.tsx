@@ -30,7 +30,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
     >
       <Picture url={iconInfo.url} width={iconInfo.width} height={iconInfo.height} alt={iconInfo.alt}
       className={`
-            ${isExtended ? 'mr-3' : ''} // <--- ĐÂY LÀ CHỖ CẦN ĐIỀU CHỈNH
+            ${isExtended ? 'mr-3' : ''} 
         `}/>
       {isExtended && <span className="whitespace-nowrap">{text}</span>}
     </Link>
