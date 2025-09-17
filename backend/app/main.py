@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api import vocabulary, user, reading, question, answer
+from app.api import vocabulary, user, reading, question, answer, chatbot, azure, search
 from app.api.Mazii import vocab, kanji
 from app.routers import auth, email_verification
 from app.database import Base, engine
@@ -34,3 +34,10 @@ app.include_router(question.router)
 app.include_router(answer.router)
 app.include_router(vocab.router)
 app.include_router(kanji.router)
+app.include_router(chatbot.router)
+app.include_router(azure.router)
+app.include_router(search.router)
+
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to Gemini Voice Chat API"}
