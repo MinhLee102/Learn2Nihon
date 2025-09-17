@@ -1,16 +1,16 @@
-import type { SearchRequest, SearchResponse } from '@/types/dictionaryType'; 
+import type { DictionaryApiResponse, SearchRequest, SearchResponse } from '@/types/dictionaryType'; 
 import apiClient from './apiConfig';
 
 
-// NEW: API để tra cứu từ điển
+//API để tra cứu từ điển
 export const searchDictionary = async (searchData: SearchRequest): Promise<SearchResponse | undefined> => {
     try {
-        // Endpoint ví dụ: POST /dictionary/search
-        // Backend sẽ nhận { "content": "user_input", "type": "vocabulary", "direction": "jp-vi" }
-        // Và trả về { "results": [{...}] }
-        const response = await apiClient.post<SearchResponse>('/dictionary/search', searchData);
-        return response.data;
+        // Endpoint: GET /api/search/jisho?q={content}
+        const response = await apiClient.get<DictionaryApiResponse>(`/search/jisho?q=${encodeURIComponent(searchData.content)}`);
+        
+        return { results: response.data.data }; // Trả về SearchResponse 
     } catch (error: unknown) {
-        console.log("Error detected: ", error);
+        console.log("Error detected when searching dictionary: ", error);
     }
 };
+
