@@ -5,7 +5,7 @@ class UserBase(BaseModel):
     email: EmailStr
     username: str
     full_name: str | None = None
-       
+
 
 class UserCreate(UserBase):
     password: str = Field(
@@ -34,6 +34,7 @@ class UserUpdate(UserBase):
     
 class UserOut(UserBase): #* dinh nghia format cho response khi lay thong tin user
     id: int
+    current_streak: int | None = None
 
     model_config = {
         "from_attributes": True     # Pydantic v2
