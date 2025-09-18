@@ -29,6 +29,8 @@ def upgrade() -> None:
                 sa.Column('is_verified', sa.Boolean(), nullable=False, server_default=sa.text('false')),
                 sa.Column('created_at', sa.TIMESTAMP(timezone=True),
                              nullable=False, server_default=sa.text('now()')),
+                sa.Column('current_streak', sa.Integer(), nullable=False, server_default=sa.text('0')),
+                sa.Column('last_login_date', sa.Date(), nullable=True) # Dùng Date thay vì TIMESTAMP để so sánh ngày dễ hơn
     )
     op.create_table('reading_items',
                 sa.Column('id', sa.Integer(), primary_key=True, index=True),
