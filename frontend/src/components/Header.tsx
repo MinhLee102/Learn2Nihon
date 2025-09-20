@@ -55,10 +55,15 @@ const Header: React.FC<HeaderProps> = () => {
         left: isSidebarExtended ? '16rem' : '5rem', 
       }}
     >
-      <div className="flex items-center">
-        <h1 className="text-xl font-semibold text-gray-800">
+      <div className="flex flex-col items-start justify-center h-full">
+        <h1 className="text-xl font-semibold text-black leading-none">
           {headerTitle}
         </h1>{' '}
+
+        {isLoggedIn && user && typeof user.current_streak === 'number' && user.current_streak > 0 ? (
+          <span className="text-sm text-gray-600 leading-none mt-1">🔥 Streak: {user.current_streak} ngày</span> 
+        ) : null}
+        
       </div>
 
       <div className="flex items-center space-x-4">

@@ -43,12 +43,12 @@ const Sidebar: React.FC = () => {
   const navItems = [
     {
       iconInfo: { url: '/translation-app.png', width: 24, height: 24, alt: 'Tra cứu' },
-      text: 'Tra cứu',
+      text: 'Translation',
       href: '/',
     },
     {
       iconInfo: { url: '/book-bookmark.png', width: 24, height: 24, alt: 'Từ vựng' },
-      text: 'Từ vựng',
+      text: 'Vocabulary',
       href: '/vocabulary',
     },
     {
@@ -58,23 +58,13 @@ const Sidebar: React.FC = () => {
     },
     {
       iconInfo: { url: '/reading.png', width: 24, height: 24, alt: 'Bài đọc' },
-      text: 'Bài đọc',
+      text: 'Reading',
       href: '/reading',
-    },
-    {
-      iconInfo: { url: '/listening.png', width: 24, height: 24, alt: 'Bài nghe' },
-      text: 'Bài nghe',
-      href: '/listening',
     },
     {
       iconInfo: { url: '/robot.png', width: 24, height: 24, alt: 'Kaiwa' },
       text: 'Kaiwa',
       href: '/kaiwa',
-    },
-    {
-      iconInfo: { url: '/test.png', width: 24, height: 24, alt: 'Thi thử' },
-      text: 'Thi thử',
-      href: '/test',
     },
   ];
 
