@@ -22,10 +22,16 @@ export const AuthProvider = ({children}: {children: ReactNode}) => {
             const accessToken = localStorage.getItem('access_token');
             // eslint-disable-next-line @typescript-eslint/no-unused-vars
             const refreshToken = localStorage.getItem('refresh_token');
+            const currentStreak = localStorage.getItem('current_streak');
 
             if (accessToken) {
                 setUser({username: 'User', id: '0', email: 'user@gmail.com'});
                 setIsLoggedIn(true);
+
+                if (currentStreak) {
+                    setUser({username: 'User', id: '0', email: 'user@gmail.com', current_streak: currentStreak})
+                }
+                
             } else {
                 setUser(null);
                 setIsLoggedIn(false);
@@ -36,6 +42,7 @@ export const AuthProvider = ({children}: {children: ReactNode}) => {
             console.error("Error checking login state:", error);
             localStorage.removeItem('access_token');
             localStorage.removeItem('refresh_token');
+            localStorage.removeItem('current_streak');
             setUser(null);
             setIsLoggedIn(false);
         } finally {
@@ -51,6 +58,10 @@ export const AuthProvider = ({children}: {children: ReactNode}) => {
         const responseData = data as loginResponse
         localStorage.setItem('access_token', responseData.access_token);
         localStorage.setItem('refresh_token', responseData.refresh_token);
+        if (responseData.current_streak) {
+            localStorage.setItem('current_streak', responseData.current_streak);
+        }
+
         window.location.href = '/';
     };
 
@@ -60,6 +71,7 @@ export const AuthProvider = ({children}: {children: ReactNode}) => {
             await logoutUser(); 
             localStorage.removeItem('access_token');
             localStorage.removeItem('refresh_token');
+            localStorage.removeItem('current_streak');
             setUser(null);
             setIsLoggedIn(false);
             window.location.href = '/login';
