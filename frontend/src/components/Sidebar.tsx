@@ -62,9 +62,19 @@ const Sidebar: React.FC = () => {
       href: '/reading',
     },
     {
+      iconInfo: { url: '/listening.png', width: 24, height: 24, alt: 'Listening' },
+      text: 'Listening',
+      href: '/listening',
+    },
+    {
       iconInfo: { url: '/robot.png', width: 24, height: 24, alt: 'Kaiwa' },
       text: 'Kaiwa',
       href: '/kaiwa',
+    },
+    {
+      iconInfo: { url: '/test.png', width: 24, height: 24, alt: 'test' },
+      text: 'Test',
+      href: '/test',
     },
   ];
 

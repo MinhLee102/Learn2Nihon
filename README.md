@@ -69,26 +69,49 @@
 ```
 frontend/
 └── src/
-    ├── app/            # Main application routes (App Router)
-    │   ├── (auth)/    #Route for authentication 
+    ├── app/                         # Main application routes (App Router)
+    │   ├── (auth)/                  #Route for authentication 
     │   │   ├──login/
     │   │   ├──signup/
     │   │   ├──check-mail/
-    │   │   └── layout.tsx             #Layout for authentication related pages 
-    │   ├── (main)/           #Route for main pages  
+    │   │   └── layout.tsx           #Layout for authentication related pages 
+    │   ├── (main)/                  #Route for main pages  
     │   │   ├──kaiwa/
     │   │   ├── kanji/[id]/
     │   │   ├── reading/[id]/
     │   │   ├── vocabulary/[id]/
-    │   │   ├── page.tsx    # Homepage
-    │   │   └── layout.tsx  # Layout for main pages
-    │   └── layout.tsx  # Overall Layout
-    ├── components/     # Reusable React components (Button, Header, InputField,....)
-    ├── context/        # React Context for global state (AuthContext, LayoutContext)
-    ├── hooks/          # Custom React hooks (useReading, useSpeech2Text )
-    ├── types/          # Global TypeScript type definitions (interfaces)
-    ├── styles/          # Global CSS file
-    └──lib/          # Utility functions, especially for API calls
+    │   │   ├── page.tsx             # Homepage
+    │   │   └── layout.tsx           # Layout for main pages
+    │   └── layout.tsx               # Overall Layout
+    ├── components/                  # Reusable React components (Button, Header, InputField,....)
+    ├── context/                     # React Context for global state (AuthContext, LayoutContext)
+    ├── hooks/                       # Custom React hooks (useReading, useSpeech2Text )
+    ├── types/                       # Global TypeScript type definitions (interfaces)
+    ├── styles/                      # Global CSS file
+    └──lib/                          # Utility functions, especially for API calls
 ```
 ### `/backend/`
+
+```
+backend/
+├── alembic/           # Handles database migrations
+│   └── versions/      # Contains migration scripts for each version
+├── app/               # Main application source code directory
+│   ├── api/           # Module to aggregate and manage all API routers
+│   ├── crud/          # Contains CRUD functions (Create, Read, Update, Delete) that interact directly with the database
+│   ├── csv_data/      # Contains CSV data files (if any)
+│   ├── json_data/     # Contains JSON data files (if any)
+│   ├── models/        # Defines SQLAlchemy ORM models (maps to database tables)
+│   ├── routers/       # Defines API endpoints (e.g., /users, /items)
+│   ├── schemas/       # Contains Pydantic schemas for data validation and serialization
+│   ├── services/      # Contains business logic, handles complex tasks
+│   ├── config.py      # Contains application configuration variables
+│   ├── database.py    # Database connection setup
+│   └── main.py        # Main entry point to initialize and run the FastAPI application
+├── utils.py           # Contains utility/helper functions for use across the project
+├── .env               # File for environment variables (database URL, secret keys, etc.)
+├── alembic.ini        # Configuration file for Alembic
+├── Dockerfile         # Instructions for building the application's Docker image
+└── requirements.txt   # List of required Python dependencies for the project
+```
 
