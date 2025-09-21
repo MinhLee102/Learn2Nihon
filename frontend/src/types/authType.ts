@@ -2,6 +2,7 @@ export interface User {
     id: string;
     username: string;
     email: string;
+    current_streak?: string;
 }
 
 export interface Email { 
@@ -12,6 +13,7 @@ export interface loginResponse {
     access_token: string;
     refresh_token: string;
     token_type: string;
+    current_streak?: string;
 }
 
 export interface LoginFormFields { 
