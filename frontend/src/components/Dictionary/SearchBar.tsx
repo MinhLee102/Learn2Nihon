@@ -22,23 +22,25 @@ const SearchBar: React.FC<SearchBarProps> = ({
   onSearchTypeChange,
   onDirectionChange,
   isLoading = false,
-}) => {
+}) => { 
   const [searchTerm, setSearchTerm] = useState<string>('');
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { user } = useAuth();
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const { isRecording, transcript, startRecording, stopRecording, error: speechError } = useAzureSpeech();
+  const { isRecording, transcript, transcriptFinal, startRecording, stopRecording, error: speechError } = useAzureSpeech();
 
   useEffect(() => {
-    if (transcript && isRecording) {
-      setSearchTerm(transcript);
+    if (isRecording) {
+        setSearchTerm(transcript);  
+    } else if (transcriptFinal) {
+        setSearchTerm(transcriptFinal); 
     }
-  }, [transcript, isRecording]);
+  }, [transcript, transcriptFinal, isRecording]);
 
   const handleTextSearchSubmit = useCallback((e?: React.FormEvent<HTMLFormElement>) => {
     e?.preventDefault();
-    if (!searchTerm.trim()) return;
+    if (!searchTerm.trim()) return; 
 
     onSearch({
       content: searchTerm.trim(),
@@ -50,21 +52,26 @@ const SearchBar: React.FC<SearchBarProps> = ({
 
   const handleVoiceButtonClick = useCallback(async () => {
     if (isRecording) {
-      await stopRecording();
-      if (searchTerm.trim()) {
-        onSearch({
-          content: searchTerm.trim(),
-          type: currentSearchType,
-          direction: currentDirection,
-        });
+      await stopRecording(); // <-- Chỉ gọi dừng ghi âm
+      if (inputRef.current) {
+        inputRef.current.focus(); 
       }
-      setSearchTerm('');
-      inputRef.current?.focus();
+    
+      setTimeout(() => {
+          if (transcriptFinal.trim()) { 
+            onSearch({
+                content: transcriptFinal.trim(),
+                type: currentSearchType,
+                direction: currentDirection,
+            });
+          }
+      }, 100); 
+
     } else {
-      setSearchTerm('');
+      setSearchTerm(''); 
       await startRecording();
     }
-  }, [isRecording, stopRecording, startRecording, searchTerm, currentSearchType, currentDirection, onSearch]);
+  }, [isRecording, stopRecording, startRecording, transcriptFinal, currentSearchType, currentDirection, onSearch]);
 
   const displayedSearchTypes: SearchType[] = ['vocabulary']; // CHỈ HIỂN THỊ TỪ VỰNG
   const displayedDirections: DictionaryDirection[] = ['jp-vi']; // CHỈ HIỂN THỊ NHẬT - VIỆT
